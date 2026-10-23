@@ -1,0 +1,63 @@
+This document contains the credits for the music tracks in Arulco Revisited mod.
+This information can also be found in "Arulco Revisited.pdf".
+
+
+
+File: battle a.wav
+
+"Rising Legends" by Epic Soul Factory, from the album "Epic Soul Factory Volume One"
+Licensed under Creative Commons License:
+http://creativecommons.org/licenses/by-nc-sa/3.0/
+
+
+
+File: creature battle.wav
+
+"Poltergeist Attack" by Epic Soul Factory, from the album "Epic Soul Factory Volume One"
+Licensed under Creative Commons License:
+http://creativecommons.org/licenses/by-nc-sa/3.0/
+
+
+
+File: creepy.wav
+
+"On The Roof" by Marc Teichert, from the album "The Founder"
+Licensed under Creative Commons License:
+http://creativecommons.org/licenses/by-nc-sa/2.0/
+
+
+File: marimbad2.wav
+
+"Kyrielle" by Denis Richard, from the album "DR SOngs Part 1"
+Licensed under Creative Commons License:
+http://creativecommons.org/licenses/by-sa/2.5/
+
+
+File: menumix1.wav
+
+"Mission Briefing" by Marc Teichert, from the album "music by March Teichert"
+Licensed under Creative Commons License:
+http://creativecommons.org/licenses/by-nc-sa/2.0/de/
+
+
+File: nothing b.wav
+
+"Caverns" by Celestial Aeon Project, from the album "Aeon 3"
+Licensed under Creative Commons License:
+http://creativecommons.org/licenses/by-nc-sa/2.5/
+
+
+
+File: tensor a.wav
+
+"The Chase" by Marc Teichert, from the album "Orchestral Filmmusic Collection"
+Licensed under Creative Commons License:
+http://creativecommons.org/licenses/by-nc/2.0/de/
+
+
+
+File: tensor b.wav
+
+"The Hollows" by Marc Teichert, from the album "Rising Heroes"
+Licensed under Creative Commons License:
+http://creativecommons.org/licenses/by-sa/3.0/
