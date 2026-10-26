@@ -6,6 +6,7 @@ link to the original version thread:
 https://thepit.ja-galaxy-forum.com/index.php?t=msg&th=19441&start=0&
 
 HOW TO INSTALL:
+
 -paste files to folder with JA2 1.13 installed
 -open up ja2.ini
 -scroll to the vfs config section and make sure it looks like this
