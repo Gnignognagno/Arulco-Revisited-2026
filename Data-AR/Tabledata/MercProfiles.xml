@@ -384,6 +384,7 @@
 		<zName>Keith "Blood" Hanson</zName>
 		<zNickname>Blood</zNickname>
 		<ubFaceIndex>1</ubFaceIndex>
+		<usVoiceIndex>1</usVoiceIndex>
 		<usEyesX>9</usEyesX>
 		<usEyesY>9</usEyesY>
 		<usMouthX>8</usMouthX>
@@ -417,12 +418,13 @@
 		<bMedical>51</bMedical>
 		<bMechanical>23</bMechanical>
 		<bExpLevel>3</bExpLevel>
-		<bEvolution>0</bEvolution>
+		<fRegresses>0</fRegresses>
 		<bOldSkillTrait>5</bOldSkillTrait>
 		<bOldSkillTrait2>12</bOldSkillTrait2>
 		<bNewSkillTrait1>6</bNewSkillTrait1>
 		<bNewSkillTrait2>6</bNewSkillTrait2>
 		<bNewSkillTrait3>12</bNewSkillTrait3>
+		<bNewSkillTrait4>0</bNewSkillTrait4>
 		<bBuddy1>29</bBuddy1>
 		<bBuddy2>255</bBuddy2>
 		<bBuddy3>255</bBuddy3>
@@ -443,14 +445,14 @@
 		<bLearnToHate>50</bLearnToHate>
 		<bLearnToHateTime>8</bLearnToHateTime>
 		<bRace>1</bRace>
-		<bNationality>0</bNationality>
+		<bNationality>15</bNationality>
 		<bAppearance>2</bAppearance>
 		<bAppearanceCareLevel>0</bAppearanceCareLevel>
 		<bRefinement>0</bRefinement>
 		<bRefinementCareLevel>0</bRefinementCareLevel>
-		<bHatedNationality>15</bHatedNationality>
+		<bHatedNationality>0</bHatedNationality>
 		<bHatedNationalityCareLevel>0</bHatedNationalityCareLevel>
-		<bRacist>0</bRacist><bSexist>0</bSexist><bRacist>0</bRacist>
+		<bRacist>0</bRacist>
 		<bSexist>0</bSexist>
 		<sSalary>850</sSalary>
 		<uiWeeklySalary>5500</uiWeeklySalary>
@@ -472,6 +474,17 @@
 		<bTown>0</bTown>
 		<bTownAttachment>0</bTownAttachment>
 		<usBackground>1</usBackground>
+		<GrowthModifierLife>0</GrowthModifierLife>
+		<GrowthModifierStrength>0</GrowthModifierStrength>
+		<GrowthModifierAgility>0</GrowthModifierAgility>
+		<GrowthModifierDexterity>0</GrowthModifierDexterity>
+		<GrowthModifierWisdom>0</GrowthModifierWisdom>
+		<GrowthModifierMarksmanship>0</GrowthModifierMarksmanship>
+		<GrowthModifierExplosive>0</GrowthModifierExplosive>
+		<GrowthModifierLeadership>0</GrowthModifierLeadership>
+		<GrowthModifierMedical>0</GrowthModifierMedical>
+		<GrowthModifierMechanical>0</GrowthModifierMechanical>
+		<GrowthModifierExpLevel>0</GrowthModifierExpLevel>
 	</PROFILE>
 	<PROFILE>
 		<uiIndex>2</uiIndex>
@@ -20575,7 +20588,7 @@
 		<bAttitude>9</bAttitude>
 		<bCharacterTrait>13</bCharacterTrait>
 		<bDisability>2</bDisability>
-		<ubNeedForSleep>0</ubNeedForSleep>
+		<ubNeedForSleep>8</ubNeedForSleep>
 		<bReputationTolerance>101</bReputationTolerance>
 		<bDeathRate>101</bDeathRate>
 		<bLifeMax>76</bLifeMax>
@@ -27572,7 +27585,7 @@
 		<bAttitude>7</bAttitude>
 		<bCharacterTrait>9</bCharacterTrait>
 		<bDisability>4</bDisability>
-		<ubNeedForSleep>0</ubNeedForSleep>
+		<ubNeedForSleep>10</ubNeedForSleep>
 		<bReputationTolerance>101</bReputationTolerance>
 		<bDeathRate>101</bDeathRate>
 		<bLifeMax>53</bLifeMax>
