@@ -28,66 +28,94 @@ Fields index:
 	StartPopulation		- it is the number of soldiers at the start of the new campagin.
 						Provide integer value.
 
-Indexes reference in JA2:
+Indexes reference in JA2 1.13 (engine enum in Strategic/Strategic AI.h):
 
-Index	Short name			Desription
-0		STASH_J12			Secret weapon's stash in J12 (stronger).
-1		OMERTA				First battles of the game. Very easy.
-2		DRASSEN				Small town of little importance. Easy.
-3		DRASSEN_MINE		Mine is more important than rest of town.
-4		CHITZENA			Small town with low army presence. Easy, too.
-5		CHITZENA_MINE		Mine is more important than rest of town.
-6		CAMBRIA				Central town with some defense.
-7		CAMBRIA_MINE		This mine well defended and important.
-8		ALMA				Military town. Lots of well-trained enemies.
-9		ALMA_MINE			Mine is more important than rest of town.
-10		GRUMM				Industrial town. Lots of elites.
-11		GRUMM_MINE			Biggest mine. Heavily defended.
-12		ESTONI_AIRPORT		This is where BR-shippings will arrive. Good defense.
-13		ESTONI				Not as important as the airport.
-14		BALIME				This town is not important but has lots of elites.
-15		ESCONDITE			New town of little importance.
-16		ESCONDITE_HIDEOUT	Fewer enemies but more elites than in rest of town.
-17		RECREO				New 2nd residence of the queen. Heavily defended.
-18		MEDUNA				Lots of defense here!
-19		SAMSITE_MEDUNA		Most important samsite of the game.
-20		MEDUNA_PALACE		Final battle. Toughest enemies of the game.
-21		ALDEA				New weapon's factory near Cambria.
-22		SAMSITE_DRASSEN		The easiest samsite of the game.
-23		SAMSITE_CHITZENA	Better defense than Drassen samsite.
-24		SAMSITE_CAMBRIA		Central samsite. Tough enemies here.
-25		SAMSITE_ESCONDITE	New samsite near Escondite.
-26		POW_CAMP			POW camp and weapon's factory in N7. Heavily guarded.
-27		TIXA				Secret prison in J9. Lots of enemies. Also used for military base in M13.
-28		ORTA				Secret weapon's factory in K4. Very tough defense.
-29		STASH_E11			The secret weapon's depot in sector E11 (weakest). Also used for military outpost in A12.
-30		STASH_H5-H10		The secret weapon's depots in sectors H5 and H10 (medium).
-31		STASH_M9-L15		The secret weapon's depots in sectors M9 and L15 (strongest).
-32		ROADBLOCK_CHITZENA	Roadblocks near Chitzena. Good defense, queen doesn't feel like retaking them, though.
-33		ROADBLOCK_DRASSEN	Roadblocks near Drassen samsite. Good defense, queen doesn't feel like retaking them, though.
-34		OUTPOST_ALMA		Military outposts near Alma (G13, G14, K14).
-35		ROADBLOCK_ORTA		Defense east of Orta.
-36		MOTEL				Quite some defense here in E7. Also used for military outpost in E6.
-37		ROADBLOCK_OMERTA	Roadblocks near Omerta. Good defense.
-38		GAS_STATION			Dave's gas station next to Balime.
-39		DEFENCE_LEVEL_1		The sectors next to Meduna. Lots of defense and TANKS.
-40		DEFENCE_LEVEL_2		Two sectors away from Meduna. Good defense.
-41		ROADBLOCK_MEDUNA	Roadblocks near Meduna. Well-defended.
-42		SAN_MONA			Some enemies in San-Mona taking their days-off.
-43		BALDIO				This town is unimportant but very close to Meduna, hence well-defended.
-44		ISLAND_WEAK			Defense of Orilla and the surrounding island, lvl. 1.
-45		ISLAND_STRONG		Defense of Orilla and the surrounding island, lvl. 2.
-46		SECRET_LEVEL		A tough underground battle in one secret level. Lots of enemies.
+0	QUEEN_DEFENCE
+1	MEDUNA_DEFENCE
+2	MEDUNA_SAMSITE
+3	LEVEL1_DEFENCE
+4	LEVEL2_DEFENCE
+5	LEVEL3_DEFENCE
+6	ORTA_DEFENCE
+7	EAST_GRUMM_DEFENCE
+8	WEST_GRUMM_DEFENCE
+9	GRUMM_MINE
+10	OMERTA_WELCOME_WAGON
+11	BALIME_DEFENCE
+12	TIXA_PRISON
+13	TIXA_SAMSITE
+14	ALMA_DEFENCE
+15	ALMA_MINE
+16	CAMBRIA_DEFENCE
+17	CAMBRIA_MINE
+18	CHITZENA_DEFENCE
+19	CHITZENA_MINE
+20	CHITZENA_SAMSITE
+21	DRASSEN_AIRPORT
+22	DRASSEN_DEFENCE
+23	DRASSEN_MINE
+24	DRASSEN_SAMSITE
+25	ROADBLOCK
+26	SANMONA_SMALL
+27+	(inert: the engine has no special case for these positions)
 
 
-Army composition soldier count calculation:
+Remapped layout:
 
-1)  game calculates number of admins (NumAdmins = AdminPercentage * StartPopulation / 100)
-2)  for the rest soldiers game makes a loop:
-2a) soldier check to be elite
-2b) soldier check to be regular troop
-2c) if both checks failed, none soldier is added
-3)  step 2 is executed until there are unchecked soldiers left
+0	MEDUNA_PALACE      P3 - frozen priority/desired; palace depot; robots when ASD is on
+1	MEDUNA             N3,N5,O3,O4 - frozen; robots when ASD is on
+2	SAMSITE_MEDUNA     N4 - frozen; robots when ASD is on
+3	DEFENCE_LEVEL_1    M3,M4,M5,N6 - frozen; robots when ASD is on
+4	DEFENCE_LEVEL_2    L2,L3,L4,L5,M2,M6 - frozen; robots when ASD is on; zeroed if PopulationLevel2 is false
+5	BALDIO             L7,L8,M7 - frozen; robots when ASD is on; zeroed if PopulationLevel3 is false
+6	(unused)               RESERVED/UNUSED - frozen; robots when ASD is on - deliberately UNUSED (no Orta robots)
+7	GRUMM              G1,G2,G3,H1,H2 - inert
+8	STASH_J12          J12 - inert
+9	GRUMM_MINE         H3 - fill: troops = start - admins, elites added on top
+10	OMERTA             A8,A9 - frozen; no robots; exempt from the difficulty elite bonus
+11	BALIME             L11,L12,L13 - inert
+12	(unused)               RESERVED/UNUSED - at least 8 admins; robots when ASD is on - deliberately UNUSED
+13	ESTONI             I6 - inert
+14	ALMA               H13,H14,I13 - reinforcement source for Drassen/Cambria: this garrison plus the next 3 XML entries
+15	ALMA_MINE          I14 - fill: troops = start - admins, elites added on top
+16	CAMBRIA            F8,F9,G8,G9 - fill: troops = start - admins, elites added on top
+17	CAMBRIA_MINE       H8 - fill: troops = start - admins, elites added on top
+18	CHITZENA           A2,A3,B1 - inert
+19	CHITZENA_MINE      B2 - inert
+20	SAMSITE_CHITZENA   D2 - inert
+21	(unused)               RESERVED/UNUSED - at least 5 admins - deliberately UNUSED
+22	(unused)               RESERVED/UNUSED - at least 5 admins - deliberately UNUSED
+23	(unused)               RESERVED/UNUSED - at least 5 admins - deliberately UNUSED
+24	SAMSITE_CAMBRIA    I8 - inert
+25	(unused)               RESERVED/UNUSED - ambush location, start pop only on a 20% chance - deliberately UNUSED
+26	(unused)               RESERVED/UNUSED - start population forced to 0 - deliberately UNUSED
+27	TIXA               J9,M13 - inert position, no special engine case
+28	ORTA               K4 - inert position, no special engine case
+29	STASH_E11          A12,E11 - inert position, no special engine case
+30	STASH_H5-H10       H5,H10 - inert position, no special engine case
+31	STASH_M9-L15       L15,M9 - inert position, no special engine case
+32	ROADBLOCK_CHITZENA C2,D3 - inert position, no special engine case
+33	ROADBLOCK_DRASSEN  F15 - inert position, no special engine case
+34	OUTPOST_ALMA       G13,G14,H12,K14 - inert position, no special engine case
+35	ROADBLOCK_ORTA     K5,K6 - inert position, no special engine case
+36	MOTEL              E6,E7 - inert position, no special engine case
+37	ROADBLOCK_OMERTA   C9 - inert position, no special engine case
+38	GAS_STATION        L10 - inert position, no special engine case
+39	DRASSEN            B13,C13,C14 - inert position, no special engine case
+40	DRASSEN_MINE       D13 - inert position, no special engine case
+41	ROADBLOCK_MEDUNA   L6,M10 - inert position, no special engine case
+42	SAN_MONA           C6,D4 - inert position, no special engine case
+43	ESTONI_AIRPORT     H6 - inert position, no special engine case
+44	ISLAND_WEAK        M8,O11,P10 - inert position, no special engine case
+45	ISLAND_STRONG      P11,P12,P16 - inert position, no special engine case
+46	SECRET_LEVEL       (underground levels only) - inert position, no special engine case
+47	ESCONDITE          M15,M16 - inert position, no special engine case
+48	ESCONDITE_HIDEOUT  L16 - inert position, no special engine case
+49	RECREO             L1 - inert position, no special engine case
+50	ALDEA              G11 - inert position, no special engine case
+51	SAMSITE_DRASSEN    D15 - inert position, no special engine case
+52	SAMSITE_ESCONDITE  K15 - inert position, no special engine case
+53	POW_CAMP           N7 - inert position, no special engine case
 
 
 NOTE: Maximum 60 army compositions can be used in game.
@@ -96,98 +124,71 @@ Changes require starting of a new game.
 
 -->
 <COMPOSITION_INFO>
-	<COMPOSITION>
+	<COMPOSITION>		
 		<Index>0</Index>
-		<Priority>5</Priority>
-		<ElitePercentage>20</ElitePercentage>
-		<TroopPercentage>80</TroopPercentage>
+		<Priority>100</Priority>
+		<ElitePercentage>100</ElitePercentage>
+		<TroopPercentage>0</TroopPercentage>
 		<AdminPercentage>0</AdminPercentage>
-		<DesiredPopulation>15</DesiredPopulation>
-		<StartPopulation>15</StartPopulation>
+		<DesiredPopulation>32</DesiredPopulation>
+		<StartPopulation>32</StartPopulation>
 	</COMPOSITION>
-	<COMPOSITION>
+	<COMPOSITION>		
 		<Index>1</Index>
-		<Priority>10</Priority>
-		<ElitePercentage>0</ElitePercentage>
-		<TroopPercentage>100</TroopPercentage>
+		<Priority>95</Priority>
+		<ElitePercentage>90</ElitePercentage>
+		<TroopPercentage>10</TroopPercentage>
 		<AdminPercentage>0</AdminPercentage>
-		<DesiredPopulation>6</DesiredPopulation>
-		<StartPopulation>5</StartPopulation>
+		<DesiredPopulation>30</DesiredPopulation>
+		<StartPopulation>28</StartPopulation>
 	</COMPOSITION>
-	<COMPOSITION>
+	<COMPOSITION>		
 		<Index>2</Index>
-		<Priority>20</Priority>
-		<ElitePercentage>0</ElitePercentage>
-		<TroopPercentage>100</TroopPercentage>
-		<AdminPercentage>70</AdminPercentage>
-		<DesiredPopulation>12</DesiredPopulation>
-		<StartPopulation>10</StartPopulation>
+		<Priority>90</Priority>
+		<ElitePercentage>95</ElitePercentage>
+		<TroopPercentage>5</TroopPercentage>
+		<AdminPercentage>0</AdminPercentage>
+		<DesiredPopulation>32</DesiredPopulation>
+		<StartPopulation>30</StartPopulation>
 	</COMPOSITION>
-	<COMPOSITION>
+	<COMPOSITION>		
 		<Index>3</Index>
-		<Priority>30</Priority>
-		<ElitePercentage>0</ElitePercentage>
-		<TroopPercentage>100</TroopPercentage>
-		<AdminPercentage>60</AdminPercentage>
-		<DesiredPopulation>14</DesiredPopulation>
-		<StartPopulation>12</StartPopulation>
+		<Priority>85</Priority>
+		<ElitePercentage>85</ElitePercentage>
+		<TroopPercentage>15</TroopPercentage>
+		<AdminPercentage>0</AdminPercentage>
+		<DesiredPopulation>24</DesiredPopulation>
+		<StartPopulation>24</StartPopulation>
 	</COMPOSITION>
-	<COMPOSITION>
+	<COMPOSITION>		
 		<Index>4</Index>
+		<Priority>80</Priority>
+		<ElitePercentage>80</ElitePercentage>
+		<TroopPercentage>20</TroopPercentage>
+		<AdminPercentage>0</AdminPercentage>
+		<DesiredPopulation>22</DesiredPopulation>
+		<StartPopulation>22</StartPopulation>
+	</COMPOSITION>
+	<COMPOSITION>		
+		<Index>5</Index>
 		<Priority>15</Priority>
-		<ElitePercentage>0</ElitePercentage>
-		<TroopPercentage>100</TroopPercentage>
-		<AdminPercentage>60</AdminPercentage>
+		<ElitePercentage>40</ElitePercentage>
+		<TroopPercentage>60</TroopPercentage>
+		<AdminPercentage>20</AdminPercentage>
 		<DesiredPopulation>12</DesiredPopulation>
 		<StartPopulation>10</StartPopulation>
 	</COMPOSITION>
-	<COMPOSITION>
-		<Index>5</Index>
-		<Priority>25</Priority>
-		<ElitePercentage>0</ElitePercentage>
-		<TroopPercentage>100</TroopPercentage>
-		<AdminPercentage>60</AdminPercentage>
-		<DesiredPopulation>14</DesiredPopulation>
-		<StartPopulation>12</StartPopulation>
-	</COMPOSITION>
-	<COMPOSITION>
+	<COMPOSITION>		
 		<Index>6</Index>
-		<Priority>35</Priority>
+		<Priority>0</Priority>
 		<ElitePercentage>0</ElitePercentage>
 		<TroopPercentage>100</TroopPercentage>
-		<AdminPercentage>30</AdminPercentage>
-		<DesiredPopulation>14</DesiredPopulation>
-		<StartPopulation>12</StartPopulation>
+		<AdminPercentage>0</AdminPercentage>
+		<DesiredPopulation>0</DesiredPopulation>
+		<StartPopulation>0</StartPopulation>
 	</COMPOSITION>
-	<COMPOSITION>
+	<COMPOSITION>	
 		<Index>7</Index>
-		<Priority>40</Priority>
-		<ElitePercentage>15</ElitePercentage>
-		<TroopPercentage>85</TroopPercentage>
-		<AdminPercentage>0</AdminPercentage>
-		<DesiredPopulation>14</DesiredPopulation>
-		<StartPopulation>10</StartPopulation>
-	</COMPOSITION>
-	<COMPOSITION>
-		<Index>8</Index>
-		<Priority>45</Priority>
-		<ElitePercentage>25</ElitePercentage>
-		<TroopPercentage>75</TroopPercentage>
-		<AdminPercentage>0</AdminPercentage>
-		<DesiredPopulation>20</DesiredPopulation>
-		<StartPopulation>20</StartPopulation>
-	</COMPOSITION>
-	<COMPOSITION>
-		<Index>9</Index>
-		<Priority>50</Priority>
-		<ElitePercentage>30</ElitePercentage>
-		<TroopPercentage>70</TroopPercentage>
-		<AdminPercentage>10</AdminPercentage>
-		<DesiredPopulation>20</DesiredPopulation>
-		<StartPopulation>20</StartPopulation>
-	</COMPOSITION>
-	<COMPOSITION>
-		<Index>10</Index>
 		<Priority>60</Priority>
 		<ElitePercentage>25</ElitePercentage>
 		<TroopPercentage>75</TroopPercentage>
@@ -195,8 +196,17 @@ Changes require starting of a new game.
 		<DesiredPopulation>18</DesiredPopulation>
 		<StartPopulation>16</StartPopulation>
 	</COMPOSITION>
-	<COMPOSITION>
-		<Index>11</Index>
+	<COMPOSITION>		
+		<Index>8</Index>
+		<Priority>5</Priority>
+		<ElitePercentage>20</ElitePercentage>
+		<TroopPercentage>80</TroopPercentage>
+		<AdminPercentage>0</AdminPercentage>
+		<DesiredPopulation>15</DesiredPopulation>
+		<StartPopulation>15</StartPopulation>
+	</COMPOSITION>
+	<COMPOSITION>		
+		<Index>9</Index>
 		<Priority>65</Priority>
 		<ElitePercentage>30</ElitePercentage>
 		<TroopPercentage>70</TroopPercentage>
@@ -204,16 +214,34 @@ Changes require starting of a new game.
 		<DesiredPopulation>18</DesiredPopulation>
 		<StartPopulation>16</StartPopulation>
 	</COMPOSITION>
-	<COMPOSITION>
-		<Index>12</Index>
-		<Priority>55</Priority>
-		<ElitePercentage>40</ElitePercentage>
-		<TroopPercentage>60</TroopPercentage>
+	<COMPOSITION>		
+		<Index>10</Index>
+		<Priority>10</Priority>
+		<ElitePercentage>0</ElitePercentage>
+		<TroopPercentage>100</TroopPercentage>
 		<AdminPercentage>0</AdminPercentage>
-		<DesiredPopulation>20</DesiredPopulation>
-		<StartPopulation>16</StartPopulation>
+		<DesiredPopulation>6</DesiredPopulation>
+		<StartPopulation>5</StartPopulation>
 	</COMPOSITION>
-	<COMPOSITION>
+	<COMPOSITION>		
+		<Index>11</Index>
+		<Priority>35</Priority>
+		<ElitePercentage>50</ElitePercentage>
+		<TroopPercentage>50</TroopPercentage>
+		<AdminPercentage>0</AdminPercentage>
+		<DesiredPopulation>14</DesiredPopulation>
+		<StartPopulation>10</StartPopulation>
+	</COMPOSITION>
+	<COMPOSITION>		
+		<Index>12</Index>
+		<Priority>0</Priority>
+		<ElitePercentage>0</ElitePercentage>
+		<TroopPercentage>100</TroopPercentage>
+		<AdminPercentage>0</AdminPercentage>
+		<DesiredPopulation>0</DesiredPopulation>
+		<StartPopulation>0</StartPopulation>
+	</COMPOSITION>
+	<COMPOSITION>		
 		<Index>13</Index>
 		<Priority>45</Priority>
 		<ElitePercentage>15</ElitePercentage>
@@ -222,89 +250,62 @@ Changes require starting of a new game.
 		<DesiredPopulation>16</DesiredPopulation>
 		<StartPopulation>12</StartPopulation>
 	</COMPOSITION>
-	<COMPOSITION>
+	<COMPOSITION>		
 		<Index>14</Index>
-		<Priority>35</Priority>
-		<ElitePercentage>50</ElitePercentage>
-		<TroopPercentage>50</TroopPercentage>
+		<Priority>45</Priority>
+		<ElitePercentage>25</ElitePercentage>
+		<TroopPercentage>75</TroopPercentage>
 		<AdminPercentage>0</AdminPercentage>
-		<DesiredPopulation>14</DesiredPopulation>
-		<StartPopulation>10</StartPopulation>
+		<DesiredPopulation>20</DesiredPopulation>
+		<StartPopulation>20</StartPopulation>
 	</COMPOSITION>
-	<COMPOSITION>
+	<COMPOSITION>		
 		<Index>15</Index>
-		<Priority>25</Priority>
-		<ElitePercentage>10</ElitePercentage>
-		<TroopPercentage>90</TroopPercentage>
-		<AdminPercentage>25</AdminPercentage>
-		<DesiredPopulation>24</DesiredPopulation>
-		<StartPopulation>24</StartPopulation>
+		<Priority>50</Priority>
+		<ElitePercentage>30</ElitePercentage>
+		<TroopPercentage>70</TroopPercentage>
+		<AdminPercentage>10</AdminPercentage>
+		<DesiredPopulation>20</DesiredPopulation>
+		<StartPopulation>20</StartPopulation>
 	</COMPOSITION>
-	<COMPOSITION>
+	<COMPOSITION>		
 		<Index>16</Index>
-		<Priority>25</Priority>
-		<ElitePercentage>50</ElitePercentage>
-		<TroopPercentage>50</TroopPercentage>
-		<AdminPercentage>0</AdminPercentage>
+		<Priority>35</Priority>
+		<ElitePercentage>0</ElitePercentage>
+		<TroopPercentage>100</TroopPercentage>
+		<AdminPercentage>30</AdminPercentage>
 		<DesiredPopulation>14</DesiredPopulation>
 		<StartPopulation>12</StartPopulation>
 	</COMPOSITION>
-	<COMPOSITION>
+	<COMPOSITION>		
 		<Index>17</Index>
-		<Priority>70</Priority>
-		<ElitePercentage>80</ElitePercentage>
-		<TroopPercentage>20</TroopPercentage>
-		<AdminPercentage>0</AdminPercentage>
-		<DesiredPopulation>24</DesiredPopulation>
-		<StartPopulation>20</StartPopulation>
-	</COMPOSITION>
-	<COMPOSITION>
-		<Index>18</Index>
-		<Priority>95</Priority>
-		<ElitePercentage>90</ElitePercentage>
-		<TroopPercentage>10</TroopPercentage>
-		<AdminPercentage>0</AdminPercentage>
-		<DesiredPopulation>30</DesiredPopulation>
-		<StartPopulation>28</StartPopulation>
-	</COMPOSITION>
-	<COMPOSITION>
-		<Index>19</Index>
-		<Priority>90</Priority>
-		<ElitePercentage>95</ElitePercentage>
-		<TroopPercentage>5</TroopPercentage>
-		<AdminPercentage>0</AdminPercentage>
-		<DesiredPopulation>32</DesiredPopulation>
-		<StartPopulation>30</StartPopulation>
-	</COMPOSITION>
-	<COMPOSITION>
-		<Index>20</Index>
-		<Priority>100</Priority>
-		<ElitePercentage>100</ElitePercentage>
-		<TroopPercentage>0</TroopPercentage>
-		<AdminPercentage>0</AdminPercentage>
-		<DesiredPopulation>32</DesiredPopulation>
-		<StartPopulation>32</StartPopulation>
-	</COMPOSITION>
-	<COMPOSITION>
-		<Index>21</Index>
 		<Priority>40</Priority>
-		<ElitePercentage>20</ElitePercentage>
-		<TroopPercentage>80</TroopPercentage>
-		<AdminPercentage>20</AdminPercentage>
-		<DesiredPopulation>16</DesiredPopulation>
+		<ElitePercentage>15</ElitePercentage>
+		<TroopPercentage>85</TroopPercentage>
+		<AdminPercentage>0</AdminPercentage>
+		<DesiredPopulation>14</DesiredPopulation>
 		<StartPopulation>10</StartPopulation>
 	</COMPOSITION>
-	<COMPOSITION>
-		<Index>22</Index>
-		<Priority>40</Priority>
-		<ElitePercentage>10</ElitePercentage>
-		<TroopPercentage>90</TroopPercentage>
-		<AdminPercentage>0</AdminPercentage>
+	<COMPOSITION>		
+		<Index>18</Index>
+		<Priority>15</Priority>
+		<ElitePercentage>0</ElitePercentage>
+		<TroopPercentage>100</TroopPercentage>
+		<AdminPercentage>60</AdminPercentage>
 		<DesiredPopulation>12</DesiredPopulation>
 		<StartPopulation>10</StartPopulation>
 	</COMPOSITION>
-	<COMPOSITION>
-		<Index>23</Index>
+	<COMPOSITION>		
+		<Index>19</Index>
+		<Priority>25</Priority>
+		<ElitePercentage>0</ElitePercentage>
+		<TroopPercentage>100</TroopPercentage>
+		<AdminPercentage>60</AdminPercentage>
+		<DesiredPopulation>14</DesiredPopulation>
+		<StartPopulation>12</StartPopulation>
+	</COMPOSITION>
+	<COMPOSITION>		
+		<Index>20</Index>
 		<Priority>45</Priority>
 		<ElitePercentage>15</ElitePercentage>
 		<TroopPercentage>85</TroopPercentage>
@@ -312,7 +313,34 @@ Changes require starting of a new game.
 		<DesiredPopulation>12</DesiredPopulation>
 		<StartPopulation>10</StartPopulation>
 	</COMPOSITION>
-	<COMPOSITION>
+	<COMPOSITION>		
+		<Index>21</Index>
+		<Priority>0</Priority>
+		<ElitePercentage>0</ElitePercentage>
+		<TroopPercentage>100</TroopPercentage>
+		<AdminPercentage>0</AdminPercentage>
+		<DesiredPopulation>0</DesiredPopulation>
+		<StartPopulation>0</StartPopulation>
+	</COMPOSITION>
+	<COMPOSITION>		
+		<Index>22</Index>
+		<Priority>0</Priority>
+		<ElitePercentage>0</ElitePercentage>
+		<TroopPercentage>100</TroopPercentage>
+		<AdminPercentage>0</AdminPercentage>
+		<DesiredPopulation>0</DesiredPopulation>
+		<StartPopulation>0</StartPopulation>
+	</COMPOSITION>
+	<COMPOSITION>		
+		<Index>23</Index>
+		<Priority>0</Priority>
+		<ElitePercentage>0</ElitePercentage>
+		<TroopPercentage>100</TroopPercentage>
+		<AdminPercentage>0</AdminPercentage>
+		<DesiredPopulation>0</DesiredPopulation>
+		<StartPopulation>0</StartPopulation>
+	</COMPOSITION>
+	<COMPOSITION>		
 		<Index>24</Index>
 		<Priority>55</Priority>
 		<ElitePercentage>25</ElitePercentage>
@@ -321,25 +349,25 @@ Changes require starting of a new game.
 		<DesiredPopulation>16</DesiredPopulation>
 		<StartPopulation>14</StartPopulation>
 	</COMPOSITION>
-	<COMPOSITION>
+	<COMPOSITION>		
 		<Index>25</Index>
-		<Priority>50</Priority>
-		<ElitePercentage>20</ElitePercentage>
-		<TroopPercentage>80</TroopPercentage>
+		<Priority>0</Priority>
+		<ElitePercentage>0</ElitePercentage>
+		<TroopPercentage>100</TroopPercentage>
 		<AdminPercentage>0</AdminPercentage>
-		<DesiredPopulation>14</DesiredPopulation>
-		<StartPopulation>12</StartPopulation>
+		<DesiredPopulation>0</DesiredPopulation>
+		<StartPopulation>0</StartPopulation>
 	</COMPOSITION>
-	<COMPOSITION>
+	<COMPOSITION>		
 		<Index>26</Index>
-		<Priority>80</Priority>
-		<ElitePercentage>75</ElitePercentage>
-		<TroopPercentage>25</TroopPercentage>
-		<AdminPercentage>15</AdminPercentage>
-		<DesiredPopulation>18</DesiredPopulation>
-		<StartPopulation>14</StartPopulation>
+		<Priority>0</Priority>
+		<ElitePercentage>0</ElitePercentage>
+		<TroopPercentage>100</TroopPercentage>
+		<AdminPercentage>0</AdminPercentage>
+		<DesiredPopulation>0</DesiredPopulation>
+		<StartPopulation>0</StartPopulation>
 	</COMPOSITION>
-	<COMPOSITION>
+	<COMPOSITION>		
 		<Index>27</Index>
 		<Priority>55</Priority>
 		<ElitePercentage>20</ElitePercentage>
@@ -348,7 +376,7 @@ Changes require starting of a new game.
 		<DesiredPopulation>16</DesiredPopulation>
 		<StartPopulation>16</StartPopulation>
 	</COMPOSITION>
-	<COMPOSITION>
+	<COMPOSITION>		
 		<Index>28</Index>
 		<Priority>70</Priority>
 		<ElitePercentage>60</ElitePercentage>
@@ -357,7 +385,7 @@ Changes require starting of a new game.
 		<DesiredPopulation>20</DesiredPopulation>
 		<StartPopulation>20</StartPopulation>
 	</COMPOSITION>
-	<COMPOSITION>
+	<COMPOSITION>		
 		<Index>29</Index>
 		<Priority>5</Priority>
 		<ElitePercentage>10</ElitePercentage>
@@ -366,7 +394,7 @@ Changes require starting of a new game.
 		<DesiredPopulation>12</DesiredPopulation>
 		<StartPopulation>12</StartPopulation>
 	</COMPOSITION>
-	<COMPOSITION>
+	<COMPOSITION>		
 		<Index>30</Index>
 		<Priority>5</Priority>
 		<ElitePercentage>15</ElitePercentage>
@@ -375,7 +403,7 @@ Changes require starting of a new game.
 		<DesiredPopulation>14</DesiredPopulation>
 		<StartPopulation>14</StartPopulation>
 	</COMPOSITION>
-	<COMPOSITION>
+	<COMPOSITION>		
 		<Index>31</Index>
 		<Priority>5</Priority>
 		<ElitePercentage>25</ElitePercentage>
@@ -384,7 +412,7 @@ Changes require starting of a new game.
 		<DesiredPopulation>16</DesiredPopulation>
 		<StartPopulation>16</StartPopulation>
 	</COMPOSITION>
-	<COMPOSITION>
+	<COMPOSITION>		
 		<Index>32</Index>
 		<Priority>20</Priority>
 		<ElitePercentage>15</ElitePercentage>
@@ -393,7 +421,7 @@ Changes require starting of a new game.
 		<DesiredPopulation>14</DesiredPopulation>
 		<StartPopulation>14</StartPopulation>
 	</COMPOSITION>
-	<COMPOSITION>
+	<COMPOSITION>		
 		<Index>33</Index>
 		<Priority>15</Priority>
 		<ElitePercentage>10</ElitePercentage>
@@ -402,7 +430,7 @@ Changes require starting of a new game.
 		<DesiredPopulation>10</DesiredPopulation>
 		<StartPopulation>10</StartPopulation>
 	</COMPOSITION>
-	<COMPOSITION>
+	<COMPOSITION>		
 		<Index>34</Index>
 		<Priority>20</Priority>
 		<ElitePercentage>15</ElitePercentage>
@@ -411,7 +439,7 @@ Changes require starting of a new game.
 		<DesiredPopulation>16</DesiredPopulation>
 		<StartPopulation>14</StartPopulation>
 	</COMPOSITION>
-	<COMPOSITION>
+	<COMPOSITION>		
 		<Index>35</Index>
 		<Priority>70</Priority>
 		<ElitePercentage>35</ElitePercentage>
@@ -420,7 +448,7 @@ Changes require starting of a new game.
 		<DesiredPopulation>16</DesiredPopulation>
 		<StartPopulation>16</StartPopulation>
 	</COMPOSITION>
-	<COMPOSITION>
+	<COMPOSITION>		
 		<Index>36</Index>
 		<Priority>15</Priority>
 		<ElitePercentage>10</ElitePercentage>
@@ -429,7 +457,7 @@ Changes require starting of a new game.
 		<DesiredPopulation>10</DesiredPopulation>
 		<StartPopulation>10</StartPopulation>
 	</COMPOSITION>
-	<COMPOSITION>
+	<COMPOSITION>		
 		<Index>37</Index>
 		<Priority>20</Priority>
 		<ElitePercentage>5</ElitePercentage>
@@ -438,7 +466,7 @@ Changes require starting of a new game.
 		<DesiredPopulation>12</DesiredPopulation>
 		<StartPopulation>12</StartPopulation>
 	</COMPOSITION>
-	<COMPOSITION>
+	<COMPOSITION>		
 		<Index>38</Index>
 		<Priority>15</Priority>
 		<ElitePercentage>15</ElitePercentage>
@@ -447,25 +475,25 @@ Changes require starting of a new game.
 		<DesiredPopulation>12</DesiredPopulation>
 		<StartPopulation>12</StartPopulation>
 	</COMPOSITION>
-	<COMPOSITION>
+	<COMPOSITION>		
 		<Index>39</Index>
-		<Priority>85</Priority>
-		<ElitePercentage>85</ElitePercentage>
-		<TroopPercentage>15</TroopPercentage>
-		<AdminPercentage>0</AdminPercentage>
-		<DesiredPopulation>24</DesiredPopulation>
-		<StartPopulation>24</StartPopulation>
+		<Priority>20</Priority>
+		<ElitePercentage>0</ElitePercentage>
+		<TroopPercentage>100</TroopPercentage>
+		<AdminPercentage>70</AdminPercentage>
+		<DesiredPopulation>12</DesiredPopulation>
+		<StartPopulation>10</StartPopulation>
 	</COMPOSITION>
-	<COMPOSITION>
+	<COMPOSITION>	
 		<Index>40</Index>
-		<Priority>80</Priority>
-		<ElitePercentage>80</ElitePercentage>
-		<TroopPercentage>20</TroopPercentage>
-		<AdminPercentage>0</AdminPercentage>
-		<DesiredPopulation>22</DesiredPopulation>
-		<StartPopulation>22</StartPopulation>
+		<Priority>30</Priority>
+		<ElitePercentage>0</ElitePercentage>
+		<TroopPercentage>100</TroopPercentage>
+		<AdminPercentage>60</AdminPercentage>
+		<DesiredPopulation>14</DesiredPopulation>
+		<StartPopulation>12</StartPopulation>
 	</COMPOSITION>
-	<COMPOSITION>
+	<COMPOSITION>		
 		<Index>41</Index>
 		<Priority>75</Priority>
 		<ElitePercentage>75</ElitePercentage>
@@ -474,7 +502,7 @@ Changes require starting of a new game.
 		<DesiredPopulation>20</DesiredPopulation>
 		<StartPopulation>20</StartPopulation>
 	</COMPOSITION>
-	<COMPOSITION>
+	<COMPOSITION>		
 		<Index>42</Index>
 		<Priority>5</Priority>
 		<ElitePercentage>5</ElitePercentage>
@@ -483,16 +511,16 @@ Changes require starting of a new game.
 		<DesiredPopulation>10</DesiredPopulation>
 		<StartPopulation>8</StartPopulation>
 	</COMPOSITION>
-	<COMPOSITION>
+	<COMPOSITION>		
 		<Index>43</Index>
-		<Priority>15</Priority>
+		<Priority>55</Priority>
 		<ElitePercentage>40</ElitePercentage>
 		<TroopPercentage>60</TroopPercentage>
-		<AdminPercentage>20</AdminPercentage>
-		<DesiredPopulation>12</DesiredPopulation>
-		<StartPopulation>10</StartPopulation>
+		<AdminPercentage>0</AdminPercentage>
+		<DesiredPopulation>20</DesiredPopulation>
+		<StartPopulation>16</StartPopulation>
 	</COMPOSITION>
-	<COMPOSITION>
+	<COMPOSITION>		
 		<Index>44</Index>
 		<Priority>50</Priority>
 		<ElitePercentage>40</ElitePercentage>
@@ -501,7 +529,7 @@ Changes require starting of a new game.
 		<DesiredPopulation>10</DesiredPopulation>
 		<StartPopulation>8</StartPopulation>
 	</COMPOSITION>
-	<COMPOSITION>
+	<COMPOSITION>		
 		<Index>45</Index>
 		<Priority>50</Priority>
 		<ElitePercentage>60</ElitePercentage>
@@ -510,7 +538,7 @@ Changes require starting of a new game.
 		<DesiredPopulation>14</DesiredPopulation>
 		<StartPopulation>12</StartPopulation>
 	</COMPOSITION>
-	<COMPOSITION>
+	<COMPOSITION>		
 		<Index>46</Index>
 		<Priority>0</Priority>
 		<ElitePercentage>50</ElitePercentage>
@@ -518,5 +546,68 @@ Changes require starting of a new game.
 		<AdminPercentage>0</AdminPercentage>
 		<DesiredPopulation>32</DesiredPopulation>
 		<StartPopulation>32</StartPopulation>
+	</COMPOSITION>
+	<COMPOSITION>		
+		<Index>47</Index>
+		<Priority>25</Priority>
+		<ElitePercentage>10</ElitePercentage>
+		<TroopPercentage>90</TroopPercentage>
+		<AdminPercentage>25</AdminPercentage>
+		<DesiredPopulation>24</DesiredPopulation>
+		<StartPopulation>24</StartPopulation>
+	</COMPOSITION>
+	<COMPOSITION>		
+		<Index>48</Index>
+		<Priority>25</Priority>
+		<ElitePercentage>50</ElitePercentage>
+		<TroopPercentage>50</TroopPercentage>
+		<AdminPercentage>0</AdminPercentage>
+		<DesiredPopulation>14</DesiredPopulation>
+		<StartPopulation>12</StartPopulation>
+	</COMPOSITION>
+	<COMPOSITION>	
+		<Index>49</Index>
+		<Priority>70</Priority>
+		<ElitePercentage>80</ElitePercentage>
+		<TroopPercentage>20</TroopPercentage>
+		<AdminPercentage>0</AdminPercentage>
+		<DesiredPopulation>24</DesiredPopulation>
+		<StartPopulation>20</StartPopulation>
+	</COMPOSITION>
+	<COMPOSITION>		
+		<Index>50</Index>
+		<Priority>40</Priority>
+		<ElitePercentage>20</ElitePercentage>
+		<TroopPercentage>80</TroopPercentage>
+		<AdminPercentage>20</AdminPercentage>
+		<DesiredPopulation>16</DesiredPopulation>
+		<StartPopulation>10</StartPopulation>
+	</COMPOSITION>
+	<COMPOSITION>		
+		<Index>51</Index>
+		<Priority>40</Priority>
+		<ElitePercentage>10</ElitePercentage>
+		<TroopPercentage>90</TroopPercentage>
+		<AdminPercentage>0</AdminPercentage>
+		<DesiredPopulation>12</DesiredPopulation>
+		<StartPopulation>10</StartPopulation>
+	</COMPOSITION>
+	<COMPOSITION>	
+		<Index>52</Index>
+		<Priority>50</Priority>
+		<ElitePercentage>20</ElitePercentage>
+		<TroopPercentage>80</TroopPercentage>
+		<AdminPercentage>0</AdminPercentage>
+		<DesiredPopulation>14</DesiredPopulation>
+		<StartPopulation>12</StartPopulation>
+	</COMPOSITION>
+	<COMPOSITION>		
+		<Index>53</Index>
+		<Priority>80</Priority>
+		<ElitePercentage>75</ElitePercentage>
+		<TroopPercentage>25</TroopPercentage>
+		<AdminPercentage>15</AdminPercentage>
+		<DesiredPopulation>18</DesiredPopulation>
+		<StartPopulation>14</StartPopulation>
 	</COMPOSITION>
 </COMPOSITION_INFO>

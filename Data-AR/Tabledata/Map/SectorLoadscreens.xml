@@ -2110,7 +2110,7 @@ szNighAlt			- Path to the alternate loadscreen image, which should be displayed 
 		<RandomAltSector>0</RandomAltSector>
 		<szImageFormat>STI</szImageFormat>
 		<szDay>Loadscreens\LS_PowerPlantDay</szDay>
-		<szNight>Loadscreens\LS_PowerPlangtNight</szNight>
+		<szNight>Loadscreens\LS_PowerPlantNight</szNight>
 		<szDayAlt></szDayAlt>
 		<szNightAlt></szNightAlt>
 	</SECTOR>
@@ -2120,7 +2120,7 @@ szNighAlt			- Path to the alternate loadscreen image, which should be displayed 
 		<RandomAltSector>0</RandomAltSector>
 		<szImageFormat>STI</szImageFormat>
 		<szDay>Loadscreens\LS_PowerPlantDay</szDay>
-		<szNight>Loadscreens\LS_PowerPlangtNight</szNight>
+		<szNight>Loadscreens\LS_PowerPlantNight</szNight>
 		<szDayAlt></szDayAlt>
 		<szNightAlt></szNightAlt>
 	</SECTOR>

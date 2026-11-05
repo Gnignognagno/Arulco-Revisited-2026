@@ -61,6 +61,8 @@ sectornames = {
     
     ["P1-1"] = "Aldea Factory",
     ["P1-2"] = "Secret Level",
+    
+    ["G11-1"] = "Aldea Basement",
     ["J9-3"] = "Secret Level",
  
     creatureLair = "Creature Lair",

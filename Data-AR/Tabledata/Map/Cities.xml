@@ -36,6 +36,10 @@ Changes do not require starting of a new game.
 
 -->
 <CITY_INFO>
+	<COUNTRY>
+		<countryName>Arulco</countryName>
+		<countryNoun>Arulcan</countryNoun>
+	</COUNTRY>
 	<CITYLIST>
 		<CITY>
 			<uiIndex>1</uiIndex>
@@ -172,9 +176,9 @@ Changes do not require starting of a new game.
 		<CITY>
 			<uiIndex>7</uiIndex>
 			<townName>San Mona</townName>
-			<townUsesLoyalty>1</townUsesLoyalty>
+			<townUsesLoyalty>0</townUsesLoyalty>
 			<townRebelSentiment>30</townRebelSentiment>
-			<townMilitiaAllowed>1</townMilitiaAllowed>
+			<townMilitiaAllowed>0</townMilitiaAllowed>
 			<hiddenTown>0</hiddenTown>
 			<townIcon>0</townIcon>
 			<szIconFile></szIconFile>

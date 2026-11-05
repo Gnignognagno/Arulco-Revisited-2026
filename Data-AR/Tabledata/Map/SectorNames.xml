@@ -7,7 +7,16 @@
     <szExploredName>Tropical</szExploredName>
     <szDetailedExploredName>Tropical, Coast</szDetailedExploredName>
     <sWaterType>1</sWaterType>
-    <usNaturalDirt>300</usNaturalDirt>	
+    <usNaturalDirt>300</usNaturalDirt>
+    <usCivilianPopulation>2</usCivilianPopulation>
+    <rainchance>80</rainchance>
+    <sandstormchance>0</sandstormchance>
+    <snowchance>0</snowchance>
+    <snakechance>0</snakechance>
+    <numsnakes>0</numsnakes>
+    <bloodcatraidpossible>0</bloodcatraidpossible>
+    <zombieraidpossible>0</zombieraidpossible>
+    <banditraidpossible>0</banditraidpossible>
   </SECTOR>
   <SECTOR>
     <SectorGrid>A2</SectorGrid>
@@ -16,7 +25,14 @@
     <szExploredName>Temple</szExploredName>
     <szDetailedExploredName>Chitzena Temple</szDetailedExploredName>
     <sWaterType>1</sWaterType>
-    <usNaturalDirt>250</usNaturalDirt>	
+    <usNaturalDirt>250</usNaturalDirt>
+    <usCivilianPopulation>70</usCivilianPopulation>
+    <wealth>4</wealth>
+    <rainchance>70</rainchance>
+    <sandstormchance>0</sandstormchance>
+    <bloodcatraidpossible>1</bloodcatraidpossible>
+    <zombieraidpossible>1</zombieraidpossible>
+    <banditraidpossible>1</banditraidpossible>
   </SECTOR>
   <SECTOR>
     <SectorGrid>A3</SectorGrid>
@@ -25,7 +41,9 @@
     <szExploredName>Warehouse</szExploredName>
     <szDetailedExploredName>Chitzena Warehouse</szDetailedExploredName>
     <sWaterType>3</sWaterType>
-    <usNaturalDirt>250</usNaturalDirt>	
+    <usNaturalDirt>250</usNaturalDirt>
+    <rainchance>60</rainchance>
+    <sandstormchance>0</sandstormchance>
   </SECTOR>
   <SECTOR>
     <SectorGrid>A4</SectorGrid>
@@ -35,6 +53,8 @@
     <szDetailedExploredName>Unknown</szDetailedExploredName>
     <sWaterType>0</sWaterType>
     <usNaturalDirt>200</usNaturalDirt>
+    <rainchance>60</rainchance>
+    <sandstormchance>0</sandstormchance>
   </SECTOR>
   <SECTOR>
     <SectorGrid>A5</SectorGrid>
@@ -44,6 +64,8 @@
     <szDetailedExploredName>Unknown</szDetailedExploredName>
     <sWaterType>0</sWaterType>
     <usNaturalDirt>200</usNaturalDirt>
+    <rainchance>60</rainchance>
+    <sandstormchance>0</sandstormchance>
   </SECTOR>
   <SECTOR>
     <SectorGrid>A6</SectorGrid>
@@ -53,7 +75,10 @@
     <szDetailedExploredName>Mountains</szDetailedExploredName>
     <sWaterType>1</sWaterType>
     <usNaturalDirt>225</usNaturalDirt>
-    <sRadioScanModifier>1</sRadioScanModifier>	
+    <sRadioScanModifier>1</sRadioScanModifier>
+    <rainchance>50</rainchance>
+    <sandstormchance>0</sandstormchance>
+    <snowchance>80</snowchance>
   </SECTOR>
   <SECTOR>
     <SectorGrid>A7</SectorGrid>
@@ -63,7 +88,10 @@
     <szDetailedExploredName>Mountains</szDetailedExploredName>
     <sWaterType>0</sWaterType>
     <usNaturalDirt>225</usNaturalDirt>
-    <sRadioScanModifier>1</sRadioScanModifier>	
+    <sRadioScanModifier>1</sRadioScanModifier>
+    <rainchance>50</rainchance>
+    <sandstormchance>0</sandstormchance>
+    <snowchance>80</snowchance>
   </SECTOR>
   <SECTOR>
     <SectorGrid>A8</SectorGrid>
@@ -73,7 +101,10 @@
     <szDetailedExploredName>Omerta Industrial Area</szDetailedExploredName>
     <sWaterType>0</sWaterType>
     <usNaturalDirt>200</usNaturalDirt>
-    <usCurfewValue>2</usCurfewValue>	
+    <usCurfewValue>2</usCurfewValue>
+    <rainchance>50</rainchance>
+    <sandstormchance>0</sandstormchance>
+    <snowchance>0</snowchance>
   </SECTOR>
   <SECTOR>
     <SectorGrid>A9</SectorGrid>
@@ -84,6 +115,10 @@
     <sWaterType>0</sWaterType>
     <usNaturalDirt>200</usNaturalDirt>
     <usCurfewValue>2</usCurfewValue>
+    <usCivilianPopulation>4</usCivilianPopulation>
+    <wealth>1</wealth>
+    <rainchance>50</rainchance>
+    <sandstormchance>0</sandstormchance>
   </SECTOR>
   <SECTOR>
     <SectorGrid>A10</SectorGrid>
@@ -94,6 +129,10 @@
     <sWaterType>0</sWaterType>
     <usNaturalDirt>200</usNaturalDirt>
     <usCurfewValue>2</usCurfewValue>
+    <usCivilianPopulation>30</usCivilianPopulation>
+    <wealth>1</wealth>
+    <rainchance>50</rainchance>
+    <sandstormchance>0</sandstormchance>
   </SECTOR>
   <SECTOR>
     <SectorGrid>A11</SectorGrid>
@@ -103,6 +142,10 @@
     <szDetailedExploredName>Farmland</szDetailedExploredName>
     <sWaterType>1</sWaterType>
     <usNaturalDirt>160</usNaturalDirt>
+    <usCivilianPopulation>4</usCivilianPopulation>
+    <wealth>0</wealth>
+    <rainchance>50</rainchance>
+    <sandstormchance>0</sandstormchance>
   </SECTOR>
   <SECTOR>
     <SectorGrid>A12</SectorGrid>
@@ -113,6 +156,9 @@
     <sWaterType>1</sWaterType>
     <usNaturalDirt>210</usNaturalDirt>
     <usCurfewValue>1</usCurfewValue>
+    <rainchance>50</rainchance>
+    <sandstormchance>0</sandstormchance>
+    <snowchance>0</snowchance>
   </SECTOR>
   <SECTOR>
     <SectorGrid>A13</SectorGrid>
@@ -122,6 +168,8 @@
     <szDetailedExploredName>Woods</szDetailedExploredName>
     <sWaterType>1</sWaterType>
     <usNaturalDirt>210</usNaturalDirt>
+    <rainchance>50</rainchance>
+    <sandstormchance>0</sandstormchance>
   </SECTOR>
   <SECTOR>
     <SectorGrid>A14</SectorGrid>
@@ -131,6 +179,8 @@
     <szDetailedExploredName>Plains</szDetailedExploredName>
     <sWaterType>1</sWaterType>
     <usNaturalDirt>210</usNaturalDirt>
+    <rainchance>40</rainchance>
+    <sandstormchance>0</sandstormchance>
   </SECTOR>
   <SECTOR>
     <SectorGrid>A15</SectorGrid>
@@ -140,6 +190,8 @@
     <szDetailedExploredName>Forest</szDetailedExploredName>
     <sWaterType>0</sWaterType>
     <usNaturalDirt>210</usNaturalDirt>
+    <rainchance>50</rainchance>
+    <sandstormchance>0</sandstormchance>
   </SECTOR>
   <SECTOR>
     <SectorGrid>A16</SectorGrid>
@@ -149,6 +201,8 @@
     <szDetailedExploredName>Smuggler's Hideout</szDetailedExploredName>
     <sWaterType>1</sWaterType>
     <usNaturalDirt>200</usNaturalDirt>
+    <rainchance>50</rainchance>
+    <sandstormchance>0</sandstormchance>
   </SECTOR>
   <SECTOR>
     <SectorGrid>B1</SectorGrid>
@@ -158,7 +212,9 @@
     <szDetailedExploredName>Chitzena Docks</szDetailedExploredName>
     <sWaterType>1</sWaterType>
     <usNaturalDirt>300</usNaturalDirt>
-    <sRadioScanModifier>1</sRadioScanModifier>	
+    <sRadioScanModifier>1</sRadioScanModifier>
+    <rainchance>80</rainchance>
+    <sandstormchance>0</sandstormchance>
   </SECTOR>
   <SECTOR>
     <SectorGrid>B2</SectorGrid>
@@ -168,8 +224,16 @@
     <szDetailedExploredName>Chitzena Mine</szDetailedExploredName>
     <sWaterType>1</sWaterType>
     <usNaturalDirt>250</usNaturalDirt>
-    <usPrisonRoomNumber00>6</usPrisonRoomNumber00>
-    <usPrisonRoomNumber01>7</usPrisonRoomNumber01>	
+    <usPrisonRoomNumber>6</usPrisonRoomNumber>
+    <usPrisonRoomNumber>7</usPrisonRoomNumber>
+    <usCivilianPopulation>150</usCivilianPopulation>
+    <wealth>6</wealth>
+    <maxworkers>50</maxworkers>
+    <rainchance>70</rainchance>
+    <sandstormchance>0</sandstormchance>
+    <bloodcatraidpossible>1</bloodcatraidpossible>
+    <zombieraidpossible>1</zombieraidpossible>
+    <banditraidpossible>1</banditraidpossible>
   </SECTOR>
   <SECTOR>
     <SectorGrid>B3</SectorGrid>
@@ -179,6 +243,8 @@
     <szDetailedExploredName>Woods</szDetailedExploredName>
     <sWaterType>0</sWaterType>
     <usNaturalDirt>200</usNaturalDirt>
+    <rainchance>60</rainchance>
+    <sandstormchance>0</sandstormchance>
   </SECTOR>
   <SECTOR>
     <SectorGrid>B4</SectorGrid>
@@ -188,6 +254,8 @@
     <szDetailedExploredName>Woods, Lake</szDetailedExploredName>
     <sWaterType>1</sWaterType>
     <usNaturalDirt>200</usNaturalDirt>
+    <rainchance>50</rainchance>
+    <sandstormchance>0</sandstormchance>
   </SECTOR>
   <SECTOR>
     <SectorGrid>B5</SectorGrid>
@@ -196,7 +264,11 @@
     <szExploredName>Farmland</szExploredName>
     <szDetailedExploredName>Farmland</szDetailedExploredName>
     <sWaterType>1</sWaterType>
-    <usNaturalDirt>160</usNaturalDirt>	
+    <usNaturalDirt>160</usNaturalDirt>
+    <usCivilianPopulation>10</usCivilianPopulation>
+    <wealth>1</wealth>
+    <rainchance>50</rainchance>
+    <sandstormchance>0</sandstormchance>
   </SECTOR>
   <SECTOR>
     <SectorGrid>B6</SectorGrid>
@@ -206,6 +278,10 @@
     <szDetailedExploredName>Farmland</szDetailedExploredName>
     <sWaterType>1</sWaterType>
     <usNaturalDirt>160</usNaturalDirt>
+    <usCivilianPopulation>10</usCivilianPopulation>
+    <wealth>1</wealth>
+    <rainchance>50</rainchance>
+    <sandstormchance>0</sandstormchance>
   </SECTOR>
   <SECTOR>
     <SectorGrid>B7</SectorGrid>
@@ -215,6 +291,8 @@
     <szDetailedExploredName>Plains</szDetailedExploredName>
     <sWaterType>0</sWaterType>
     <usNaturalDirt>200</usNaturalDirt>
+    <rainchance>40</rainchance>
+    <sandstormchance>0</sandstormchance>
   </SECTOR>
   <SECTOR>
     <SectorGrid>B8</SectorGrid>
@@ -223,7 +301,11 @@
     <szExploredName>Farmland</szExploredName>
     <szDetailedExploredName>Farmland</szDetailedExploredName>
     <sWaterType>1</sWaterType>
-    <usNaturalDirt>200</usNaturalDirt>	
+    <usNaturalDirt>200</usNaturalDirt>
+    <usCivilianPopulation>10</usCivilianPopulation>
+    <wealth>1</wealth>
+    <rainchance>40</rainchance>
+    <sandstormchance>0</sandstormchance>
   </SECTOR>
   <SECTOR>
     <SectorGrid>B9</SectorGrid>
@@ -233,6 +315,8 @@
     <szDetailedExploredName>Plains, Road</szDetailedExploredName>
     <sWaterType>0</sWaterType>
     <usNaturalDirt>180</usNaturalDirt>
+    <rainchance>40</rainchance>
+    <sandstormchance>0</sandstormchance>
   </SECTOR>
   <SECTOR>
     <SectorGrid>B10</SectorGrid>
@@ -242,6 +326,8 @@
     <szDetailedExploredName>Farmland, Road</szDetailedExploredName>
     <sWaterType>0</sWaterType>
     <usNaturalDirt>200</usNaturalDirt>
+    <rainchance>45</rainchance>
+    <sandstormchance>0</sandstormchance>
   </SECTOR>
   <SECTOR>
     <SectorGrid>B11</SectorGrid>
@@ -251,6 +337,8 @@
     <szDetailedExploredName>Woods, Road</szDetailedExploredName>
     <sWaterType>1</sWaterType>
     <usNaturalDirt>200</usNaturalDirt>
+    <rainchance>45</rainchance>
+    <sandstormchance>0</sandstormchance>
   </SECTOR>
   <SECTOR>
     <SectorGrid>B12</SectorGrid>
@@ -260,6 +348,10 @@
     <szDetailedExploredName>Farmland, Road</szDetailedExploredName>
     <sWaterType>1</sWaterType>
     <usNaturalDirt>210</usNaturalDirt>
+    <usCivilianPopulation>10</usCivilianPopulation>
+    <wealth>1</wealth>
+    <rainchance>50</rainchance>
+    <sandstormchance>0</sandstormchance>
   </SECTOR>
   <SECTOR>
     <SectorGrid>B13</SectorGrid>
@@ -269,12 +361,19 @@
     <szDetailedExploredName>Drassen Airport</szDetailedExploredName>
     <sWaterType>1</sWaterType>
     <usNaturalDirt>100</usNaturalDirt>
-    <usPrisonRoomNumber00>13</usPrisonRoomNumber00>
-    <usPrisonRoomNumber01>14</usPrisonRoomNumber01>
-    <usPrisonRoomNumber02>15</usPrisonRoomNumber02>
-    <usPrisonRoomNumber03>33</usPrisonRoomNumber03>
-    <usPrisonRoomNumber04>34</usPrisonRoomNumber04>	
+    <usPrisonRoomNumber>13</usPrisonRoomNumber>
+    <usPrisonRoomNumber>14</usPrisonRoomNumber>
+    <usPrisonRoomNumber>15</usPrisonRoomNumber>
+    <usPrisonRoomNumber>33</usPrisonRoomNumber>
+    <usPrisonRoomNumber>34</usPrisonRoomNumber>	
     <sRadioScanModifier>2</sRadioScanModifier>
+    <usCivilianPopulation>50</usCivilianPopulation>
+    <wealth>7</wealth>
+    <rainchance>50</rainchance>
+    <sandstormchance>0</sandstormchance>
+    <bloodcatraidpossible>1</bloodcatraidpossible>
+    <zombieraidpossible>1</zombieraidpossible>
+    <banditraidpossible>1</banditraidpossible>
   </SECTOR>
   <SECTOR>
     <SectorGrid>B14</SectorGrid>
@@ -283,7 +382,10 @@
     <szExploredName>Lake</szExploredName>
     <szDetailedExploredName>Lake</szDetailedExploredName>
     <sWaterType>1</sWaterType>
-    <usNaturalDirt>120</usNaturalDirt>	
+    <usNaturalDirt>120</usNaturalDirt>
+    <usCivilianPopulation>6</usCivilianPopulation>
+    <rainchance>60</rainchance>
+    <sandstormchance>0</sandstormchance>
   </SECTOR>
   <SECTOR>
     <SectorGrid>B15</SectorGrid>
@@ -293,6 +395,10 @@
     <szDetailedExploredName>Lake, Swamp</szDetailedExploredName>
     <sWaterType>1</sWaterType>
     <usNaturalDirt>500</usNaturalDirt>
+    <rainchance>70</rainchance>
+    <sandstormchance>0</sandstormchance>
+    <snakechance>50</snakechance>
+    <numsnakes>7</numsnakes>
   </SECTOR>
   <SECTOR>
     <SectorGrid>B16</SectorGrid>
@@ -302,6 +408,8 @@
     <szDetailedExploredName>Forest</szDetailedExploredName>
     <sWaterType>0</sWaterType>
     <usNaturalDirt>200</usNaturalDirt>
+    <rainchance>50</rainchance>
+    <sandstormchance>0</sandstormchance>
   </SECTOR>
   <SECTOR>
     <SectorGrid>C1</SectorGrid>
@@ -311,6 +419,8 @@
     <szDetailedExploredName>Tropical, Coast</szDetailedExploredName>
     <sWaterType>2</sWaterType>
     <usNaturalDirt>300</usNaturalDirt>
+    <rainchance>80</rainchance>
+    <sandstormchance>0</sandstormchance>
   </SECTOR>
   <SECTOR>
     <SectorGrid>C2</SectorGrid>
@@ -320,6 +430,8 @@
     <szDetailedExploredName>Tropical, Road</szDetailedExploredName>
     <sWaterType>1</sWaterType>
     <usNaturalDirt>300</usNaturalDirt>
+    <rainchance>80</rainchance>
+    <sandstormchance>0</sandstormchance>
   </SECTOR>
   <SECTOR>
     <SectorGrid>C3</SectorGrid>
@@ -329,6 +441,8 @@
     <szDetailedExploredName>Plains, Road</szDetailedExploredName>
     <sWaterType>3</sWaterType>
     <usNaturalDirt>300</usNaturalDirt>
+    <rainchance>70</rainchance>
+    <sandstormchance>0</sandstormchance>
   </SECTOR>
   <SECTOR>
     <SectorGrid>C4</SectorGrid>
@@ -338,6 +452,8 @@
     <szDetailedExploredName>Woods, Road</szDetailedExploredName>
     <sWaterType>0</sWaterType>
     <usNaturalDirt>200</usNaturalDirt>
+    <rainchance>60</rainchance>
+    <sandstormchance>0</sandstormchance>
   </SECTOR>
   <SECTOR>
     <SectorGrid>C5</SectorGrid>
@@ -346,7 +462,11 @@
     <szExploredName>Nightclub District</szExploredName>
     <szDetailedExploredName>San Mona Nightclub District</szDetailedExploredName>
     <sWaterType>1</sWaterType>
-    <usNaturalDirt>100</usNaturalDirt>	
+    <usNaturalDirt>100</usNaturalDirt>
+    <usCivilianPopulation>200</usCivilianPopulation>
+    <wealth>8</wealth>
+    <rainchance>50</rainchance>
+    <sandstormchance>0</sandstormchance>
   </SECTOR>
   <SECTOR>
     <SectorGrid>C6</SectorGrid>
@@ -355,7 +475,11 @@
     <szExploredName>San Mona</szExploredName>
     <szDetailedExploredName>San Mona</szDetailedExploredName>
     <sWaterType>1</sWaterType>
-    <usNaturalDirt>100</usNaturalDirt>	
+    <usNaturalDirt>100</usNaturalDirt>
+    <usCivilianPopulation>150</usCivilianPopulation>
+    <wealth>4</wealth>
+    <rainchance>40</rainchance>
+    <sandstormchance>0</sandstormchance>
   </SECTOR>
   <SECTOR>
     <SectorGrid>C7</SectorGrid>
@@ -365,6 +489,8 @@
     <szDetailedExploredName>Farmland, Road</szDetailedExploredName>
     <sWaterType>1</sWaterType>
     <usNaturalDirt>180</usNaturalDirt>
+    <rainchance>35</rainchance>
+    <sandstormchance>0</sandstormchance>
   </SECTOR>
   <SECTOR>
     <SectorGrid>C8</SectorGrid>
@@ -374,6 +500,8 @@
     <szDetailedExploredName>Farmland, Road</szDetailedExploredName>
     <sWaterType>1</sWaterType>
     <usNaturalDirt>200</usNaturalDirt>
+    <rainchance>40</rainchance>
+    <sandstormchance>0</sandstormchance>
   </SECTOR>
   <SECTOR>
     <SectorGrid>C9</SectorGrid>
@@ -383,6 +511,8 @@
     <szDetailedExploredName>Checkpoint</szDetailedExploredName>
     <sWaterType>3</sWaterType>
     <usNaturalDirt>160</usNaturalDirt>
+    <rainchance>40</rainchance>
+    <sandstormchance>0</sandstormchance>
   </SECTOR>
   <SECTOR>
     <SectorGrid>C10</SectorGrid>
@@ -392,7 +522,9 @@
     <szDetailedExploredName>Plains</szDetailedExploredName>
     <sWaterType>0</sWaterType>
     <usNaturalDirt>200</usNaturalDirt>
-   </SECTOR>
+    <rainchance>40</rainchance>
+    <sandstormchance>0</sandstormchance>
+  </SECTOR>
    <SECTOR>
     <SectorGrid>C11</SectorGrid>
     <szUnexploredName>Forest</szUnexploredName>
@@ -401,7 +533,9 @@
     <szDetailedExploredName>Forest</szDetailedExploredName>
     <sWaterType>0</sWaterType>
     <usNaturalDirt>200</usNaturalDirt>
-   </SECTOR>
+    <rainchance>50</rainchance>
+    <sandstormchance>0</sandstormchance>
+  </SECTOR>
    <SECTOR>
     <SectorGrid>C12</SectorGrid>
     <szUnexploredName>Farmland</szUnexploredName>
@@ -410,7 +544,9 @@
     <szDetailedExploredName>Farmland</szDetailedExploredName>
     <sWaterType>1</sWaterType>
     <usNaturalDirt>200</usNaturalDirt>
-   </SECTOR>
+    <rainchance>50</rainchance>
+    <sandstormchance>0</sandstormchance>
+  </SECTOR>
    <SECTOR>
     <SectorGrid>C13</SectorGrid>
     <szUnexploredName>Drassen</szUnexploredName>
@@ -418,8 +554,15 @@
     <szExploredName>Factory</szExploredName>
     <szDetailedExploredName>Drassen Factory</szDetailedExploredName>
     <sWaterType>1</sWaterType>
-    <usNaturalDirt>100</usNaturalDirt>	
-   </SECTOR>
+    <usNaturalDirt>100</usNaturalDirt>
+    <usCivilianPopulation>200</usCivilianPopulation>
+    <wealth>4</wealth>
+    <rainchance>50</rainchance>
+    <sandstormchance>0</sandstormchance>
+    <bloodcatraidpossible>1</bloodcatraidpossible>
+    <zombieraidpossible>1</zombieraidpossible>
+    <banditraidpossible>1</banditraidpossible>
+  </SECTOR>
    <SECTOR>
     <SectorGrid>C14</SectorGrid>
     <szUnexploredName>Drassen</szUnexploredName>
@@ -427,8 +570,10 @@
     <szExploredName>Warehouse</szExploredName>
     <szDetailedExploredName>Drassen Warehouse</szDetailedExploredName>
     <sWaterType>1</sWaterType>
-    <usNaturalDirt>140</usNaturalDirt>	
-   </SECTOR>	
+    <usNaturalDirt>140</usNaturalDirt>
+    <rainchance>60</rainchance>
+    <sandstormchance>0</sandstormchance>
+  </SECTOR>	
    <SECTOR>
     <SectorGrid>C15</SectorGrid>
     <szUnexploredName>Lake</szUnexploredName>
@@ -437,7 +582,11 @@
     <szDetailedExploredName>Lake, Swamp</szDetailedExploredName>
     <sWaterType>1</sWaterType>
     <usNaturalDirt>500</usNaturalDirt>
-   </SECTOR>	
+    <rainchance>70</rainchance>
+    <sandstormchance>0</sandstormchance>
+    <snakechance>50</snakechance>
+    <numsnakes>7</numsnakes>
+  </SECTOR>	
    <SECTOR>
     <SectorGrid>C16</SectorGrid>
     <szUnexploredName>Swamp</szUnexploredName>
@@ -446,7 +595,11 @@
     <szDetailedExploredName>Swamp</szDetailedExploredName>
     <sWaterType>3</sWaterType>
     <usNaturalDirt>500</usNaturalDirt>
-   </SECTOR>
+    <rainchance>70</rainchance>
+    <sandstormchance>0</sandstormchance>
+    <snakechance>50</snakechance>
+    <numsnakes>7</numsnakes>
+  </SECTOR>
    <SECTOR>
     <SectorGrid>D1</SectorGrid>
     <szUnexploredName>Impassable</szUnexploredName>
@@ -455,7 +608,9 @@
     <szDetailedExploredName>Impassable</szDetailedExploredName>
     <sWaterType>2</sWaterType>
     <usNaturalDirt>100</usNaturalDirt>
-   </SECTOR>
+    <rainchance>80</rainchance>
+    <sandstormchance>0</sandstormchance>
+  </SECTOR>
    <SECTOR>
     <SectorGrid>D2</SectorGrid>
     <szUnexploredName>Tropical</szUnexploredName>
@@ -465,8 +620,13 @@
     <sWaterType>1</sWaterType>
     <usNaturalDirt>300</usNaturalDirt>
     <usCurfewValue>2</usCurfewValue>
-    <sRadioScanModifier>2</sRadioScanModifier>	
-   </SECTOR>
+    <sRadioScanModifier>2</sRadioScanModifier>
+    <rainchance>70</rainchance>
+    <sandstormchance>0</sandstormchance>
+    <bloodcatraidpossible>1</bloodcatraidpossible>
+    <zombieraidpossible>1</zombieraidpossible>
+    <banditraidpossible>1</banditraidpossible>
+  </SECTOR>
    <SECTOR>
     <SectorGrid>D3</SectorGrid>
     <szUnexploredName>Plains, Road</szUnexploredName>
@@ -475,7 +635,9 @@
     <szDetailedExploredName>Checkpoint</szDetailedExploredName>
     <sWaterType>3</sWaterType>
     <usNaturalDirt>160</usNaturalDirt>
-   </SECTOR>
+    <rainchance>60</rainchance>
+    <sandstormchance>0</sandstormchance>
+  </SECTOR>
    <SECTOR>
     <SectorGrid>D4</SectorGrid>
     <szUnexploredName>San Mona Mine</szUnexploredName>
@@ -484,7 +646,9 @@
     <szDetailedExploredName>San Mona Abandoned Mine</szDetailedExploredName>
     <sWaterType>0</sWaterType>
     <usNaturalDirt>120</usNaturalDirt>
-   </SECTOR>
+    <rainchance>50</rainchance>
+    <sandstormchance>0</sandstormchance>
+  </SECTOR>
    <SECTOR>
     <SectorGrid>D5</SectorGrid>
     <szUnexploredName>San Mona</szUnexploredName>
@@ -493,10 +657,14 @@
     <szDetailedExploredName>San Mona Kingpin's Residence</szDetailedExploredName>
     <sWaterType>1</sWaterType>
     <usNaturalDirt>100</usNaturalDirt>
-    <usPrisonRoomNumber00>8</usPrisonRoomNumber00>
-    <usPrisonRoomNumber01>9</usPrisonRoomNumber01>
-    <usPrisonRoomNumber02>10</usPrisonRoomNumber02>		
-   </SECTOR>
+    <usPrisonRoomNumber>8</usPrisonRoomNumber>
+    <usPrisonRoomNumber>9</usPrisonRoomNumber>
+    <usPrisonRoomNumber>10</usPrisonRoomNumber>
+    <usCivilianPopulation>200</usCivilianPopulation>
+    <wealth>12</wealth>
+    <rainchance>50</rainchance>
+    <sandstormchance>0</sandstormchance>
+  </SECTOR>
    <SECTOR>
     <SectorGrid>D6</SectorGrid>
     <szUnexploredName>Farm, Road</szUnexploredName>
@@ -504,8 +672,12 @@
     <szExploredName>Farm, Road</szExploredName>
     <szDetailedExploredName>Farmland, Road</szDetailedExploredName>
     <sWaterType>1</sWaterType>
-    <usNaturalDirt>180</usNaturalDirt>	
-   </SECTOR>
+    <usNaturalDirt>180</usNaturalDirt>
+    <usCivilianPopulation>10</usCivilianPopulation>
+    <wealth>1</wealth>
+    <rainchance>50</rainchance>
+    <sandstormchance>0</sandstormchance>
+  </SECTOR>
    <SECTOR>
     <SectorGrid>D7</SectorGrid>
     <szUnexploredName>Farm, Road</szUnexploredName>
@@ -513,8 +685,10 @@
     <szExploredName>Farm, Road</szExploredName>
     <szDetailedExploredName>Farmland, Road</szDetailedExploredName>
     <sWaterType>1</sWaterType>
-    <usNaturalDirt>170</usNaturalDirt>	
-   </SECTOR>
+    <usNaturalDirt>170</usNaturalDirt>
+    <rainchance>50</rainchance>
+    <sandstormchance>0</sandstormchance>
+  </SECTOR>
    <SECTOR>
     <SectorGrid>D8</SectorGrid>
     <szUnexploredName>Lake</szUnexploredName>
@@ -523,7 +697,9 @@
     <szDetailedExploredName>Lake</szDetailedExploredName>
     <sWaterType>1</sWaterType>
     <usNaturalDirt>200</usNaturalDirt>
-   </SECTOR>
+    <rainchance>50</rainchance>
+    <sandstormchance>0</sandstormchance>
+  </SECTOR>
    <SECTOR>
     <SectorGrid>D9</SectorGrid>
     <szUnexploredName>Plains, Road</szUnexploredName>
@@ -532,7 +708,9 @@
     <szDetailedExploredName>Plains, Road</szDetailedExploredName>
     <sWaterType>1</sWaterType>
     <usNaturalDirt>150</usNaturalDirt>
-   </SECTOR>
+    <rainchance>40</rainchance>
+    <sandstormchance>0</sandstormchance>
+  </SECTOR>
    <SECTOR>
     <SectorGrid>D10</SectorGrid>
     <szUnexploredName>Woods</szUnexploredName>
@@ -541,7 +719,9 @@
     <szDetailedExploredName>Woods, Lake</szDetailedExploredName>
     <sWaterType>1</sWaterType>
     <usNaturalDirt>150</usNaturalDirt>
-   </SECTOR>
+    <rainchance>40</rainchance>
+    <sandstormchance>0</sandstormchance>
+  </SECTOR>
    <SECTOR>
     <SectorGrid>D11</SectorGrid>
     <szUnexploredName>Woods</szUnexploredName>
@@ -550,7 +730,9 @@
     <szDetailedExploredName>Woods</szDetailedExploredName>
     <sWaterType>0</sWaterType>
     <usNaturalDirt>200</usNaturalDirt>
-   </SECTOR>
+    <rainchance>40</rainchance>
+    <sandstormchance>0</sandstormchance>
+  </SECTOR>
    <SECTOR>
     <SectorGrid>D12</SectorGrid>
     <szUnexploredName>Swamp</szUnexploredName>
@@ -559,7 +741,11 @@
     <szDetailedExploredName>Swamp</szDetailedExploredName>
     <sWaterType>1</sWaterType>
     <usNaturalDirt>500</usNaturalDirt>
-   </SECTOR>
+    <rainchance>60</rainchance>
+    <sandstormchance>0</sandstormchance>
+    <snakechance>50</snakechance>
+    <numsnakes>7</numsnakes>
+  </SECTOR>
    <SECTOR>
     <SectorGrid>D13</SectorGrid>
     <szUnexploredName>Drassen Mine</szUnexploredName>
@@ -567,8 +753,16 @@
     <szExploredName>Drassen Mine</szExploredName>
     <szDetailedExploredName>Drassen Mine</szDetailedExploredName>
     <sWaterType>1</sWaterType>
-    <usNaturalDirt>100</usNaturalDirt>	
-   </SECTOR>
+    <usNaturalDirt>100</usNaturalDirt>
+    <usCivilianPopulation>200</usCivilianPopulation>
+    <wealth>6</wealth>
+    <maxworkers>100</maxworkers>
+    <rainchance>50</rainchance>
+    <sandstormchance>0</sandstormchance>
+    <bloodcatraidpossible>1</bloodcatraidpossible>
+    <zombieraidpossible>1</zombieraidpossible>
+    <banditraidpossible>1</banditraidpossible>
+  </SECTOR>
    <SECTOR>
     <SectorGrid>D14</SectorGrid>
     <szUnexploredName>Lake</szUnexploredName>
@@ -577,7 +771,9 @@
     <szDetailedExploredName>Lake</szDetailedExploredName>
     <sWaterType>1</sWaterType>
     <usNaturalDirt>130</usNaturalDirt>
-   </SECTOR>
+    <rainchance>60</rainchance>
+    <sandstormchance>0</sandstormchance>
+  </SECTOR>
    <SECTOR>
     <SectorGrid>D15</SectorGrid>
     <szUnexploredName>Swamp</szUnexploredName>
@@ -587,8 +783,13 @@
     <sWaterType>1</sWaterType>
     <usNaturalDirt>160</usNaturalDirt>
     <usCurfewValue>2</usCurfewValue>
-    <sRadioScanModifier>2</sRadioScanModifier>	
-   </SECTOR>  
+    <sRadioScanModifier>2</sRadioScanModifier>
+    <rainchance>50</rainchance>
+    <sandstormchance>0</sandstormchance>
+    <bloodcatraidpossible>1</bloodcatraidpossible>
+    <zombieraidpossible>1</zombieraidpossible>
+    <banditraidpossible>1</banditraidpossible>
+  </SECTOR>  
    <SECTOR>
     <SectorGrid>D16</SectorGrid>
     <szUnexploredName>Forest</szUnexploredName>
@@ -597,7 +798,9 @@
     <szDetailedExploredName>Forest</szDetailedExploredName>
     <sWaterType>1</sWaterType>
     <usNaturalDirt>200</usNaturalDirt>
-   </SECTOR>
+    <rainchance>50</rainchance>
+    <sandstormchance>0</sandstormchance>
+  </SECTOR>
    <SECTOR>
     <SectorGrid>E1</SectorGrid>
     <szUnexploredName>Impassable</szUnexploredName>
@@ -606,7 +809,9 @@
     <szDetailedExploredName>Impassable</szDetailedExploredName>
     <sWaterType>2</sWaterType>
     <usNaturalDirt>100</usNaturalDirt>
-   </SECTOR>
+    <rainchance>80</rainchance>
+    <sandstormchance>0</sandstormchance>
+  </SECTOR>
    <SECTOR>
     <SectorGrid>E2</SectorGrid>
     <szUnexploredName>Tropical</szUnexploredName>
@@ -615,7 +820,9 @@
     <szDetailedExploredName>Tropical, Coast</szDetailedExploredName>
     <sWaterType>2</sWaterType>
     <usNaturalDirt>300</usNaturalDirt>
-   </SECTOR>
+    <rainchance>70</rainchance>
+    <sandstormchance>0</sandstormchance>
+  </SECTOR>
    <SECTOR>
     <SectorGrid>E3</SectorGrid>
     <szUnexploredName>Plains, Road</szUnexploredName>
@@ -624,7 +831,9 @@
     <szDetailedExploredName>Plains, Road</szDetailedExploredName>
     <sWaterType>0</sWaterType>
     <usNaturalDirt>160</usNaturalDirt>
-   </SECTOR>
+    <rainchance>50</rainchance>
+    <sandstormchance>0</sandstormchance>
+  </SECTOR>
    <SECTOR>
     <SectorGrid>E4</SectorGrid>
     <szUnexploredName>Plains</szUnexploredName>
@@ -633,7 +842,9 @@
     <szDetailedExploredName>Plains</szDetailedExploredName>
     <sWaterType>0</sWaterType>
     <usNaturalDirt>130</usNaturalDirt>
-   </SECTOR>
+    <rainchance>50</rainchance>
+    <sandstormchance>0</sandstormchance>
+  </SECTOR>
    <SECTOR>
     <SectorGrid>E5</SectorGrid>
     <szUnexploredName>Mountains</szUnexploredName>
@@ -642,8 +853,11 @@
     <szDetailedExploredName>Mountains</szDetailedExploredName>
     <sWaterType>0</sWaterType>
     <usNaturalDirt>130</usNaturalDirt>
-    <sRadioScanModifier>1</sRadioScanModifier>	
-   </SECTOR>
+    <sRadioScanModifier>1</sRadioScanModifier>
+    <rainchance>50</rainchance>
+    <sandstormchance>0</sandstormchance>
+    <snowchance>20</snowchance>
+  </SECTOR>
    <SECTOR>
     <SectorGrid>E6</SectorGrid>
     <szUnexploredName>Plains</szUnexploredName>
@@ -653,7 +867,9 @@
     <sWaterType>1</sWaterType>
     <usNaturalDirt>160</usNaturalDirt>
     <usCurfewValue>1</usCurfewValue>
-   </SECTOR> 	  	 	
+    <rainchance>50</rainchance>
+    <sandstormchance>0</sandstormchance>
+  </SECTOR> 	  	 	
    <SECTOR>
     <SectorGrid>E7</SectorGrid>
     <szUnexploredName>Plains, Road</szUnexploredName>
@@ -662,7 +878,11 @@
     <szDetailedExploredName>Motel</szDetailedExploredName>
     <sWaterType>1</sWaterType>
     <usNaturalDirt>180</usNaturalDirt>
-   </SECTOR>
+    <usCivilianPopulation>10</usCivilianPopulation>
+    <wealth>1</wealth>
+    <rainchance>40</rainchance>
+    <sandstormchance>0</sandstormchance>
+  </SECTOR>
    <SECTOR>
     <SectorGrid>E8</SectorGrid>
     <szUnexploredName>Farmland</szUnexploredName>
@@ -671,7 +891,11 @@
     <szDetailedExploredName>Farmland</szDetailedExploredName>
     <sWaterType>0</sWaterType>
     <usNaturalDirt>160</usNaturalDirt>
-   </SECTOR>
+    <usCivilianPopulation>10</usCivilianPopulation>
+    <wealth>1</wealth>
+    <rainchance>40</rainchance>
+    <sandstormchance>0</sandstormchance>
+  </SECTOR>
    <SECTOR>
     <SectorGrid>E9</SectorGrid>
     <szUnexploredName>Lake, Road</szUnexploredName>
@@ -680,7 +904,11 @@
     <szDetailedExploredName>Lake, Road</szDetailedExploredName>
     <sWaterType>1</sWaterType>
     <usNaturalDirt>150</usNaturalDirt>
-   </SECTOR>
+    <usCivilianPopulation>10</usCivilianPopulation>
+    <wealth>1</wealth>
+    <rainchance>50</rainchance>
+    <sandstormchance>0</sandstormchance>
+  </SECTOR>
    <SECTOR>
     <SectorGrid>E10</SectorGrid>
     <szUnexploredName>Swamp</szUnexploredName>
@@ -689,7 +917,11 @@
     <szDetailedExploredName>Lake, Swamp</szDetailedExploredName>
     <sWaterType>1</sWaterType>
     <usNaturalDirt>500</usNaturalDirt>
-   </SECTOR>
+    <rainchance>70</rainchance>
+    <sandstormchance>0</sandstormchance>
+    <snakechance>50</snakechance>
+    <numsnakes>7</numsnakes>
+  </SECTOR>
    <SECTOR>
     <SectorGrid>E11</SectorGrid>
     <szUnexploredName>Woods</szUnexploredName>
@@ -698,7 +930,9 @@
     <szDetailedExploredName>Woods</szDetailedExploredName>
     <sWaterType>1</sWaterType>
     <usNaturalDirt>200</usNaturalDirt>
-   </SECTOR>
+    <rainchance>50</rainchance>
+    <sandstormchance>0</sandstormchance>
+  </SECTOR>
    <SECTOR>
     <SectorGrid>E12</SectorGrid>
     <szUnexploredName>River, Road</szUnexploredName>
@@ -707,7 +941,9 @@
     <szDetailedExploredName>River, Road</szDetailedExploredName>
     <sWaterType>1</sWaterType>
     <usNaturalDirt>200</usNaturalDirt>
-   </SECTOR>
+    <rainchance>50</rainchance>
+    <sandstormchance>0</sandstormchance>
+  </SECTOR>
    <SECTOR>
     <SectorGrid>E13</SectorGrid>
     <szUnexploredName>River, Road</szUnexploredName>
@@ -716,7 +952,9 @@
     <szDetailedExploredName>River, Road</szDetailedExploredName>
     <sWaterType>1</sWaterType>
     <usNaturalDirt>200</usNaturalDirt>
-   </SECTOR>
+    <rainchance>50</rainchance>
+    <sandstormchance>0</sandstormchance>
+  </SECTOR>
    <SECTOR>
     <SectorGrid>E14</SectorGrid>
     <szUnexploredName>River</szUnexploredName>
@@ -725,7 +963,11 @@
     <szDetailedExploredName>River, Swamp</szDetailedExploredName>
     <sWaterType>1</sWaterType>
     <usNaturalDirt>500</usNaturalDirt>
-   </SECTOR> 
+    <rainchance>70</rainchance>
+    <sandstormchance>0</sandstormchance>
+    <snakechance>50</snakechance>
+    <numsnakes>7</numsnakes>
+  </SECTOR> 
    <SECTOR>
     <SectorGrid>E15</SectorGrid>
     <szUnexploredName>Forest, Road</szUnexploredName>
@@ -734,7 +976,9 @@
     <szDetailedExploredName>Forest, Road</szDetailedExploredName>
     <sWaterType>0</sWaterType>
     <usNaturalDirt>175</usNaturalDirt>
-   </SECTOR>
+    <rainchance>60</rainchance>
+    <sandstormchance>0</sandstormchance>
+  </SECTOR>
    <SECTOR>
     <SectorGrid>E16</SectorGrid>
     <szUnexploredName>Unknown</szUnexploredName>
@@ -743,7 +987,9 @@
     <szDetailedExploredName>Unknown</szDetailedExploredName>
     <sWaterType>0</sWaterType>
     <usNaturalDirt>100</usNaturalDirt>
-   </SECTOR>
+    <rainchance>50</rainchance>
+    <sandstormchance>0</sandstormchance>
+  </SECTOR>
    <SECTOR>
     <SectorGrid>F1</SectorGrid>
     <szUnexploredName>Impassable</szUnexploredName>
@@ -752,7 +998,9 @@
     <szDetailedExploredName>Impassable</szDetailedExploredName>
     <sWaterType>2</sWaterType>
     <usNaturalDirt>100</usNaturalDirt>
-   </SECTOR>
+    <rainchance>80</rainchance>
+    <sandstormchance>0</sandstormchance>
+  </SECTOR>
    <SECTOR>
     <SectorGrid>F2</SectorGrid>
     <szUnexploredName>Coast</szUnexploredName>
@@ -761,7 +1009,9 @@
     <szDetailedExploredName>Coast, River</szDetailedExploredName>
     <sWaterType>2</sWaterType>
     <usNaturalDirt>180</usNaturalDirt>
-   </SECTOR>
+    <rainchance>75</rainchance>
+    <sandstormchance>0</sandstormchance>
+  </SECTOR>
    <SECTOR>
     <SectorGrid>F3</SectorGrid>
     <szUnexploredName>River, Road</szUnexploredName>
@@ -770,7 +1020,9 @@
     <szDetailedExploredName>River, Road</szDetailedExploredName>
     <sWaterType>1</sWaterType>
     <usNaturalDirt>150</usNaturalDirt>
-   </SECTOR>
+    <rainchance>50</rainchance>
+    <sandstormchance>0</sandstormchance>
+  </SECTOR>
    <SECTOR>
     <SectorGrid>F4</SectorGrid>
     <szUnexploredName>River, Mountains</szUnexploredName>
@@ -779,8 +1031,11 @@
     <szDetailedExploredName>River, Mountains</szDetailedExploredName>
     <sWaterType>1</sWaterType>
     <usNaturalDirt>130</usNaturalDirt>
-    <sRadioScanModifier>1</sRadioScanModifier>	
-   </SECTOR>
+    <sRadioScanModifier>1</sRadioScanModifier>
+    <rainchance>50</rainchance>
+    <sandstormchance>0</sandstormchance>
+    <snowchance>20</snowchance>
+  </SECTOR>
    <SECTOR>
     <SectorGrid>F5</SectorGrid>
     <szUnexploredName>Mountains</szUnexploredName>
@@ -789,8 +1044,11 @@
     <szDetailedExploredName>Mountains</szDetailedExploredName>
     <sWaterType>0</sWaterType>
     <usNaturalDirt>130</usNaturalDirt>
-    <sRadioScanModifier>1</sRadioScanModifier>	
-   </SECTOR>
+    <sRadioScanModifier>1</sRadioScanModifier>
+    <rainchance>30</rainchance>
+    <sandstormchance>0</sandstormchance>
+    <snowchance>80</snowchance>
+  </SECTOR>
    <SECTOR>
     <SectorGrid>F6</SectorGrid>
     <szUnexploredName>Mountains</szUnexploredName>
@@ -799,8 +1057,11 @@
     <szDetailedExploredName>Mountains</szDetailedExploredName>
     <sWaterType>0</sWaterType>
     <usNaturalDirt>130</usNaturalDirt>
-    <sRadioScanModifier>1</sRadioScanModifier>	
-   </SECTOR>
+    <sRadioScanModifier>1</sRadioScanModifier>
+    <rainchance>30</rainchance>
+    <sandstormchance>0</sandstormchance>
+    <snowchance>80</snowchance>
+  </SECTOR>
    <SECTOR>
     <SectorGrid>F7</SectorGrid>
     <szUnexploredName>Woods, Road</szUnexploredName>
@@ -809,7 +1070,9 @@
     <szDetailedExploredName>Woods, Road</szDetailedExploredName>
     <sWaterType>0</sWaterType>
     <usNaturalDirt>140</usNaturalDirt>
-   </SECTOR>
+    <rainchance>30</rainchance>
+    <sandstormchance>0</sandstormchance>
+  </SECTOR>
    <SECTOR>
     <SectorGrid>F8</SectorGrid>
     <szUnexploredName>Cambria</szUnexploredName>
@@ -817,8 +1080,15 @@
     <szExploredName>Hospital</szExploredName>
     <szDetailedExploredName>Cambria Hospital</szDetailedExploredName>
     <sWaterType>1</sWaterType>
-    <usNaturalDirt>100</usNaturalDirt>	
-   </SECTOR>
+    <usNaturalDirt>100</usNaturalDirt>
+    <usCivilianPopulation>200</usCivilianPopulation>
+    <wealth>7</wealth>
+    <rainchance>45</rainchance>
+    <sandstormchance>0</sandstormchance>
+    <bloodcatraidpossible>1</bloodcatraidpossible>
+    <zombieraidpossible>1</zombieraidpossible>
+    <banditraidpossible>1</banditraidpossible>
+  </SECTOR>
    <SECTOR>
     <SectorGrid>F9</SectorGrid>
     <szUnexploredName>Cambria</szUnexploredName>
@@ -827,8 +1097,15 @@
     <szDetailedExploredName>Cambria University</szDetailedExploredName>
     <sWaterType>1</sWaterType>
     <usNaturalDirt>100</usNaturalDirt>
-    <usCurfewValue>1</usCurfewValue>	
-   </SECTOR>
+    <usCurfewValue>1</usCurfewValue>
+    <usCivilianPopulation>100</usCivilianPopulation>
+    <wealth>2</wealth>
+    <rainchance>40</rainchance>
+    <sandstormchance>0</sandstormchance>
+    <bloodcatraidpossible>0</bloodcatraidpossible>
+    <zombieraidpossible>1</zombieraidpossible>
+    <banditraidpossible>1</banditraidpossible>
+  </SECTOR>
    <SECTOR>
     <SectorGrid>F10</SectorGrid>
     <szUnexploredName>Farmland</szUnexploredName>
@@ -836,8 +1113,12 @@
     <szExploredName>Hick Farm</szExploredName>
     <szDetailedExploredName>Hick Farm</szDetailedExploredName>
     <sWaterType>1</sWaterType>
-    <usNaturalDirt>200</usNaturalDirt>	
-   </SECTOR>
+    <usNaturalDirt>200</usNaturalDirt>
+    <usCivilianPopulation>50</usCivilianPopulation>
+    <wealth>1</wealth>
+    <rainchance>55</rainchance>
+    <sandstormchance>0</sandstormchance>
+  </SECTOR>
    <SECTOR>
     <SectorGrid>F11</SectorGrid>
     <szUnexploredName>Plains</szUnexploredName>
@@ -846,7 +1127,9 @@
     <szDetailedExploredName>Plains</szDetailedExploredName>
     <sWaterType>0</sWaterType>
     <usNaturalDirt>160</usNaturalDirt>
-   </SECTOR>
+    <rainchance>45</rainchance>
+    <sandstormchance>0</sandstormchance>
+  </SECTOR>
    <SECTOR>
     <SectorGrid>F12</SectorGrid>
     <szUnexploredName>Farm, Road</szUnexploredName>
@@ -855,7 +1138,9 @@
     <szDetailedExploredName>Farm, Road</szDetailedExploredName>
     <sWaterType>1</sWaterType>
     <usNaturalDirt>200</usNaturalDirt>
-   </SECTOR>
+    <rainchance>50</rainchance>
+    <sandstormchance>0</sandstormchance>
+  </SECTOR>
    <SECTOR>
     <SectorGrid>F13</SectorGrid>
     <szUnexploredName>River, Woods</szUnexploredName>
@@ -864,7 +1149,9 @@
     <szDetailedExploredName>River, Woods</szDetailedExploredName>
     <sWaterType>1</sWaterType>
     <usNaturalDirt>200</usNaturalDirt>
-   </SECTOR>
+    <rainchance>50</rainchance>
+    <sandstormchance>0</sandstormchance>
+  </SECTOR>
    <SECTOR>
     <SectorGrid>F14</SectorGrid>
     <szUnexploredName>River, Road</szUnexploredName>
@@ -873,7 +1160,9 @@
     <szDetailedExploredName>River, Road</szDetailedExploredName>
     <sWaterType>1</sWaterType>
     <usNaturalDirt>150</usNaturalDirt>
-   </SECTOR>
+    <rainchance>40</rainchance>
+    <sandstormchance>0</sandstormchance>
+  </SECTOR>
    <SECTOR>
     <SectorGrid>F15</SectorGrid>
     <szUnexploredName>Forest, Road</szUnexploredName>
@@ -882,7 +1171,9 @@
     <szDetailedExploredName>Checkpoint</szDetailedExploredName>
     <sWaterType>1</sWaterType>
     <usNaturalDirt>170</usNaturalDirt>
-   </SECTOR>
+    <rainchance>45</rainchance>
+    <sandstormchance>0</sandstormchance>
+  </SECTOR>
    <SECTOR>
     <SectorGrid>F16</SectorGrid>
     <szUnexploredName>Unknown</szUnexploredName>
@@ -891,7 +1182,9 @@
     <szDetailedExploredName>Unknown</szDetailedExploredName>
     <sWaterType>0</sWaterType>
     <usNaturalDirt>100</usNaturalDirt>
-   </SECTOR>
+    <rainchance>50</rainchance>
+    <sandstormchance>0</sandstormchance>
+  </SECTOR>
    <SECTOR>
     <SectorGrid>G1</SectorGrid>
     <szUnexploredName>Grumm</szUnexploredName>
@@ -899,8 +1192,12 @@
     <szExploredName>Grumm</szExploredName>
     <szDetailedExploredName>Grumm</szDetailedExploredName>
     <sWaterType>1</sWaterType>
-    <usNaturalDirt>100</usNaturalDirt>	
-   </SECTOR>
+    <usNaturalDirt>100</usNaturalDirt>
+    <usCivilianPopulation>200</usCivilianPopulation>
+    <wealth>7</wealth>
+    <rainchance>50</rainchance>
+    <sandstormchance>0</sandstormchance>
+  </SECTOR>
    <SECTOR>
     <SectorGrid>G2</SectorGrid>
     <szUnexploredName>Grumm</szUnexploredName>
@@ -910,7 +1207,11 @@
     <sWaterType>3</sWaterType>
     <usNaturalDirt>100</usNaturalDirt>
     <usCurfewValue>2</usCurfewValue>
-   </SECTOR>
+    <usCivilianPopulation>150</usCivilianPopulation>
+    <wealth>8</wealth>
+    <rainchance>50</rainchance>
+    <sandstormchance>0</sandstormchance>
+  </SECTOR>
    <SECTOR>
     <SectorGrid>G3</SectorGrid>
     <szUnexploredName>Grumm</szUnexploredName>
@@ -919,10 +1220,12 @@
     <szDetailedExploredName>Grumm Residential Area</szDetailedExploredName>
     <sWaterType>1</sWaterType>
     <usNaturalDirt>120</usNaturalDirt>
-    <usPrisonRoomNumber00>30</usPrisonRoomNumber00>
-    <usPrisonRoomNumber01>31</usPrisonRoomNumber01>
-    <usPrisonRoomNumber02>32</usPrisonRoomNumber02>		
-   </SECTOR>
+    <usPrisonRoomNumber>30</usPrisonRoomNumber>
+    <usPrisonRoomNumber>31</usPrisonRoomNumber>
+    <usPrisonRoomNumber>32</usPrisonRoomNumber>
+    <rainchance>60</rainchance>
+    <sandstormchance>0</sandstormchance>
+  </SECTOR>
    <SECTOR>
     <SectorGrid>G4</SectorGrid>
     <szUnexploredName>Forest, Road</szUnexploredName>
@@ -931,7 +1234,9 @@
     <szDetailedExploredName>Smuggler's Hideout</szDetailedExploredName>
     <sWaterType>1</sWaterType>
     <usNaturalDirt>140</usNaturalDirt>
-   </SECTOR>
+    <rainchance>50</rainchance>
+    <sandstormchance>0</sandstormchance>
+  </SECTOR>
    <SECTOR>
     <SectorGrid>G5</SectorGrid>
     <szUnexploredName>Mountains, Road</szUnexploredName>
@@ -940,8 +1245,11 @@
     <szDetailedExploredName>Mountains, Road</szDetailedExploredName>
     <sWaterType>0</sWaterType>
     <usNaturalDirt>140</usNaturalDirt>
-    <sRadioScanModifier>1</sRadioScanModifier>	
-   </SECTOR>
+    <sRadioScanModifier>1</sRadioScanModifier>
+    <rainchance>30</rainchance>
+    <sandstormchance>0</sandstormchance>
+    <snowchance>80</snowchance>
+  </SECTOR>
    <SECTOR>
     <SectorGrid>G6</SectorGrid>
     <szUnexploredName>Mountains, Road</szUnexploredName>
@@ -950,8 +1258,11 @@
     <szDetailedExploredName>Mountains, Road</szDetailedExploredName>
     <sWaterType>0</sWaterType>
     <usNaturalDirt>140</usNaturalDirt>
-    <sRadioScanModifier>1</sRadioScanModifier>	
-   </SECTOR>
+    <sRadioScanModifier>1</sRadioScanModifier>
+    <rainchance>30</rainchance>
+    <sandstormchance>0</sandstormchance>
+    <snowchance>60</snowchance>
+  </SECTOR>
    <SECTOR>
     <SectorGrid>G7</SectorGrid>
     <szUnexploredName>Farm, Road</szUnexploredName>
@@ -959,8 +1270,12 @@
     <szExploredName>Farm, Road</szExploredName>
     <szDetailedExploredName>Farmland, Road</szDetailedExploredName>
     <sWaterType>1</sWaterType>
-    <usNaturalDirt>175</usNaturalDirt>	
-   </SECTOR>
+    <usNaturalDirt>175</usNaturalDirt>
+    <usCivilianPopulation>10</usCivilianPopulation>
+    <wealth>1</wealth>
+    <rainchance>35</rainchance>
+    <sandstormchance>0</sandstormchance>
+  </SECTOR>
    <SECTOR>
     <SectorGrid>G8</SectorGrid>
     <szUnexploredName>Cambria</szUnexploredName>
@@ -969,10 +1284,17 @@
     <szDetailedExploredName>Cambria Residential Area</szDetailedExploredName>
     <sWaterType>1</sWaterType>
     <usNaturalDirt>100</usNaturalDirt>
-    <usPrisonRoomNumber00>56</usPrisonRoomNumber00>
-    <usPrisonRoomNumber01>57</usPrisonRoomNumber01>
-    <usPrisonRoomNumber02>58</usPrisonRoomNumber02>		
-   </SECTOR>
+    <usPrisonRoomNumber>56</usPrisonRoomNumber>
+    <usPrisonRoomNumber>57</usPrisonRoomNumber>
+    <usPrisonRoomNumber>58</usPrisonRoomNumber>
+    <usCivilianPopulation>200</usCivilianPopulation>
+    <wealth>10</wealth>
+    <rainchance>40</rainchance>
+    <sandstormchance>0</sandstormchance>
+    <bloodcatraidpossible>1</bloodcatraidpossible>
+    <zombieraidpossible>1</zombieraidpossible>
+    <banditraidpossible>1</banditraidpossible>
+  </SECTOR>
    <SECTOR>
     <SectorGrid>G9</SectorGrid>
     <szUnexploredName>Cambria</szUnexploredName>
@@ -981,11 +1303,18 @@
     <szDetailedExploredName>Cambria Residential Area</szDetailedExploredName>
     <sWaterType>1</sWaterType>
     <usNaturalDirt>100</usNaturalDirt>
-    <usPrisonRoomNumber00>30</usPrisonRoomNumber00>
-    <usPrisonRoomNumber01>31</usPrisonRoomNumber01>
-    <usPrisonRoomNumber02>33</usPrisonRoomNumber02>
-    <usPrisonRoomNumber03>34</usPrisonRoomNumber03>		
-   </SECTOR>
+    <usPrisonRoomNumber>30</usPrisonRoomNumber>
+    <usPrisonRoomNumber>31</usPrisonRoomNumber>
+    <usPrisonRoomNumber>33</usPrisonRoomNumber>
+    <usPrisonRoomNumber>34</usPrisonRoomNumber>
+    <usCivilianPopulation>200</usCivilianPopulation>
+    <wealth>8</wealth>
+    <rainchance>40</rainchance>
+    <sandstormchance>0</sandstormchance>
+    <bloodcatraidpossible>1</bloodcatraidpossible>
+    <zombieraidpossible>1</zombieraidpossible>
+    <banditraidpossible>1</banditraidpossible>
+  </SECTOR>
    <SECTOR>
     <SectorGrid>G10</SectorGrid>
     <szUnexploredName>Plains, Road</szUnexploredName>
@@ -994,7 +1323,9 @@
     <szDetailedExploredName>Plains, Road</szDetailedExploredName>
     <sWaterType>0</sWaterType>
     <usNaturalDirt>160</usNaturalDirt>
-   </SECTOR>
+    <rainchance>20</rainchance>
+    <sandstormchance>40</sandstormchance>
+  </SECTOR>
    <SECTOR>
     <SectorGrid>G11</SectorGrid>
     <szUnexploredName>Aldea</szUnexploredName>
@@ -1003,8 +1334,10 @@
     <szDetailedExploredName>Aldea</szDetailedExploredName>
     <sWaterType>3</sWaterType>
     <usNaturalDirt>120</usNaturalDirt>
-    <sRadioScanModifier>1</sRadioScanModifier>		
-   </SECTOR>
+    <sRadioScanModifier>1</sRadioScanModifier>
+    <rainchance>20</rainchance>
+    <sandstormchance>40</sandstormchance>
+  </SECTOR>
    <SECTOR>
     <SectorGrid>G12</SectorGrid>
     <szUnexploredName>Plains, Road</szUnexploredName>
@@ -1013,7 +1346,9 @@
     <szDetailedExploredName>Plains, Road</szDetailedExploredName>
     <sWaterType>0</sWaterType>
     <usNaturalDirt>160</usNaturalDirt>
-   </SECTOR>
+    <rainchance>30</rainchance>
+    <sandstormchance>10</sandstormchance>
+  </SECTOR>
    <SECTOR>
     <SectorGrid>G13</SectorGrid>
     <szUnexploredName>Plains, Road</szUnexploredName>
@@ -1023,7 +1358,9 @@
     <sWaterType>1</sWaterType>
     <usNaturalDirt>170</usNaturalDirt>
     <usCurfewValue>1</usCurfewValue>
-   </SECTOR>
+    <rainchance>30</rainchance>
+    <sandstormchance>0</sandstormchance>
+  </SECTOR>
    <SECTOR>
     <SectorGrid>G14</SectorGrid>
     <szUnexploredName>Swamp, Road</szUnexploredName>
@@ -1033,7 +1370,9 @@
     <sWaterType>1</sWaterType>
     <usNaturalDirt>160</usNaturalDirt>
     <usCurfewValue>1</usCurfewValue>
-   </SECTOR>
+    <rainchance>30</rainchance>
+    <sandstormchance>0</sandstormchance>
+  </SECTOR>
    <SECTOR>
     <SectorGrid>G15</SectorGrid>
     <szUnexploredName>River, Forest</szUnexploredName>
@@ -1042,7 +1381,9 @@
     <szDetailedExploredName>River, Forest</szDetailedExploredName>
     <sWaterType>1</sWaterType>
     <usNaturalDirt>200</usNaturalDirt>
-   </SECTOR>
+    <rainchance>40</rainchance>
+    <sandstormchance>0</sandstormchance>
+  </SECTOR>
    <SECTOR>
     <SectorGrid>G16</SectorGrid>
     <szUnexploredName>River, Swamp</szUnexploredName>
@@ -1051,7 +1392,11 @@
     <szDetailedExploredName>River, Swamp</szDetailedExploredName>
     <sWaterType>1</sWaterType>
     <usNaturalDirt>500</usNaturalDirt>
-   </SECTOR>
+    <rainchance>60</rainchance>
+    <sandstormchance>0</sandstormchance>
+    <snakechance>50</snakechance>
+    <numsnakes>7</numsnakes>
+  </SECTOR>
    <SECTOR>
     <SectorGrid>H1</SectorGrid>
     <szUnexploredName>Grumm</szUnexploredName>
@@ -1059,8 +1404,12 @@
     <szExploredName>Grumm</szExploredName>
     <szDetailedExploredName>Grumm</szDetailedExploredName>
     <sWaterType>1</sWaterType>
-    <usNaturalDirt>100</usNaturalDirt>	
-   </SECTOR>
+    <usNaturalDirt>100</usNaturalDirt>
+    <usCivilianPopulation>200</usCivilianPopulation>
+    <wealth>11</wealth>
+    <rainchance>60</rainchance>
+    <sandstormchance>0</sandstormchance>
+  </SECTOR>
    <SECTOR>
     <SectorGrid>H2</SectorGrid>
     <szUnexploredName>Grumm</szUnexploredName>
@@ -1070,12 +1419,16 @@
     <sWaterType>3</sWaterType>
     <usNaturalDirt>100</usNaturalDirt>
     <usCurfewValue>1</usCurfewValue>
-    <usPrisonRoomNumber00>29</usPrisonRoomNumber00>
-    <usPrisonRoomNumber01>30</usPrisonRoomNumber01>
-    <usPrisonRoomNumber02>33</usPrisonRoomNumber02>
-    <usPrisonRoomNumber03>34</usPrisonRoomNumber03>
-    <usPrisonRoomNumber04>35</usPrisonRoomNumber04>		
-   </SECTOR>
+    <usPrisonRoomNumber>29</usPrisonRoomNumber>
+    <usPrisonRoomNumber>30</usPrisonRoomNumber>
+    <usPrisonRoomNumber>33</usPrisonRoomNumber>
+    <usPrisonRoomNumber>34</usPrisonRoomNumber>
+    <usPrisonRoomNumber>35</usPrisonRoomNumber>
+    <usCivilianPopulation>200</usCivilianPopulation>
+    <wealth>10</wealth>
+    <rainchance>55</rainchance>
+    <sandstormchance>0</sandstormchance>
+  </SECTOR>
    <SECTOR>
     <SectorGrid>H3</SectorGrid>
     <szUnexploredName>Grumm Mine</szUnexploredName>
@@ -1085,7 +1438,15 @@
     <sWaterType>3</sWaterType>
     <usNaturalDirt>150</usNaturalDirt>
     <usCurfewValue>1</usCurfewValue>
-   </SECTOR>
+    <usCivilianPopulation>200</usCivilianPopulation>
+    <wealth>10</wealth>
+    <maxworkers>200</maxworkers>
+    <rainchance>50</rainchance>
+    <sandstormchance>0</sandstormchance>
+    <bloodcatraidpossible>1</bloodcatraidpossible>
+    <zombieraidpossible>1</zombieraidpossible>
+    <banditraidpossible>1</banditraidpossible>
+  </SECTOR>
    <SECTOR>
     <SectorGrid>H4</SectorGrid>
     <szUnexploredName>Forest</szUnexploredName>
@@ -1094,7 +1455,10 @@
     <szDetailedExploredName>Forest</szDetailedExploredName>
     <sWaterType>1</sWaterType>
     <usNaturalDirt>200</usNaturalDirt>
-   </SECTOR>
+    <usCivilianPopulation>10</usCivilianPopulation>
+    <rainchance>50</rainchance>
+    <sandstormchance>0</sandstormchance>
+  </SECTOR>
    <SECTOR>
     <SectorGrid>H5</SectorGrid>
     <szUnexploredName>Mountains</szUnexploredName>
@@ -1103,8 +1467,11 @@
     <szDetailedExploredName>Mountains</szDetailedExploredName>
     <sWaterType>0</sWaterType>
     <usNaturalDirt>130</usNaturalDirt>
-    <sRadioScanModifier>1</sRadioScanModifier>	
-   </SECTOR>
+    <sRadioScanModifier>1</sRadioScanModifier>
+    <rainchance>50</rainchance>
+    <sandstormchance>0</sandstormchance>
+    <snowchance>80</snowchance>
+  </SECTOR>
    <SECTOR>
     <SectorGrid>H6</SectorGrid>
     <szUnexploredName>Estoni Airport</szUnexploredName>
@@ -1115,11 +1482,14 @@
     <usNaturalDirt>140</usNaturalDirt>
     <usCurfewValue>2</usCurfewValue>	
     <sRadioScanModifier>2</sRadioScanModifier>	
-    <usPrisonRoomNumber00>20</usPrisonRoomNumber00>
-    <usPrisonRoomNumber01>21</usPrisonRoomNumber01>
-    <usPrisonRoomNumber02>22</usPrisonRoomNumber02>
-    <usPrisonRoomNumber03>23</usPrisonRoomNumber03>	
-   </SECTOR>
+    <usPrisonRoomNumber>20</usPrisonRoomNumber>
+    <usPrisonRoomNumber>21</usPrisonRoomNumber>
+    <usPrisonRoomNumber>22</usPrisonRoomNumber>
+    <usPrisonRoomNumber>23</usPrisonRoomNumber>
+    <rainchance>40</rainchance>
+    <sandstormchance>0</sandstormchance>
+    <snowchance>20</snowchance>
+  </SECTOR>
    <SECTOR>
     <SectorGrid>H7</SectorGrid>
     <szUnexploredName>Plains</szUnexploredName>
@@ -1128,7 +1498,9 @@
     <szDetailedExploredName>Plains</szDetailedExploredName>
     <sWaterType>3</sWaterType>
     <usNaturalDirt>160</usNaturalDirt>
-   </SECTOR>  
+    <rainchance>35</rainchance>
+    <sandstormchance>0</sandstormchance>
+  </SECTOR>  
    <SECTOR>
     <SectorGrid>H8</SectorGrid>
     <szUnexploredName>Cambria Mine</szUnexploredName>
@@ -1138,7 +1510,15 @@
     <sWaterType>0</sWaterType>
     <usNaturalDirt>130</usNaturalDirt>
     <usCurfewValue>1</usCurfewValue>
-   </SECTOR>
+    <usCivilianPopulation>200</usCivilianPopulation>
+    <wealth>2</wealth>
+    <maxworkers>160</maxworkers>
+    <rainchance>35</rainchance>
+    <sandstormchance>2</sandstormchance>
+    <bloodcatraidpossible>1</bloodcatraidpossible>
+    <zombieraidpossible>1</zombieraidpossible>
+    <banditraidpossible>1</banditraidpossible>
+  </SECTOR>
    <SECTOR>
     <SectorGrid>H9</SectorGrid>
     <szUnexploredName>Plains</szUnexploredName>
@@ -1147,7 +1527,9 @@
     <szDetailedExploredName>Plains</szDetailedExploredName>
     <sWaterType>0</sWaterType>
     <usNaturalDirt>160</usNaturalDirt>
-   </SECTOR>
+    <rainchance>30</rainchance>
+    <sandstormchance>5</sandstormchance>
+  </SECTOR>
    <SECTOR>
     <SectorGrid>H10</SectorGrid>
     <szUnexploredName>Desert</szUnexploredName>
@@ -1156,7 +1538,9 @@
     <szDetailedExploredName>Desert</szDetailedExploredName>
     <sWaterType>0</sWaterType>
     <usNaturalDirt>1000</usNaturalDirt>
-   </SECTOR>
+    <rainchance>5</rainchance>
+    <sandstormchance>60</sandstormchance>
+  </SECTOR>
    <SECTOR>
     <SectorGrid>H11</SectorGrid>
     <szUnexploredName>Desert</szUnexploredName>
@@ -1165,7 +1549,9 @@
     <szDetailedExploredName>Desert</szDetailedExploredName>
     <sWaterType>0</sWaterType>
     <usNaturalDirt>1000</usNaturalDirt>
-   </SECTOR>
+    <rainchance>5</rainchance>
+    <sandstormchance>60</sandstormchance>
+  </SECTOR>
    <SECTOR>
     <SectorGrid>H12</SectorGrid>
     <szUnexploredName>Plains, Road</szUnexploredName>
@@ -1174,7 +1560,9 @@
     <szDetailedExploredName>Gas Station</szDetailedExploredName>
     <sWaterType>1</sWaterType>
     <usNaturalDirt>150</usNaturalDirt>
-   </SECTOR>
+    <rainchance>30</rainchance>
+    <sandstormchance>20</sandstormchance>
+  </SECTOR>
    <SECTOR>
     <SectorGrid>H13</SectorGrid>
     <szUnexploredName>Alma</szUnexploredName>
@@ -1184,8 +1572,15 @@
     <sWaterType>1</sWaterType>
     <usNaturalDirt>100</usNaturalDirt>
     <usCurfewValue>2</usCurfewValue>
-    <sRadioScanModifier>1</sRadioScanModifier>	
-   </SECTOR>
+    <sRadioScanModifier>1</sRadioScanModifier>
+    <usCivilianPopulation>200</usCivilianPopulation>
+    <wealth>12</wealth>
+    <rainchance>40</rainchance>
+    <sandstormchance>0</sandstormchance>
+    <bloodcatraidpossible>0</bloodcatraidpossible>
+    <zombieraidpossible>1</zombieraidpossible>
+    <banditraidpossible>1</banditraidpossible>
+  </SECTOR>
    <SECTOR>
     <SectorGrid>H14</SectorGrid>
     <szUnexploredName>Alma</szUnexploredName>
@@ -1194,8 +1589,15 @@
     <szDetailedExploredName>Alma Warehouse</szDetailedExploredName>
     <sWaterType>1</sWaterType>
     <usNaturalDirt>100</usNaturalDirt>
-    <usCurfewValue>1</usCurfewValue>	
-   </SECTOR>
+    <usCurfewValue>1</usCurfewValue>
+    <usCivilianPopulation>100</usCivilianPopulation>
+    <wealth>11</wealth>
+    <rainchance>45</rainchance>
+    <sandstormchance>0</sandstormchance>
+    <bloodcatraidpossible>1</bloodcatraidpossible>
+    <zombieraidpossible>1</zombieraidpossible>
+    <banditraidpossible>1</banditraidpossible>
+  </SECTOR>
    <SECTOR>
     <SectorGrid>H15</SectorGrid>
     <szUnexploredName>River, Swamp</szUnexploredName>
@@ -1204,7 +1606,11 @@
     <szDetailedExploredName>River, Swamp</szDetailedExploredName>
     <sWaterType>1</sWaterType>
     <usNaturalDirt>500</usNaturalDirt>
-   </SECTOR>
+    <rainchance>70</rainchance>
+    <sandstormchance>0</sandstormchance>
+    <snakechance>50</snakechance>
+    <numsnakes>7</numsnakes>
+  </SECTOR>
    <SECTOR>
     <SectorGrid>H16</SectorGrid>
     <szUnexploredName>River, Woods</szUnexploredName>
@@ -1213,7 +1619,9 @@
     <szDetailedExploredName>River, Woods</szDetailedExploredName>
     <sWaterType>1</sWaterType>
     <usNaturalDirt>200</usNaturalDirt>
-   </SECTOR>
+    <rainchance>50</rainchance>
+    <sandstormchance>0</sandstormchance>
+  </SECTOR>
    <SECTOR>
     <SectorGrid>I1</SectorGrid>
     <szUnexploredName>Impassable</szUnexploredName>
@@ -1222,7 +1630,9 @@
     <szDetailedExploredName>Impassable</szDetailedExploredName>
     <sWaterType>2</sWaterType>
     <usNaturalDirt>100</usNaturalDirt>
-   </SECTOR>
+    <rainchance>80</rainchance>
+    <sandstormchance>0</sandstormchance>
+  </SECTOR>
    <SECTOR>
     <SectorGrid>I2</SectorGrid>
     <szUnexploredName>Impassable</szUnexploredName>
@@ -1231,7 +1641,9 @@
     <szDetailedExploredName>Impassable</szDetailedExploredName>
     <sWaterType>2</sWaterType>
     <usNaturalDirt>100</usNaturalDirt>
-   </SECTOR>
+    <rainchance>80</rainchance>
+    <sandstormchance>0</sandstormchance>
+  </SECTOR>
    <SECTOR>
     <SectorGrid>I3</SectorGrid>
     <szUnexploredName>Coast, Road</szUnexploredName>
@@ -1240,7 +1652,9 @@
     <szDetailedExploredName>Coast, Road</szDetailedExploredName>
     <sWaterType>2</sWaterType>
     <usNaturalDirt>140</usNaturalDirt>
-   </SECTOR>
+    <rainchance>70</rainchance>
+    <sandstormchance>0</sandstormchance>
+  </SECTOR>
    <SECTOR>
     <SectorGrid>I4</SectorGrid>
     <szUnexploredName>Lake</szUnexploredName>
@@ -1249,7 +1663,9 @@
     <szDetailedExploredName>Lake</szDetailedExploredName>
     <sWaterType>1</sWaterType>
     <usNaturalDirt>200</usNaturalDirt>
-   </SECTOR>
+    <rainchance>50</rainchance>
+    <sandstormchance>0</sandstormchance>
+  </SECTOR>
    <SECTOR>
     <SectorGrid>I5</SectorGrid>
     <szUnexploredName>Farmland</szUnexploredName>
@@ -1258,7 +1674,9 @@
     <szDetailedExploredName>Farmland</szDetailedExploredName>
     <sWaterType>1</sWaterType>
     <usNaturalDirt>200</usNaturalDirt>
-   </SECTOR>
+    <rainchance>45</rainchance>
+    <sandstormchance>0</sandstormchance>
+  </SECTOR>
    <SECTOR>
     <SectorGrid>I6</SectorGrid>
     <szUnexploredName>Estoni</szUnexploredName>
@@ -1267,7 +1685,11 @@
     <szDetailedExploredName>Estoni Gas Station</szDetailedExploredName>
     <sWaterType>3</sWaterType>
     <usNaturalDirt>140</usNaturalDirt>
-   </SECTOR>
+    <usCivilianPopulation>10</usCivilianPopulation>
+    <wealth>1</wealth>
+    <rainchance>35</rainchance>
+    <sandstormchance>20</sandstormchance>
+  </SECTOR>
    <SECTOR>
     <SectorGrid>I7</SectorGrid>
     <szUnexploredName>Woods</szUnexploredName>
@@ -1276,7 +1698,9 @@
     <szDetailedExploredName>Woods</szDetailedExploredName>
     <sWaterType>0</sWaterType>
     <usNaturalDirt>200</usNaturalDirt>
-   </SECTOR>
+    <rainchance>30</rainchance>
+    <sandstormchance>0</sandstormchance>
+  </SECTOR>
    <SECTOR>
     <SectorGrid>I8</SectorGrid>
     <szUnexploredName>Desert</szUnexploredName>
@@ -1286,8 +1710,13 @@
     <sWaterType>1</sWaterType>
     <usNaturalDirt>850</usNaturalDirt>
     <usCurfewValue>2</usCurfewValue>
-    <sRadioScanModifier>2</sRadioScanModifier>	
-   </SECTOR>
+    <sRadioScanModifier>2</sRadioScanModifier>
+    <rainchance>5</rainchance>
+    <sandstormchance>80</sandstormchance>
+    <bloodcatraidpossible>0</bloodcatraidpossible>
+    <zombieraidpossible>1</zombieraidpossible>
+    <banditraidpossible>1</banditraidpossible>
+  </SECTOR>
    <SECTOR>
     <SectorGrid>I9</SectorGrid>
     <szUnexploredName>Desert</szUnexploredName>
@@ -1296,7 +1725,9 @@
     <szDetailedExploredName>Desert</szDetailedExploredName>
     <sWaterType>0</sWaterType>
     <usNaturalDirt>1000</usNaturalDirt>
-   </SECTOR>
+    <rainchance>0</rainchance>
+    <sandstormchance>90</sandstormchance>
+  </SECTOR>
    <SECTOR>
     <SectorGrid>I10</SectorGrid>
     <szUnexploredName>Desert</szUnexploredName>
@@ -1305,7 +1736,9 @@
     <szDetailedExploredName>Desert</szDetailedExploredName>
     <sWaterType>0</sWaterType>
     <usNaturalDirt>1000</usNaturalDirt>
-   </SECTOR>
+    <rainchance>0</rainchance>
+    <sandstormchance>90</sandstormchance>
+  </SECTOR>
    <SECTOR>
     <SectorGrid>I11</SectorGrid>
     <szUnexploredName>Farmland</szUnexploredName>
@@ -1314,7 +1747,9 @@
     <szDetailedExploredName>Farmland</szDetailedExploredName>
     <sWaterType>0</sWaterType>
     <usNaturalDirt>170</usNaturalDirt>
-   </SECTOR>
+    <rainchance>15</rainchance>
+    <sandstormchance>30</sandstormchance>
+  </SECTOR>
    <SECTOR>
     <SectorGrid>I12</SectorGrid>
     <szUnexploredName>Farmland</szUnexploredName>
@@ -1323,7 +1758,9 @@
     <szDetailedExploredName>Farmland</szDetailedExploredName>
     <sWaterType>1</sWaterType>
     <usNaturalDirt>170</usNaturalDirt>
-   </SECTOR>
+    <rainchance>35</rainchance>
+    <sandstormchance>5</sandstormchance>
+  </SECTOR>
    <SECTOR>
     <SectorGrid>I13</SectorGrid>
     <szUnexploredName>Alma</szUnexploredName>
@@ -1333,21 +1770,28 @@
     <sWaterType>1</sWaterType>
     <usNaturalDirt>100</usNaturalDirt>
     <usCurfewValue>2</usCurfewValue>
-    <usPrisonRoomNumber00>32</usPrisonRoomNumber00>
-    <usPrisonRoomNumber01>33</usPrisonRoomNumber01>
-    <usPrisonRoomNumber02>34</usPrisonRoomNumber02>
-    <usPrisonRoomNumber03>35</usPrisonRoomNumber03>
-    <usPrisonRoomNumber04>36</usPrisonRoomNumber04>
-    <usPrisonRoomNumber05>37</usPrisonRoomNumber05>
-    <usPrisonRoomNumber06>38</usPrisonRoomNumber06>
-    <usPrisonRoomNumber07>39</usPrisonRoomNumber07>
-    <usPrisonRoomNumber08>40</usPrisonRoomNumber08>
-    <usPrisonRoomNumber09>41</usPrisonRoomNumber09>
-    <usPrisonRoomNumber10>42</usPrisonRoomNumber10>
-    <usPrisonRoomNumber11>43</usPrisonRoomNumber11>
-    <usPrisonRoomNumber12>44</usPrisonRoomNumber12>
-    <usPrisonRoomNumber13>45</usPrisonRoomNumber13>			
-   </SECTOR>
+    <usPrisonRoomNumber>32</usPrisonRoomNumber>
+    <usPrisonRoomNumber>33</usPrisonRoomNumber>
+    <usPrisonRoomNumber>34</usPrisonRoomNumber>
+    <usPrisonRoomNumber>35</usPrisonRoomNumber>
+    <usPrisonRoomNumber>36</usPrisonRoomNumber>
+    <usPrisonRoomNumber>37</usPrisonRoomNumber>
+    <usPrisonRoomNumber>38</usPrisonRoomNumber>
+    <usPrisonRoomNumber>39</usPrisonRoomNumber>
+    <usPrisonRoomNumber>40</usPrisonRoomNumber>
+    <usPrisonRoomNumber>41</usPrisonRoomNumber>
+    <usPrisonRoomNumber>42</usPrisonRoomNumber>
+    <usPrisonRoomNumber>43</usPrisonRoomNumber>
+    <usPrisonRoomNumber>44</usPrisonRoomNumber>
+    <usPrisonRoomNumber>45</usPrisonRoomNumber>
+    <usCivilianPopulation>200</usCivilianPopulation>
+    <wealth>7</wealth>
+    <rainchance>40</rainchance>
+    <sandstormchance>0</sandstormchance>
+    <bloodcatraidpossible>0</bloodcatraidpossible>
+    <zombieraidpossible>0</zombieraidpossible>
+    <banditraidpossible>1</banditraidpossible>
+  </SECTOR>
     <SECTOR>
     <SectorGrid>I14</SectorGrid>
     <szUnexploredName>Alma Mine</szUnexploredName>
@@ -1356,10 +1800,18 @@
     <szDetailedExploredName>Alma Mine</szDetailedExploredName>
     <sWaterType>1</sWaterType>
     <usNaturalDirt>100</usNaturalDirt>
-    <usPrisonRoomNumber00>31</usPrisonRoomNumber00>
-    <usPrisonRoomNumber01>32</usPrisonRoomNumber01>
-    <usPrisonRoomNumber02>33</usPrisonRoomNumber02>		
-   </SECTOR>
+    <usPrisonRoomNumber>31</usPrisonRoomNumber>
+    <usPrisonRoomNumber>32</usPrisonRoomNumber>
+    <usPrisonRoomNumber>33</usPrisonRoomNumber>
+    <usCivilianPopulation>200</usCivilianPopulation>
+    <wealth>9</wealth>
+    <maxworkers>150</maxworkers>
+    <rainchance>45</rainchance>
+    <sandstormchance>0</sandstormchance>
+    <bloodcatraidpossible>1</bloodcatraidpossible>
+    <zombieraidpossible>1</zombieraidpossible>
+    <banditraidpossible>1</banditraidpossible>
+  </SECTOR>
    <SECTOR>
     <SectorGrid>I15</SectorGrid>
     <szUnexploredName>River, Woods</szUnexploredName>
@@ -1368,7 +1820,9 @@
     <szDetailedExploredName>River, Woods</szDetailedExploredName>
     <sWaterType>1</sWaterType>
     <usNaturalDirt>200</usNaturalDirt>
-   </SECTOR>
+    <rainchance>50</rainchance>
+    <sandstormchance>0</sandstormchance>
+  </SECTOR>
    <SECTOR>
     <SectorGrid>I16</SectorGrid>
     <szUnexploredName>Woods</szUnexploredName>
@@ -1377,7 +1831,9 @@
     <szDetailedExploredName>Bloodcat Lair</szDetailedExploredName>
     <sWaterType>1</sWaterType>
     <usNaturalDirt>200</usNaturalDirt>
-   </SECTOR>
+    <rainchance>50</rainchance>
+    <sandstormchance>0</sandstormchance>
+  </SECTOR>
    <SECTOR>
     <SectorGrid>J1</SectorGrid>
     <szUnexploredName>Impassable</szUnexploredName>
@@ -1386,7 +1842,9 @@
     <szDetailedExploredName>Impassable</szDetailedExploredName>
     <sWaterType>2</sWaterType>
     <usNaturalDirt>100</usNaturalDirt>
-   </SECTOR>
+    <rainchance>80</rainchance>
+    <sandstormchance>0</sandstormchance>
+  </SECTOR>
    <SECTOR>
     <SectorGrid>J2</SectorGrid>
     <szUnexploredName>Coast, Road</szUnexploredName>
@@ -1395,7 +1853,9 @@
     <szDetailedExploredName>Coast, Road</szDetailedExploredName>
     <sWaterType>2</sWaterType>
     <usNaturalDirt>140</usNaturalDirt>
-   </SECTOR>
+    <rainchance>70</rainchance>
+    <sandstormchance>0</sandstormchance>
+  </SECTOR>
    <SECTOR>
     <SectorGrid>J3</SectorGrid>
     <szUnexploredName>Coastal, Road</szUnexploredName>
@@ -1404,7 +1864,9 @@
     <szDetailedExploredName>Coastal, Road</szDetailedExploredName>
     <sWaterType>0</sWaterType>
     <usNaturalDirt>140</usNaturalDirt>
-   </SECTOR>
+    <rainchance>60</rainchance>
+    <sandstormchance>0</sandstormchance>
+  </SECTOR>
    <SECTOR>
     <SectorGrid>J4</SectorGrid>
     <szUnexploredName>Swamp</szUnexploredName>
@@ -1413,7 +1875,11 @@
     <szDetailedExploredName>Swamp</szDetailedExploredName>
     <sWaterType>3</sWaterType>
     <usNaturalDirt>500</usNaturalDirt>
-   </SECTOR>
+    <rainchance>75</rainchance>
+    <sandstormchance>0</sandstormchance>
+    <snakechance>50</snakechance>
+    <numsnakes>7</numsnakes>
+  </SECTOR>
    <SECTOR>
     <SectorGrid>J5</SectorGrid>
     <szUnexploredName>Swamp</szUnexploredName>
@@ -1422,7 +1888,11 @@
     <szDetailedExploredName>Swamp</szDetailedExploredName>
     <sWaterType>3</sWaterType>
     <usNaturalDirt>500</usNaturalDirt>
-   </SECTOR>
+    <rainchance>75</rainchance>
+    <sandstormchance>0</sandstormchance>
+    <snakechance>50</snakechance>
+    <numsnakes>7</numsnakes>
+  </SECTOR>
    <SECTOR>
     <SectorGrid>J6</SectorGrid>
     <szUnexploredName>Woods, Road</szUnexploredName>
@@ -1431,7 +1901,9 @@
     <szDetailedExploredName>Woods, Road</szDetailedExploredName>
     <sWaterType>0</sWaterType>
     <usNaturalDirt>200</usNaturalDirt>
-   </SECTOR>
+    <rainchance>50</rainchance>
+    <sandstormchance>0</sandstormchance>
+  </SECTOR>
    <SECTOR>
     <SectorGrid>J7</SectorGrid>
     <szUnexploredName>Woods</szUnexploredName>
@@ -1440,7 +1912,9 @@
     <szDetailedExploredName>Woods</szDetailedExploredName>
     <sWaterType>0</sWaterType>
     <usNaturalDirt>200</usNaturalDirt>
-   </SECTOR>
+    <rainchance>25</rainchance>
+    <sandstormchance>2</sandstormchance>
+  </SECTOR>
    <SECTOR>
     <SectorGrid>J8</SectorGrid>
     <szUnexploredName>Desert, Road</szUnexploredName>
@@ -1449,7 +1923,9 @@
     <szDetailedExploredName>Desert, Road</szDetailedExploredName>
     <sWaterType>0</sWaterType>
     <usNaturalDirt>1000</usNaturalDirt>
-   </SECTOR>
+    <rainchance>0</rainchance>
+    <sandstormchance>80</sandstormchance>
+  </SECTOR>
    <SECTOR>
     <SectorGrid>J9</SectorGrid>
     <szUnexploredName>Desert</szUnexploredName>
@@ -1460,22 +1936,25 @@
     <usNaturalDirt>1000</usNaturalDirt>
     <usCurfewValue>2</usCurfewValue>
     <sRadioScanModifier>1</sRadioScanModifier>	
-    <usPrisonRoomNumber00>5</usPrisonRoomNumber00>
-    <usPrisonRoomNumber01>6</usPrisonRoomNumber01>
-    <usPrisonRoomNumber02>7</usPrisonRoomNumber02>
-    <usPrisonRoomNumber03>8</usPrisonRoomNumber03>
-    <usPrisonRoomNumber04>9</usPrisonRoomNumber04>
-    <usPrisonRoomNumber05>10</usPrisonRoomNumber05>
-    <usPrisonRoomNumber06>11</usPrisonRoomNumber06>
-    <usPrisonRoomNumber07>12</usPrisonRoomNumber07>
-    <usPrisonRoomNumber08>13</usPrisonRoomNumber08>
-    <usPrisonRoomNumber09>14</usPrisonRoomNumber09>
-    <usPrisonRoomNumber10>15</usPrisonRoomNumber10>
-    <usPrisonRoomNumber11>16</usPrisonRoomNumber11>
-    <usPrisonRoomNumber12>17</usPrisonRoomNumber12>
-    <usPrisonRoomNumber13>18</usPrisonRoomNumber13>
-    <usPrisonRoomNumber14>21</usPrisonRoomNumber14>		
-   </SECTOR>
+    <usPrisonRoomNumber>5</usPrisonRoomNumber>
+    <usPrisonRoomNumber>6</usPrisonRoomNumber>
+    <usPrisonRoomNumber>7</usPrisonRoomNumber>
+    <usPrisonRoomNumber>8</usPrisonRoomNumber>
+    <usPrisonRoomNumber>9</usPrisonRoomNumber>
+    <usPrisonRoomNumber>10</usPrisonRoomNumber>
+    <usPrisonRoomNumber>11</usPrisonRoomNumber>
+    <usPrisonRoomNumber>12</usPrisonRoomNumber>
+    <usPrisonRoomNumber>13</usPrisonRoomNumber>
+    <usPrisonRoomNumber>14</usPrisonRoomNumber>
+    <usPrisonRoomNumber>15</usPrisonRoomNumber>
+    <usPrisonRoomNumber>16</usPrisonRoomNumber>
+    <usPrisonRoomNumber>17</usPrisonRoomNumber>
+    <usPrisonRoomNumber>18</usPrisonRoomNumber>
+    <usPrisonRoomNumber>21</usPrisonRoomNumber>
+    <usCivilianPopulation>100</usCivilianPopulation>
+    <rainchance>0</rainchance>
+    <sandstormchance>90</sandstormchance>
+  </SECTOR>
    <SECTOR>
     <SectorGrid>J10</SectorGrid>
     <szUnexploredName>Desert</szUnexploredName>
@@ -1484,7 +1963,9 @@
     <szDetailedExploredName>Desert</szDetailedExploredName>
     <sWaterType>0</sWaterType>
     <usNaturalDirt>1000</usNaturalDirt>
-   </SECTOR>
+    <rainchance>0</rainchance>
+    <sandstormchance>90</sandstormchance>
+  </SECTOR>
    <SECTOR>
     <SectorGrid>J11</SectorGrid>
     <szUnexploredName>Plains</szUnexploredName>
@@ -1493,7 +1974,9 @@
     <szDetailedExploredName>Plains</szDetailedExploredName>
     <sWaterType>0</sWaterType>
     <usNaturalDirt>160</usNaturalDirt>
-   </SECTOR>
+    <rainchance>0</rainchance>
+    <sandstormchance>90</sandstormchance>
+  </SECTOR>
    <SECTOR>
     <SectorGrid>J12</SectorGrid>
     <szUnexploredName>Woods</szUnexploredName>
@@ -1502,7 +1985,9 @@
     <szDetailedExploredName>Woods</szDetailedExploredName>
     <sWaterType>0</sWaterType>
     <usNaturalDirt>200</usNaturalDirt>
-   </SECTOR>
+    <rainchance>20</rainchance>
+    <sandstormchance>5</sandstormchance>
+  </SECTOR>
    <SECTOR>
     <SectorGrid>J13</SectorGrid>
     <szUnexploredName>Woods</szUnexploredName>
@@ -1511,7 +1996,9 @@
     <szDetailedExploredName>Woods</szDetailedExploredName>
     <sWaterType>0</sWaterType>
     <usNaturalDirt>200</usNaturalDirt>
-   </SECTOR>
+    <rainchance>30</rainchance>
+    <sandstormchance>0</sandstormchance>
+  </SECTOR>
    <SECTOR>
     <SectorGrid>J14</SectorGrid>
     <szUnexploredName>Farm, Road</szUnexploredName>
@@ -1519,8 +2006,12 @@
     <szExploredName>Farm, Road</szExploredName>
     <szDetailedExploredName>Farmland, Road</szDetailedExploredName>
     <sWaterType>1</sWaterType>
-    <usNaturalDirt>170</usNaturalDirt>	
-   </SECTOR>
+    <usNaturalDirt>170</usNaturalDirt>
+    <usCivilianPopulation>10</usCivilianPopulation>
+    <wealth>1</wealth>
+    <rainchance>40</rainchance>
+    <sandstormchance>0</sandstormchance>
+  </SECTOR>
    <SECTOR>
     <SectorGrid>J15</SectorGrid>
     <szUnexploredName>Woods</szUnexploredName>
@@ -1529,7 +2020,9 @@
     <szDetailedExploredName>Woods</szDetailedExploredName>
     <sWaterType>0</sWaterType>
     <usNaturalDirt>200</usNaturalDirt>
-   </SECTOR>
+    <rainchance>40</rainchance>
+    <sandstormchance>0</sandstormchance>
+  </SECTOR>
    <SECTOR>
     <SectorGrid>J16</SectorGrid>
     <szUnexploredName>Forest</szUnexploredName>
@@ -1538,7 +2031,9 @@
     <szDetailedExploredName>Forest</szDetailedExploredName>
     <sWaterType>0</sWaterType>
     <usNaturalDirt>100</usNaturalDirt>
-   </SECTOR>
+    <rainchance>0</rainchance>
+    <sandstormchance>0</sandstormchance>
+  </SECTOR>
    <SECTOR>
     <SectorGrid>K1</SectorGrid>
     <szUnexploredName>Impassable</szUnexploredName>
@@ -1547,7 +2042,9 @@
     <szDetailedExploredName>Impassable</szDetailedExploredName>
     <sWaterType>2</sWaterType>
     <usNaturalDirt>100</usNaturalDirt>
-   </SECTOR>
+    <rainchance>80</rainchance>
+    <sandstormchance>0</sandstormchance>
+  </SECTOR>
    <SECTOR>
     <SectorGrid>K2</SectorGrid>
     <szUnexploredName>Coast, Road</szUnexploredName>
@@ -1556,7 +2053,9 @@
     <szDetailedExploredName>Coast, Road</szDetailedExploredName>
     <sWaterType>1</sWaterType>
     <usNaturalDirt>140</usNaturalDirt>
-   </SECTOR>
+    <rainchance>80</rainchance>
+    <sandstormchance>0</sandstormchance>
+  </SECTOR>
    <SECTOR>
     <SectorGrid>K3</SectorGrid>
     <szUnexploredName>Swamp</szUnexploredName>
@@ -1565,7 +2064,11 @@
     <szDetailedExploredName>Swamp</szDetailedExploredName>
     <sWaterType>3</sWaterType>
     <usNaturalDirt>500</usNaturalDirt>
-   </SECTOR>
+    <rainchance>80</rainchance>
+    <sandstormchance>0</sandstormchance>
+    <snakechance>50</snakechance>
+    <numsnakes>7</numsnakes>
+  </SECTOR>
    <SECTOR>
     <SectorGrid>K4</SectorGrid>
     <szUnexploredName>Swamp</szUnexploredName>
@@ -1575,7 +2078,11 @@
     <sWaterType>1</sWaterType>
     <usNaturalDirt>500</usNaturalDirt>
     <usCurfewValue>2</usCurfewValue>
-   </SECTOR>
+    <rainchance>80</rainchance>
+    <sandstormchance>0</sandstormchance>
+    <snakechance>50</snakechance>
+    <numsnakes>7</numsnakes>
+  </SECTOR>
    <SECTOR>
     <SectorGrid>K5</SectorGrid>
     <szUnexploredName>Swamp</szUnexploredName>
@@ -1584,7 +2091,11 @@
     <szDetailedExploredName>Checkpoint</szDetailedExploredName>
     <sWaterType>3</sWaterType>
     <usNaturalDirt>500</usNaturalDirt>
-   </SECTOR>
+    <rainchance>80</rainchance>
+    <sandstormchance>0</sandstormchance>
+    <snakechance>50</snakechance>
+    <numsnakes>7</numsnakes>
+  </SECTOR>
    <SECTOR>
     <SectorGrid>K6</SectorGrid>
     <szUnexploredName>Plains, Road</szUnexploredName>
@@ -1593,7 +2104,9 @@
     <szDetailedExploredName>Checkpoint</szDetailedExploredName>
     <sWaterType>0</sWaterType>
     <usNaturalDirt>150</usNaturalDirt>
-   </SECTOR>
+    <rainchance>60</rainchance>
+    <sandstormchance>15</sandstormchance>
+  </SECTOR>
    <SECTOR>
     <SectorGrid>K7</SectorGrid>
     <szUnexploredName>Desert, Road</szUnexploredName>
@@ -1602,7 +2115,9 @@
     <szDetailedExploredName>Desert, Road</szDetailedExploredName>
     <sWaterType>0</sWaterType>
     <usNaturalDirt>900</usNaturalDirt>
-   </SECTOR>
+    <rainchance>5</rainchance>
+    <sandstormchance>70</sandstormchance>
+  </SECTOR>
    <SECTOR>
     <SectorGrid>K8</SectorGrid>
     <szUnexploredName>Desert, Road</szUnexploredName>
@@ -1611,7 +2126,9 @@
     <szDetailedExploredName>Desert, Road</szDetailedExploredName>
     <sWaterType>0</sWaterType>
     <usNaturalDirt>900</usNaturalDirt>
-   </SECTOR>
+    <rainchance>0</rainchance>
+    <sandstormchance>90</sandstormchance>
+  </SECTOR>
    <SECTOR>
     <SectorGrid>K9</SectorGrid>
     <szUnexploredName>Desert, Road</szUnexploredName>
@@ -1620,7 +2137,9 @@
     <szDetailedExploredName>Desert, Road</szDetailedExploredName>
     <sWaterType>0</sWaterType>
     <usNaturalDirt>900</usNaturalDirt>
-   </SECTOR>
+    <rainchance>0</rainchance>
+    <sandstormchance>90</sandstormchance>
+  </SECTOR>
    <SECTOR>
     <SectorGrid>K10</SectorGrid>
     <szUnexploredName>Plains, Road</szUnexploredName>
@@ -1629,7 +2148,9 @@
     <szDetailedExploredName>Plains, Road</szDetailedExploredName>
     <sWaterType>0</sWaterType>
     <usNaturalDirt>160</usNaturalDirt>
-   </SECTOR>
+    <rainchance>0</rainchance>
+    <sandstormchance>90</sandstormchance>
+  </SECTOR>
    <SECTOR>
     <SectorGrid>K11</SectorGrid>
     <szUnexploredName>Plains, Road</szUnexploredName>
@@ -1638,7 +2159,9 @@
     <szDetailedExploredName>Plains, Road</szDetailedExploredName>
     <sWaterType>0</sWaterType>
     <usNaturalDirt>160</usNaturalDirt>
-   </SECTOR>
+    <rainchance>0</rainchance>
+    <sandstormchance>90</sandstormchance>
+  </SECTOR>
    <SECTOR>
     <SectorGrid>K12</SectorGrid>
     <szUnexploredName>Plains, Road</szUnexploredName>
@@ -1647,7 +2170,9 @@
     <szDetailedExploredName>Plains, Road</szDetailedExploredName>
     <sWaterType>0</sWaterType>
     <usNaturalDirt>160</usNaturalDirt>
-   </SECTOR>
+    <rainchance>10</rainchance>
+    <sandstormchance>60</sandstormchance>
+  </SECTOR>
    <SECTOR>
     <SectorGrid>K13</SectorGrid>
     <szUnexploredName>Woods, Road</szUnexploredName>
@@ -1656,7 +2181,9 @@
     <szDetailedExploredName>Woods, Road</szDetailedExploredName>
     <sWaterType>0</sWaterType>
     <usNaturalDirt>200</usNaturalDirt>
-   </SECTOR>
+    <rainchance>30</rainchance>
+    <sandstormchance>0</sandstormchance>
+  </SECTOR>
    <SECTOR>
     <SectorGrid>K14</SectorGrid>
     <szUnexploredName>Woods, Road</szUnexploredName>
@@ -1666,15 +2193,17 @@
     <sWaterType>1</sWaterType>
     <usNaturalDirt>200</usNaturalDirt>
     <usCurfewValue>1</usCurfewValue>
-    <usPrisonRoomNumber00>28</usPrisonRoomNumber00>
-    <usPrisonRoomNumber01>29</usPrisonRoomNumber01>
-    <usPrisonRoomNumber02>30</usPrisonRoomNumber02>
-    <usPrisonRoomNumber03>31</usPrisonRoomNumber03>
-    <usPrisonRoomNumber04>32</usPrisonRoomNumber04>
-    <usPrisonRoomNumber05>33</usPrisonRoomNumber05>
-    <usPrisonRoomNumber06>34</usPrisonRoomNumber06>
-    <usPrisonRoomNumber07>35</usPrisonRoomNumber07>	
-   </SECTOR>
+    <usPrisonRoomNumber>28</usPrisonRoomNumber>
+    <usPrisonRoomNumber>29</usPrisonRoomNumber>
+    <usPrisonRoomNumber>30</usPrisonRoomNumber>
+    <usPrisonRoomNumber>31</usPrisonRoomNumber>
+    <usPrisonRoomNumber>32</usPrisonRoomNumber>
+    <usPrisonRoomNumber>33</usPrisonRoomNumber>
+    <usPrisonRoomNumber>34</usPrisonRoomNumber>
+    <usPrisonRoomNumber>35</usPrisonRoomNumber>
+    <rainchance>35</rainchance>
+    <sandstormchance>0</sandstormchance>
+  </SECTOR>
    <SECTOR>
     <SectorGrid>K15</SectorGrid>
     <szUnexploredName>Forest</szUnexploredName>
@@ -1684,8 +2213,10 @@
     <sWaterType>1</sWaterType>
     <usNaturalDirt>200</usNaturalDirt>
     <usCurfewValue>2</usCurfewValue>	
-    <sRadioScanModifier>2</sRadioScanModifier>	
-   </SECTOR>
+    <sRadioScanModifier>2</sRadioScanModifier>
+    <rainchance>40</rainchance>
+    <sandstormchance>0</sandstormchance>
+  </SECTOR>
    <SECTOR>
     <SectorGrid>K16</SectorGrid>
     <szUnexploredName>Woods</szUnexploredName>
@@ -1694,7 +2225,9 @@
     <szDetailedExploredName>Woods</szDetailedExploredName>
     <sWaterType>0</sWaterType>
     <usNaturalDirt>100</usNaturalDirt>
-   </SECTOR> 
+    <rainchance>0</rainchance>
+    <sandstormchance>0</sandstormchance>
+  </SECTOR> 
    <SECTOR>
     <SectorGrid>L1</SectorGrid>
     <szUnexploredName>Recreo</szUnexploredName>
@@ -1703,7 +2236,9 @@
     <szDetailedExploredName>Recreo Residence</szDetailedExploredName>
     <sWaterType>1</sWaterType>
     <usNaturalDirt>150</usNaturalDirt>
-   </SECTOR>
+    <rainchance>80</rainchance>
+    <sandstormchance>0</sandstormchance>
+  </SECTOR>
    <SECTOR>
     <SectorGrid>L2</SectorGrid>
     <szUnexploredName>River, Road</szUnexploredName>
@@ -1712,7 +2247,9 @@
     <szDetailedExploredName>Checkpoint</szDetailedExploredName>
     <sWaterType>1</sWaterType>
     <usNaturalDirt>140</usNaturalDirt>
-   </SECTOR>
+    <rainchance>70</rainchance>
+    <sandstormchance>0</sandstormchance>
+  </SECTOR>
    <SECTOR>
     <SectorGrid>L3</SectorGrid>
     <szUnexploredName>Swamp</szUnexploredName>
@@ -1721,7 +2258,11 @@
     <szDetailedExploredName>Swamp</szDetailedExploredName>
     <sWaterType>3</sWaterType>
     <usNaturalDirt>500</usNaturalDirt>
-   </SECTOR>
+    <rainchance>80</rainchance>
+    <sandstormchance>0</sandstormchance>
+    <snakechance>50</snakechance>
+    <numsnakes>7</numsnakes>
+  </SECTOR>
    <SECTOR>
     <SectorGrid>L4</SectorGrid>
     <szUnexploredName>Swamp</szUnexploredName>
@@ -1730,7 +2271,11 @@
     <szDetailedExploredName>Swamp</szDetailedExploredName>
     <sWaterType>4</sWaterType>
     <usNaturalDirt>500</usNaturalDirt>
-   </SECTOR>
+    <rainchance>80</rainchance>
+    <sandstormchance>0</sandstormchance>
+    <snakechance>50</snakechance>
+    <numsnakes>7</numsnakes>
+  </SECTOR>
    <SECTOR>
     <SectorGrid>L5</SectorGrid>
     <szUnexploredName>Forest</szUnexploredName>
@@ -1739,7 +2284,9 @@
     <szDetailedExploredName>Forest</szDetailedExploredName>
     <sWaterType>0</sWaterType>
     <usNaturalDirt>170</usNaturalDirt>
-   </SECTOR>
+    <rainchance>60</rainchance>
+    <sandstormchance>0</sandstormchance>
+  </SECTOR>
    <SECTOR>
     <SectorGrid>L6</SectorGrid>
     <szUnexploredName>Plains, Road</szUnexploredName>
@@ -1748,7 +2295,9 @@
     <szDetailedExploredName>Service Station</szDetailedExploredName>
     <sWaterType>1</sWaterType>
     <usNaturalDirt>160</usNaturalDirt>
-   </SECTOR>
+    <rainchance>50</rainchance>
+    <sandstormchance>0</sandstormchance>
+  </SECTOR>
    <SECTOR>
     <SectorGrid>L7</SectorGrid>
     <szUnexploredName>Baldio</szUnexploredName>
@@ -1756,8 +2305,10 @@
     <szExploredName>Factory</szExploredName>
     <szDetailedExploredName>Baldio Factory</szDetailedExploredName>
     <sWaterType>3</sWaterType>
-    <usNaturalDirt>170</usNaturalDirt>	
-   </SECTOR>
+    <usNaturalDirt>170</usNaturalDirt>
+    <rainchance>25</rainchance>
+    <sandstormchance>10</sandstormchance>
+  </SECTOR>
     <SECTOR>
     <SectorGrid>L8</SectorGrid>
     <szUnexploredName>Baldio</szUnexploredName>
@@ -1765,8 +2316,10 @@
     <szExploredName>Baldio</szExploredName>
     <szDetailedExploredName>Baldio</szDetailedExploredName>
     <sWaterType>1</sWaterType>
-    <usNaturalDirt>150</usNaturalDirt>	
-   </SECTOR>
+    <usNaturalDirt>150</usNaturalDirt>
+    <rainchance>0</rainchance>
+    <sandstormchance>90</sandstormchance>
+  </SECTOR>
    <SECTOR>
     <SectorGrid>L9</SectorGrid>
     <szUnexploredName>Plains</szUnexploredName>
@@ -1775,7 +2328,9 @@
     <szDetailedExploredName>Plains</szDetailedExploredName>
     <sWaterType>0</sWaterType>
     <usNaturalDirt>170</usNaturalDirt>
-   </SECTOR>
+    <rainchance>15</rainchance>
+    <sandstormchance>70</sandstormchance>
+  </SECTOR>
    <SECTOR>
     <SectorGrid>L10</SectorGrid>
     <szUnexploredName>Plains, Road</szUnexploredName>
@@ -1783,8 +2338,11 @@
     <szExploredName>Service Station</szExploredName>
     <szDetailedExploredName>Service Station</szDetailedExploredName>
     <sWaterType>1</sWaterType>
-    <usNaturalDirt>200</usNaturalDirt>		
-   </SECTOR>
+    <usNaturalDirt>200</usNaturalDirt>
+    <usCivilianPopulation>10</usCivilianPopulation>
+    <rainchance>30</rainchance>
+    <sandstormchance>5</sandstormchance>
+  </SECTOR>
    <SECTOR>
     <SectorGrid>L11</SectorGrid>
     <szUnexploredName>Balime</szUnexploredName>
@@ -1792,8 +2350,15 @@
     <szExploredName>Balime</szExploredName>
     <szDetailedExploredName>Balime</szDetailedExploredName>
     <sWaterType>1</sWaterType>
-    <usNaturalDirt>100</usNaturalDirt>	
-   </SECTOR>
+    <usNaturalDirt>100</usNaturalDirt>
+    <usCivilianPopulation>150</usCivilianPopulation>
+    <wealth>30</wealth>
+    <rainchance>70</rainchance>
+    <sandstormchance>0</sandstormchance>
+    <bloodcatraidpossible>1</bloodcatraidpossible>
+    <zombieraidpossible>1</zombieraidpossible>
+    <banditraidpossible>1</banditraidpossible>
+  </SECTOR>
    <SECTOR>
     <SectorGrid>L12</SectorGrid>
     <szUnexploredName>Balime</szUnexploredName>
@@ -1801,8 +2366,15 @@
     <szExploredName>Balime Museum</szExploredName>
     <szDetailedExploredName>Balime Museum</szDetailedExploredName>
     <sWaterType>1</sWaterType>
-    <usNaturalDirt>100</usNaturalDirt>	
-   </SECTOR>
+    <usNaturalDirt>100</usNaturalDirt>
+    <usCivilianPopulation>150</usCivilianPopulation>
+    <wealth>30</wealth>
+    <rainchance>70</rainchance>
+    <sandstormchance>0</sandstormchance>
+    <bloodcatraidpossible>1</bloodcatraidpossible>
+    <zombieraidpossible>1</zombieraidpossible>
+    <banditraidpossible>1</banditraidpossible>
+  </SECTOR>
    <SECTOR>
     <SectorGrid>L13</SectorGrid>
     <szUnexploredName>Balime</szUnexploredName>
@@ -1810,8 +2382,10 @@
     <szExploredName>Spa</szExploredName>
     <szDetailedExploredName>Balime Spa</szDetailedExploredName>
     <sWaterType>1</sWaterType>
-    <usNaturalDirt>150</usNaturalDirt>	
-   </SECTOR>
+    <usNaturalDirt>150</usNaturalDirt>
+    <rainchance>70</rainchance>
+    <sandstormchance>0</sandstormchance>
+  </SECTOR>
    <SECTOR>
     <SectorGrid>L14</SectorGrid>
     <szUnexploredName>Swamp</szUnexploredName>
@@ -1820,7 +2394,11 @@
     <szDetailedExploredName>Lake, Swamp</szDetailedExploredName>
     <sWaterType>3</sWaterType>
     <usNaturalDirt>500</usNaturalDirt>
-   </SECTOR>
+    <rainchance>80</rainchance>
+    <sandstormchance>0</sandstormchance>
+    <snakechance>50</snakechance>
+    <numsnakes>7</numsnakes>
+  </SECTOR>
    <SECTOR>
     <SectorGrid>L15</SectorGrid>
     <szUnexploredName>Forest, Road</szUnexploredName>
@@ -1829,7 +2407,9 @@
     <szDetailedExploredName>Forest, Road</szDetailedExploredName>
     <sWaterType>0</sWaterType>
     <usNaturalDirt>170</usNaturalDirt>
-   </SECTOR>
+    <rainchance>60</rainchance>
+    <sandstormchance>0</sandstormchance>
+  </SECTOR>
    <SECTOR>
     <SectorGrid>L16</SectorGrid>
     <szUnexploredName>Escondite</szUnexploredName>
@@ -1837,8 +2417,10 @@
     <szExploredName>Escondite</szExploredName>
     <szDetailedExploredName>Escondite</szDetailedExploredName>
     <sWaterType>1</sWaterType>
-    <usNaturalDirt>100</usNaturalDirt>	
-   </SECTOR>
+    <usNaturalDirt>100</usNaturalDirt>
+    <rainchance>0</rainchance>
+    <sandstormchance>0</sandstormchance>
+  </SECTOR>
    <SECTOR>
     <SectorGrid>M1</SectorGrid>
     <szUnexploredName>Impassable</szUnexploredName>
@@ -1847,7 +2429,9 @@
     <szDetailedExploredName>Impassable</szDetailedExploredName>
     <sWaterType>2</sWaterType>
     <usNaturalDirt>100</usNaturalDirt>
-   </SECTOR>
+    <rainchance>0</rainchance>
+    <sandstormchance>0</sandstormchance>
+  </SECTOR>
    <SECTOR>
     <SectorGrid>M2</SectorGrid>
     <szUnexploredName>Coast, Road</szUnexploredName>
@@ -1856,7 +2440,9 @@
     <szDetailedExploredName>Coast, Road</szDetailedExploredName>
     <sWaterType>2</sWaterType>
     <usNaturalDirt>140</usNaturalDirt>
-   </SECTOR> 
+    <rainchance>80</rainchance>
+    <sandstormchance>0</sandstormchance>
+  </SECTOR> 
    <SECTOR>
     <SectorGrid>M3</SectorGrid>
     <szUnexploredName>Swamp, Road</szUnexploredName>
@@ -1866,7 +2452,11 @@
     <sWaterType>3</sWaterType>
     <usNaturalDirt>500</usNaturalDirt>
     <usCurfewValue>1</usCurfewValue>
-   </SECTOR>
+    <rainchance>90</rainchance>
+    <sandstormchance>0</sandstormchance>
+    <snakechance>50</snakechance>
+    <numsnakes>7</numsnakes>
+  </SECTOR>
    <SECTOR>
     <SectorGrid>M4</SectorGrid>
     <szUnexploredName>Farmland</szUnexploredName>
@@ -1876,7 +2466,11 @@
     <sWaterType>1</sWaterType>
     <usNaturalDirt>180</usNaturalDirt>
     <usCurfewValue>1</usCurfewValue>
-   </SECTOR>
+    <usCivilianPopulation>10</usCivilianPopulation>
+    <wealth>1</wealth>
+    <rainchance>60</rainchance>
+    <sandstormchance>0</sandstormchance>
+  </SECTOR>
    <SECTOR>
     <SectorGrid>M5</SectorGrid>
     <szUnexploredName>Forest, Road</szUnexploredName>
@@ -1886,7 +2480,9 @@
     <sWaterType>0</sWaterType>
     <usNaturalDirt>170</usNaturalDirt>
     <usCurfewValue>1</usCurfewValue>
-   </SECTOR>
+    <rainchance>50</rainchance>
+    <sandstormchance>0</sandstormchance>
+  </SECTOR>
    <SECTOR>
     <SectorGrid>M6</SectorGrid>
     <szUnexploredName>Forest, Road</szUnexploredName>
@@ -1896,7 +2492,9 @@
     <sWaterType>0</sWaterType>
     <usNaturalDirt>160</usNaturalDirt>
     <usCurfewValue>1</usCurfewValue>
-   </SECTOR>
+    <rainchance>50</rainchance>
+    <sandstormchance>0</sandstormchance>
+  </SECTOR>
    <SECTOR>
     <SectorGrid>M7</SectorGrid>
     <szUnexploredName>Baldio</szUnexploredName>
@@ -1904,8 +2502,10 @@
     <szExploredName>Baldio</szExploredName>
     <szDetailedExploredName>Baldio</szDetailedExploredName>
     <sWaterType>1</sWaterType>
-    <usNaturalDirt>120</usNaturalDirt>	
-   </SECTOR>
+    <usNaturalDirt>120</usNaturalDirt>
+    <rainchance>50</rainchance>
+    <sandstormchance>0</sandstormchance>
+  </SECTOR>
    <SECTOR>
     <SectorGrid>M8</SectorGrid>
     <szUnexploredName>Baldio</szUnexploredName>
@@ -1913,8 +2513,10 @@
     <szExploredName>Baldio</szExploredName>
     <szDetailedExploredName>Baldio</szDetailedExploredName>
     <sWaterType>1</sWaterType>
-    <usNaturalDirt>120</usNaturalDirt>	
-   </SECTOR>
+    <usNaturalDirt>120</usNaturalDirt>
+    <rainchance>50</rainchance>
+    <sandstormchance>0</sandstormchance>
+  </SECTOR>
    <SECTOR>
     <SectorGrid>M9</SectorGrid>
     <szUnexploredName>Plains</szUnexploredName>
@@ -1923,7 +2525,9 @@
     <szDetailedExploredName>Plains</szDetailedExploredName>
     <sWaterType>0</sWaterType>
     <usNaturalDirt>160</usNaturalDirt>
-   </SECTOR>
+    <rainchance>50</rainchance>
+    <sandstormchance>0</sandstormchance>
+  </SECTOR>
    <SECTOR>
     <SectorGrid>M10</SectorGrid>
     <szUnexploredName>Tropical, Road</szUnexploredName>
@@ -1932,7 +2536,9 @@
     <szDetailedExploredName>Tropical, Road</szDetailedExploredName>
     <sWaterType>2</sWaterType>
     <usNaturalDirt>250</usNaturalDirt>
-   </SECTOR>
+    <rainchance>70</rainchance>
+    <sandstormchance>0</sandstormchance>
+  </SECTOR>
    <SECTOR>
     <SectorGrid>M11</SectorGrid>
     <szUnexploredName>Coast</szUnexploredName>
@@ -1941,7 +2547,9 @@
     <szDetailedExploredName>Coast</szDetailedExploredName>
     <sWaterType>2</sWaterType>
     <usNaturalDirt>100</usNaturalDirt>
-   </SECTOR>
+    <rainchance>80</rainchance>
+    <sandstormchance>0</sandstormchance>
+  </SECTOR>
    <SECTOR>
     <SectorGrid>M12</SectorGrid>
     <szUnexploredName>Coast</szUnexploredName>
@@ -1950,7 +2558,9 @@
     <szDetailedExploredName>Coast</szDetailedExploredName>
     <sWaterType>2</sWaterType>
     <usNaturalDirt>100</usNaturalDirt>
-   </SECTOR>
+    <rainchance>80</rainchance>
+    <sandstormchance>0</sandstormchance>
+  </SECTOR>
    <SECTOR>
     <SectorGrid>M13</SectorGrid>
     <szUnexploredName>Coast</szUnexploredName>
@@ -1960,8 +2570,10 @@
     <sWaterType>1</sWaterType>
     <usNaturalDirt>200</usNaturalDirt>
     <usCurfewValue>1</usCurfewValue>
-    <sRadioScanModifier>1</sRadioScanModifier>		
-   </SECTOR>
+    <sRadioScanModifier>1</sRadioScanModifier>
+    <rainchance>60</rainchance>
+    <sandstormchance>0</sandstormchance>
+  </SECTOR>
    <SECTOR>
     <SectorGrid>M14</SectorGrid>
     <szUnexploredName>Swamp</szUnexploredName>
@@ -1970,7 +2582,11 @@
     <szDetailedExploredName>Lake, Swamp</szDetailedExploredName>
     <sWaterType>3</sWaterType>
     <usNaturalDirt>500</usNaturalDirt>
-   </SECTOR>
+    <rainchance>70</rainchance>
+    <sandstormchance>0</sandstormchance>
+    <snakechance>50</snakechance>
+    <numsnakes>7</numsnakes>
+  </SECTOR>
    <SECTOR>
     <SectorGrid>M15</SectorGrid>
     <szUnexploredName>Escondite</szUnexploredName>
@@ -1978,8 +2594,10 @@
     <szExploredName>Escondite</szExploredName>
     <szDetailedExploredName>Escondite</szDetailedExploredName>
     <sWaterType>1</sWaterType>
-    <usNaturalDirt>100</usNaturalDirt>	
-   </SECTOR>
+    <usNaturalDirt>100</usNaturalDirt>
+    <rainchance>0</rainchance>
+    <sandstormchance>0</sandstormchance>
+  </SECTOR>
    <SECTOR>
     <SectorGrid>M16</SectorGrid>
     <szUnexploredName>Escondite</szUnexploredName>
@@ -1988,12 +2606,14 @@
     <szDetailedExploredName>Escondite</szDetailedExploredName>
     <sWaterType>1</sWaterType>
     <usNaturalDirt>100</usNaturalDirt>
-    <usPrisonRoomNumber00>2</usPrisonRoomNumber00>
-    <usPrisonRoomNumber01>3</usPrisonRoomNumber01>
-    <usPrisonRoomNumber02>4</usPrisonRoomNumber02>
-    <usPrisonRoomNumber03>5</usPrisonRoomNumber03>
-    <usPrisonRoomNumber04>6</usPrisonRoomNumber04>		
-   </SECTOR>
+    <usPrisonRoomNumber>2</usPrisonRoomNumber>
+    <usPrisonRoomNumber>3</usPrisonRoomNumber>
+    <usPrisonRoomNumber>4</usPrisonRoomNumber>
+    <usPrisonRoomNumber>5</usPrisonRoomNumber>
+    <usPrisonRoomNumber>6</usPrisonRoomNumber>
+    <rainchance>0</rainchance>
+    <sandstormchance>0</sandstormchance>
+  </SECTOR>
    <SECTOR>
     <SectorGrid>N1</SectorGrid>
     <szUnexploredName>Impassable</szUnexploredName>
@@ -2002,7 +2622,9 @@
     <szDetailedExploredName>Impassable</szDetailedExploredName>
     <sWaterType>2</sWaterType>
     <usNaturalDirt>100</usNaturalDirt>
-   </SECTOR>
+    <rainchance>0</rainchance>
+    <sandstormchance>0</sandstormchance>
+  </SECTOR>
    <SECTOR>
     <SectorGrid>N2</SectorGrid>
     <szUnexploredName>Impassable</szUnexploredName>
@@ -2011,7 +2633,9 @@
     <szDetailedExploredName>Impassable</szDetailedExploredName>
     <sWaterType>2</sWaterType>
     <usNaturalDirt>100</usNaturalDirt>
-   </SECTOR>
+    <rainchance>80</rainchance>
+    <sandstormchance>0</sandstormchance>
+  </SECTOR>
    <SECTOR>
     <SectorGrid>N3</SectorGrid>
     <szUnexploredName>Meduna Airport</szUnexploredName>
@@ -2021,8 +2645,15 @@
     <sWaterType>1</sWaterType>
     <usNaturalDirt>100</usNaturalDirt>
     <usCurfewValue>2</usCurfewValue>
-    <sRadioScanModifier>2</sRadioScanModifier>		
-   </SECTOR>
+    <sRadioScanModifier>2</sRadioScanModifier>
+    <usCivilianPopulation>100</usCivilianPopulation>
+    <wealth>20</wealth>
+    <rainchance>60</rainchance>
+    <sandstormchance>0</sandstormchance>
+    <bloodcatraidpossible>0</bloodcatraidpossible>
+    <zombieraidpossible>1</zombieraidpossible>
+    <banditraidpossible>1</banditraidpossible>
+  </SECTOR>
    <SECTOR>
     <SectorGrid>N4</SectorGrid>
     <szUnexploredName>Meduna</szUnexploredName>
@@ -2032,8 +2663,15 @@
     <sWaterType>2</sWaterType>
     <usNaturalDirt>100</usNaturalDirt>
     <usCurfewValue>2</usCurfewValue>
-    <sRadioScanModifier>2</sRadioScanModifier>	
-   </SECTOR>
+    <sRadioScanModifier>2</sRadioScanModifier>
+    <usCivilianPopulation>50</usCivilianPopulation>
+    <wealth>12</wealth>
+    <rainchance>60</rainchance>
+    <sandstormchance>0</sandstormchance>
+    <bloodcatraidpossible>0</bloodcatraidpossible>
+    <zombieraidpossible>1</zombieraidpossible>
+    <banditraidpossible>1</banditraidpossible>
+  </SECTOR>
    <SECTOR>
     <SectorGrid>N5</SectorGrid>
     <szUnexploredName>Meduna</szUnexploredName>
@@ -2042,8 +2680,12 @@
     <szDetailedExploredName>Meduna Arena</szDetailedExploredName>
     <sWaterType>1</sWaterType>
     <usNaturalDirt>100</usNaturalDirt>
-    <usCurfewValue>1</usCurfewValue>	
-   </SECTOR>
+    <usCurfewValue>1</usCurfewValue>
+    <usCivilianPopulation>100</usCivilianPopulation>
+    <wealth>15</wealth>
+    <rainchance>50</rainchance>
+    <sandstormchance>0</sandstormchance>
+  </SECTOR>
    <SECTOR>
     <SectorGrid>N6</SectorGrid>
     <szUnexploredName>Tropical, Road</szUnexploredName>
@@ -2053,7 +2695,9 @@
     <sWaterType>2</sWaterType>
     <usNaturalDirt>250</usNaturalDirt>
     <usCurfewValue>1</usCurfewValue>
-   </SECTOR>
+    <rainchance>70</rainchance>
+    <sandstormchance>0</sandstormchance>
+  </SECTOR>
    <SECTOR>
     <SectorGrid>N7</SectorGrid>
     <szUnexploredName>Coast, Road</szUnexploredName>
@@ -2064,12 +2708,14 @@
     <usNaturalDirt>140</usNaturalDirt>
     <usCurfewValue>2</usCurfewValue>
     <sRadioScanModifier>1</sRadioScanModifier>	
-    <usPrisonRoomNumber00>3</usPrisonRoomNumber00>
-    <usPrisonRoomNumber01>8</usPrisonRoomNumber01>
-    <usPrisonRoomNumber02>9</usPrisonRoomNumber02>
-    <usPrisonRoomNumber03>10</usPrisonRoomNumber03>
-    <usPrisonRoomNumber04>11</usPrisonRoomNumber04>
-   </SECTOR>
+    <usPrisonRoomNumber>3</usPrisonRoomNumber>
+    <usPrisonRoomNumber>8</usPrisonRoomNumber>
+    <usPrisonRoomNumber>9</usPrisonRoomNumber>
+    <usPrisonRoomNumber>10</usPrisonRoomNumber>
+    <usPrisonRoomNumber>11</usPrisonRoomNumber>
+    <rainchance>70</rainchance>
+    <sandstormchance>0</sandstormchance>
+  </SECTOR>
    <SECTOR>
     <SectorGrid>N8</SectorGrid>
     <szUnexploredName>Tropical, Road</szUnexploredName>
@@ -2078,7 +2724,9 @@
     <szDetailedExploredName>Tropical, Road</szDetailedExploredName>
     <sWaterType>2</sWaterType>
     <usNaturalDirt>140</usNaturalDirt>
-   </SECTOR>
+    <rainchance>70</rainchance>
+    <sandstormchance>0</sandstormchance>
+  </SECTOR>
    <SECTOR>
     <SectorGrid>N9</SectorGrid>
     <szUnexploredName>Tropical, Road</szUnexploredName>
@@ -2087,7 +2735,9 @@
     <szDetailedExploredName>Tropical, Road</szDetailedExploredName>
     <sWaterType>2</sWaterType>
     <usNaturalDirt>140</usNaturalDirt>
-   </SECTOR>
+    <rainchance>70</rainchance>
+    <sandstormchance>0</sandstormchance>
+  </SECTOR>
    <SECTOR>
     <SectorGrid>N10</SectorGrid>
     <szUnexploredName>Tropical, Road</szUnexploredName>
@@ -2096,7 +2746,9 @@
     <szDetailedExploredName>Tropical, Road</szDetailedExploredName>
     <sWaterType>2</sWaterType>
     <usNaturalDirt>140</usNaturalDirt>
-   </SECTOR>
+    <rainchance>70</rainchance>
+    <sandstormchance>0</sandstormchance>
+  </SECTOR>
    <SECTOR>
     <SectorGrid>N11</SectorGrid>
     <szUnexploredName>Island</szUnexploredName>
@@ -2105,7 +2757,9 @@
     <szDetailedExploredName>Island</szDetailedExploredName>
     <sWaterType>2</sWaterType>
     <usNaturalDirt>100</usNaturalDirt>
-   </SECTOR>
+    <rainchance>0</rainchance>
+    <sandstormchance>0</sandstormchance>
+  </SECTOR>
    <SECTOR>
     <SectorGrid>N12</SectorGrid>
     <szUnexploredName>Island</szUnexploredName>
@@ -2114,7 +2768,9 @@
     <szDetailedExploredName>Island</szDetailedExploredName>
     <sWaterType>2</sWaterType>
     <usNaturalDirt>100</usNaturalDirt>
-   </SECTOR>
+    <rainchance>0</rainchance>
+    <sandstormchance>0</sandstormchance>
+  </SECTOR>
    <SECTOR>
     <SectorGrid>N13</SectorGrid>
     <szUnexploredName>Unknown</szUnexploredName>
@@ -2123,7 +2779,9 @@
     <szDetailedExploredName>Unknown</szDetailedExploredName>
     <sWaterType>2</sWaterType>
     <usNaturalDirt>100</usNaturalDirt>
-   </SECTOR>
+    <rainchance>0</rainchance>
+    <sandstormchance>0</sandstormchance>
+  </SECTOR>
    <SECTOR>
     <SectorGrid>N14</SectorGrid>
     <szUnexploredName>Unknown</szUnexploredName>
@@ -2132,7 +2790,9 @@
     <szDetailedExploredName>Unknown</szDetailedExploredName>
     <sWaterType>2</sWaterType>
     <usNaturalDirt>100</usNaturalDirt>
-   </SECTOR> 
+    <rainchance>0</rainchance>
+    <sandstormchance>0</sandstormchance>
+  </SECTOR> 
    <SECTOR>
     <SectorGrid>N15</SectorGrid>
     <szUnexploredName>Unknown</szUnexploredName>
@@ -2141,7 +2801,9 @@
     <szDetailedExploredName>Unknown</szDetailedExploredName>
     <sWaterType>2</sWaterType>
     <usNaturalDirt>100</usNaturalDirt>
-   </SECTOR>
+    <rainchance>0</rainchance>
+    <sandstormchance>0</sandstormchance>
+  </SECTOR>
    <SECTOR>
     <SectorGrid>N16</SectorGrid>
     <szUnexploredName>Unknown</szUnexploredName>
@@ -2150,7 +2812,9 @@
     <szDetailedExploredName>Unknown</szDetailedExploredName>
     <sWaterType>2</sWaterType>
     <usNaturalDirt>100</usNaturalDirt>
-   </SECTOR>
+    <rainchance>0</rainchance>
+    <sandstormchance>0</sandstormchance>
+  </SECTOR>
    <SECTOR>
     <SectorGrid>O1</SectorGrid>
     <szUnexploredName>Impassable</szUnexploredName>
@@ -2159,7 +2823,9 @@
     <szDetailedExploredName>Impassable</szDetailedExploredName>
     <sWaterType>2</sWaterType>
     <usNaturalDirt>100</usNaturalDirt>
-   </SECTOR>
+    <rainchance>0</rainchance>
+    <sandstormchance>0</sandstormchance>
+  </SECTOR>
    <SECTOR>
     <SectorGrid>O2</SectorGrid>
     <szUnexploredName>Impassable</szUnexploredName>
@@ -2168,7 +2834,9 @@
     <szDetailedExploredName>Impassable</szDetailedExploredName>
     <sWaterType>2</sWaterType>
     <usNaturalDirt>100</usNaturalDirt>
-   </SECTOR>
+    <rainchance>80</rainchance>
+    <sandstormchance>0</sandstormchance>
+  </SECTOR>
    <SECTOR>
     <SectorGrid>O3</SectorGrid>
     <szUnexploredName>Meduna</szUnexploredName>
@@ -2177,8 +2845,12 @@
     <szDetailedExploredName>Meduna Maze</szDetailedExploredName>
     <sWaterType>1</sWaterType>
     <usNaturalDirt>100</usNaturalDirt>
-    <usCurfewValue>2</usCurfewValue>	
-   </SECTOR>
+    <usCurfewValue>2</usCurfewValue>
+    <usCivilianPopulation>100</usCivilianPopulation>
+    <wealth>2</wealth>
+    <rainchance>50</rainchance>
+    <sandstormchance>0</sandstormchance>
+  </SECTOR>
    <SECTOR>
     <SectorGrid>O4</SectorGrid>
     <szUnexploredName>Meduna</szUnexploredName>
@@ -2187,8 +2859,12 @@
     <szDetailedExploredName>Meduna</szDetailedExploredName>
     <sWaterType>1</sWaterType>
     <usNaturalDirt>100</usNaturalDirt>
-    <usCurfewValue>1</usCurfewValue>	
-   </SECTOR>
+    <usCurfewValue>1</usCurfewValue>
+    <usCivilianPopulation>300</usCivilianPopulation>
+    <wealth>25</wealth>
+    <rainchance>50</rainchance>
+    <sandstormchance>0</sandstormchance>
+  </SECTOR>
    <SECTOR>
     <SectorGrid>O5</SectorGrid>
     <szUnexploredName>Impassable</szUnexploredName>
@@ -2197,7 +2873,9 @@
     <szDetailedExploredName>Impassable</szDetailedExploredName>
     <sWaterType>2</sWaterType>
     <usNaturalDirt>100</usNaturalDirt>
-   </SECTOR>
+    <rainchance>80</rainchance>
+    <sandstormchance>0</sandstormchance>
+  </SECTOR>
    <SECTOR>
     <SectorGrid>O6</SectorGrid>
     <szUnexploredName>Impassable</szUnexploredName>
@@ -2206,7 +2884,9 @@
     <szDetailedExploredName>Impassable</szDetailedExploredName>
     <sWaterType>2</sWaterType>
     <usNaturalDirt>100</usNaturalDirt>
-   </SECTOR>
+    <rainchance>80</rainchance>
+    <sandstormchance>0</sandstormchance>
+  </SECTOR>
    <SECTOR>
     <SectorGrid>O7</SectorGrid>
     <szUnexploredName>Impassable</szUnexploredName>
@@ -2215,7 +2895,9 @@
     <szDetailedExploredName>Impassable</szDetailedExploredName>
     <sWaterType>2</sWaterType>
     <usNaturalDirt>100</usNaturalDirt>
-   </SECTOR>
+    <rainchance>80</rainchance>
+    <sandstormchance>0</sandstormchance>
+  </SECTOR>
    <SECTOR>
     <SectorGrid>O8</SectorGrid>
     <szUnexploredName>Tropical</szUnexploredName>
@@ -2224,7 +2906,9 @@
     <szDetailedExploredName>Tropical, Coast</szDetailedExploredName>
     <sWaterType>2</sWaterType>
     <usNaturalDirt>140</usNaturalDirt>
-   </SECTOR>
+    <rainchance>80</rainchance>
+    <sandstormchance>0</sandstormchance>
+  </SECTOR>
    <SECTOR>
     <SectorGrid>O9</SectorGrid>
     <szUnexploredName>Tropical</szUnexploredName>
@@ -2233,7 +2917,9 @@
     <szDetailedExploredName>Tropical, Coast</szDetailedExploredName>
     <sWaterType>2</sWaterType>
     <usNaturalDirt>140</usNaturalDirt>
-   </SECTOR>
+    <rainchance>80</rainchance>
+    <sandstormchance>0</sandstormchance>
+  </SECTOR>
    <SECTOR>
     <SectorGrid>O10</SectorGrid>
     <szUnexploredName>Island</szUnexploredName>
@@ -2242,7 +2928,9 @@
     <szDetailedExploredName>Island</szDetailedExploredName>
     <sWaterType>2</sWaterType>
     <usNaturalDirt>100</usNaturalDirt>
-   </SECTOR>
+    <rainchance>0</rainchance>
+    <sandstormchance>0</sandstormchance>
+  </SECTOR>
    <SECTOR>
     <SectorGrid>O11</SectorGrid>
     <szUnexploredName>Island</szUnexploredName>
@@ -2251,7 +2939,9 @@
     <szDetailedExploredName>Island</szDetailedExploredName>
     <sWaterType>2</sWaterType>
     <usNaturalDirt>100</usNaturalDirt>
-   </SECTOR>
+    <rainchance>80</rainchance>
+    <sandstormchance>0</sandstormchance>
+  </SECTOR>
    <SECTOR>
     <SectorGrid>O12</SectorGrid>
     <szUnexploredName>Island</szUnexploredName>
@@ -2260,7 +2950,9 @@
     <szDetailedExploredName>Island</szDetailedExploredName>
     <sWaterType>2</sWaterType>
     <usNaturalDirt>100</usNaturalDirt>
-   </SECTOR>
+    <rainchance>0</rainchance>
+    <sandstormchance>0</sandstormchance>
+  </SECTOR>
    <SECTOR>
     <SectorGrid>O13</SectorGrid>
     <szUnexploredName>Ocean</szUnexploredName>
@@ -2269,7 +2961,9 @@
     <szDetailedExploredName>Strange Island</szDetailedExploredName>
     <sWaterType>2</sWaterType>
     <usNaturalDirt>100</usNaturalDirt>
-   </SECTOR>
+    <rainchance>0</rainchance>
+    <sandstormchance>0</sandstormchance>
+  </SECTOR>
    <SECTOR>
     <SectorGrid>O14</SectorGrid>
     <szUnexploredName>Unknown</szUnexploredName>
@@ -2278,7 +2972,9 @@
     <szDetailedExploredName>Unknown</szDetailedExploredName>
     <sWaterType>2</sWaterType>
     <usNaturalDirt>100</usNaturalDirt>
-   </SECTOR>
+    <rainchance>0</rainchance>
+    <sandstormchance>0</sandstormchance>
+  </SECTOR>
    <SECTOR>
     <SectorGrid>O15</SectorGrid>
     <szUnexploredName>Unknown</szUnexploredName>
@@ -2287,7 +2983,9 @@
     <szDetailedExploredName>Unknown</szDetailedExploredName>
     <sWaterType>2</sWaterType>
     <usNaturalDirt>100</usNaturalDirt>
-   </SECTOR>
+    <rainchance>0</rainchance>
+    <sandstormchance>0</sandstormchance>
+  </SECTOR>
    <SECTOR>
     <SectorGrid>O16</SectorGrid>
     <szUnexploredName>Unknown</szUnexploredName>
@@ -2296,7 +2994,9 @@
     <szDetailedExploredName>Unknown</szDetailedExploredName>
     <sWaterType>2</sWaterType>
     <usNaturalDirt>100</usNaturalDirt>
-   </SECTOR>
+    <rainchance>0</rainchance>
+    <sandstormchance>0</sandstormchance>
+  </SECTOR>
    <SECTOR>
     <SectorGrid>P1</SectorGrid>
     <szUnexploredName>Impassable</szUnexploredName>
@@ -2305,7 +3005,9 @@
     <szDetailedExploredName>Secret Level</szDetailedExploredName>
     <sWaterType>2</sWaterType>
     <usNaturalDirt>1337</usNaturalDirt>
-   </SECTOR>
+    <rainchance>0</rainchance>
+    <sandstormchance>0</sandstormchance>
+  </SECTOR>
    <SECTOR>
     <SectorGrid>P2</SectorGrid>
     <szUnexploredName>Impassable</szUnexploredName>
@@ -2314,7 +3016,9 @@
     <szDetailedExploredName>Impassable</szDetailedExploredName>
     <sWaterType>2</sWaterType>
     <usNaturalDirt>100</usNaturalDirt>
-   </SECTOR>
+    <rainchance>80</rainchance>
+    <sandstormchance>0</sandstormchance>
+  </SECTOR>
    <SECTOR>
     <SectorGrid>P3</SectorGrid>
     <szUnexploredName>Meduna</szUnexploredName>
@@ -2324,7 +3028,11 @@
     <sWaterType>1</sWaterType>
     <usNaturalDirt>100</usNaturalDirt>
     <usCurfewValue>2</usCurfewValue>
-   </SECTOR>
+    <usCivilianPopulation>50</usCivilianPopulation>
+    <wealth>50</wealth>
+    <rainchance>55</rainchance>
+    <sandstormchance>0</sandstormchance>
+  </SECTOR>
    <SECTOR>
     <SectorGrid>P4</SectorGrid>
     <szUnexploredName>Impassable</szUnexploredName>
@@ -2333,7 +3041,9 @@
     <szDetailedExploredName>Impassable</szDetailedExploredName>
     <sWaterType>2</sWaterType>
     <usNaturalDirt>100</usNaturalDirt>
-   </SECTOR>
+    <rainchance>80</rainchance>
+    <sandstormchance>0</sandstormchance>
+  </SECTOR>
    <SECTOR>
     <SectorGrid>P5</SectorGrid>
     <szUnexploredName>Impassable</szUnexploredName>
@@ -2342,7 +3052,9 @@
     <szDetailedExploredName>Impassable</szDetailedExploredName>
     <sWaterType>2</sWaterType>
     <usNaturalDirt>100</usNaturalDirt>
-   </SECTOR>
+    <rainchance>0</rainchance>
+    <sandstormchance>0</sandstormchance>
+  </SECTOR>
    <SECTOR>
     <SectorGrid>P6</SectorGrid>
     <szUnexploredName>Impassable</szUnexploredName>
@@ -2351,7 +3063,9 @@
     <szDetailedExploredName>Impassable</szDetailedExploredName>
     <sWaterType>2</sWaterType>
     <usNaturalDirt>100</usNaturalDirt>
-   </SECTOR>
+    <rainchance>0</rainchance>
+    <sandstormchance>0</sandstormchance>
+  </SECTOR>
    <SECTOR>
     <SectorGrid>P7</SectorGrid>
     <szUnexploredName>Impassable</szUnexploredName>
@@ -2360,7 +3074,9 @@
     <szDetailedExploredName>Impassable</szDetailedExploredName>
     <sWaterType>2</sWaterType>
     <usNaturalDirt>100</usNaturalDirt>
-   </SECTOR>
+    <rainchance>0</rainchance>
+    <sandstormchance>0</sandstormchance>
+  </SECTOR>
    <SECTOR>
     <SectorGrid>P8</SectorGrid>
     <szUnexploredName>Impassable</szUnexploredName>
@@ -2369,7 +3085,9 @@
     <szDetailedExploredName>Impassable</szDetailedExploredName>
     <sWaterType>2</sWaterType>
     <usNaturalDirt>100</usNaturalDirt>
-   </SECTOR>
+    <rainchance>0</rainchance>
+    <sandstormchance>0</sandstormchance>
+  </SECTOR>
    <SECTOR>
     <SectorGrid>P9</SectorGrid>
     <szUnexploredName>Impassable</szUnexploredName>
@@ -2378,7 +3096,9 @@
     <szDetailedExploredName>Impassable</szDetailedExploredName>
     <sWaterType>2</sWaterType>
     <usNaturalDirt>100</usNaturalDirt>
-   </SECTOR>
+    <rainchance>0</rainchance>
+    <sandstormchance>0</sandstormchance>
+  </SECTOR>
    <SECTOR>
     <SectorGrid>P10</SectorGrid>
     <szUnexploredName>Island</szUnexploredName>
@@ -2388,8 +3108,10 @@
     <sWaterType>2</sWaterType>
     <usNaturalDirt>100</usNaturalDirt>
     <usCurfewValue>2</usCurfewValue>
-    <sRadioScanModifier>2</sRadioScanModifier>	
-   </SECTOR>
+    <sRadioScanModifier>2</sRadioScanModifier>
+    <rainchance>0</rainchance>
+    <sandstormchance>0</sandstormchance>
+  </SECTOR>
    <SECTOR>
     <SectorGrid>P11</SectorGrid>
     <szUnexploredName>Orilla</szUnexploredName>
@@ -2399,8 +3121,10 @@
     <sWaterType>1</sWaterType>
     <usNaturalDirt>100</usNaturalDirt>
     <usCurfewValue>2</usCurfewValue>	
-    <sRadioScanModifier>2</sRadioScanModifier>		
-   </SECTOR>
+    <sRadioScanModifier>2</sRadioScanModifier>
+    <rainchance>0</rainchance>
+    <sandstormchance>0</sandstormchance>
+  </SECTOR>
    <SECTOR>
     <SectorGrid>P12</SectorGrid>
     <szUnexploredName>Orilla</szUnexploredName>
@@ -2409,9 +3133,11 @@
     <szDetailedExploredName>Orilla Residential Area</szDetailedExploredName>
     <sWaterType>1</sWaterType>
     <usNaturalDirt>100</usNaturalDirt>
-    <usPrisonRoomNumber00>26</usPrisonRoomNumber00>
-    <usPrisonRoomNumber01>27</usPrisonRoomNumber01>	
-   </SECTOR>
+    <usPrisonRoomNumber>26</usPrisonRoomNumber>
+    <usPrisonRoomNumber>27</usPrisonRoomNumber>
+    <rainchance>0</rainchance>
+    <sandstormchance>0</sandstormchance>
+  </SECTOR>
    <SECTOR>
     <SectorGrid>P13</SectorGrid>
     <szUnexploredName>Island</szUnexploredName>
@@ -2420,7 +3146,9 @@
     <szDetailedExploredName>Island</szDetailedExploredName>
     <sWaterType>2</sWaterType>
     <usNaturalDirt>100</usNaturalDirt>
-   </SECTOR>
+    <rainchance>0</rainchance>
+    <sandstormchance>0</sandstormchance>
+  </SECTOR>
    <SECTOR>
     <SectorGrid>P14</SectorGrid>
     <szUnexploredName>Unknown</szUnexploredName>
@@ -2429,7 +3157,9 @@
     <szDetailedExploredName>Unknown</szDetailedExploredName>
     <sWaterType>2</sWaterType>
     <usNaturalDirt>100</usNaturalDirt>
-   </SECTOR>
+    <rainchance>0</rainchance>
+    <sandstormchance>0</sandstormchance>
+  </SECTOR>
    <SECTOR>
     <SectorGrid>P15</SectorGrid>
     <szUnexploredName>Unknown</szUnexploredName>
@@ -2438,7 +3168,9 @@
     <szDetailedExploredName>Unknown</szDetailedExploredName>
     <sWaterType>2</sWaterType>
     <usNaturalDirt>100</usNaturalDirt>
-   </SECTOR>
+    <rainchance>0</rainchance>
+    <sandstormchance>0</sandstormchance>
+  </SECTOR>
    <SECTOR>
     <SectorGrid>P16</SectorGrid>
     <szUnexploredName>Unknown</szUnexploredName>
@@ -2447,5 +3179,7 @@
     <szDetailedExploredName>Unknown</szDetailedExploredName>
     <sWaterType>2</sWaterType>
     <usNaturalDirt>100</usNaturalDirt>
-   </SECTOR>
+    <rainchance>0</rainchance>
+    <sandstormchance>0</sandstormchance>
+  </SECTOR>
 </SECTOR_NAMES>

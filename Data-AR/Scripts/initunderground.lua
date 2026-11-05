@@ -183,7 +183,7 @@ local sectorList = {
     
 
     -- New
-    { location = "G11-1", }, loadscreen = { "LS_ComplexBsmnt", },
+    { location = "G11-1", loadscreen = "LS_ComplexBsmnt", },
     { location = "J9-3", loadscreen = "LS_Tunnels", },
     
     

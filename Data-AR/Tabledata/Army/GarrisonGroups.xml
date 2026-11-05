@@ -14,25 +14,26 @@ Fields index:
 NOTE: Maximum 100 garrisons can be used in game.
 NO. OF GARRISONS USED ATM: 92 (8 more are possible)
 
+
 Changes require starting of a new game.
 
 -->
 <GARRISON_INFO>
 	<GARRISON>
 		<Sector>A2</Sector>
-		<Composition>4</Composition>
+		<Composition>18</Composition>
 	</GARRISON>
 	<GARRISON>
 		<Sector>A3</Sector>
-		<Composition>4</Composition>
+		<Composition>18</Composition>
 	</GARRISON>
 	<GARRISON>
 		<Sector>A8</Sector>
-		<Composition>1</Composition>
+		<Composition>10</Composition>
 	</GARRISON>
 	<GARRISON>
 		<Sector>A9</Sector>
-		<Composition>1</Composition>
+		<Composition>10</Composition>
 	</GARRISON>
 	<GARRISON>
 		<Sector>A12</Sector>
@@ -40,15 +41,15 @@ Changes require starting of a new game.
 	</GARRISON>	
 	<GARRISON>
 		<Sector>B1</Sector>
-		<Composition>4</Composition>
+		<Composition>18</Composition>
 	</GARRISON>
 	<GARRISON>
 		<Sector>B2</Sector>
-		<Composition>5</Composition>
+		<Composition>19</Composition>
 	</GARRISON>
 	<GARRISON>
 		<Sector>B13</Sector>
-		<Composition>2</Composition>
+		<Composition>39</Composition>
 	</GARRISON>
 	<GARRISON>
 		<Sector>C2</Sector>
@@ -64,15 +65,15 @@ Changes require starting of a new game.
 	</GARRISON>
 	<GARRISON>
 		<Sector>C13</Sector>
-		<Composition>2</Composition>
+		<Composition>39</Composition>
 	</GARRISON>
 	<GARRISON>
 		<Sector>C14</Sector>
-		<Composition>2</Composition>
+		<Composition>39</Composition>
 	</GARRISON>
 	<GARRISON>
 		<Sector>D2</Sector>
-		<Composition>23</Composition>
+		<Composition>20</Composition>
 	</GARRISON>
 	<GARRISON>
 		<Sector>D3</Sector>
@@ -84,11 +85,11 @@ Changes require starting of a new game.
 	</GARRISON>
 	<GARRISON>
 		<Sector>D13</Sector>
-		<Composition>3</Composition>
+		<Composition>40</Composition>
 	</GARRISON>
 	<GARRISON>
 		<Sector>D15</Sector>
-		<Composition>22</Composition>
+		<Composition>51</Composition>
 	</GARRISON>
 	<GARRISON>
 		<Sector>E6</Sector>
@@ -104,11 +105,11 @@ Changes require starting of a new game.
 	</GARRISON>
 	<GARRISON>
 		<Sector>F8</Sector>
-		<Composition>6</Composition>
+		<Composition>16</Composition>
 	</GARRISON>
 	<GARRISON>
 		<Sector>F9</Sector>
-		<Composition>6</Composition>
+		<Composition>16</Composition>
 	</GARRISON>
 	<GARRISON>
 		<Sector>F15</Sector>
@@ -116,27 +117,27 @@ Changes require starting of a new game.
 	</GARRISON>
 	<GARRISON>
 		<Sector>G1</Sector>
-		<Composition>10</Composition>
+		<Composition>7</Composition>
 	</GARRISON>
 	<GARRISON>
 		<Sector>G2</Sector>
-		<Composition>10</Composition>
+		<Composition>7</Composition>
 	</GARRISON>
 	<GARRISON>
 		<Sector>G3</Sector>
-		<Composition>10</Composition>
+		<Composition>7</Composition>
 	</GARRISON>
 	<GARRISON>
 		<Sector>G8</Sector>
-		<Composition>6</Composition>
+		<Composition>16</Composition>
 	</GARRISON>
 	<GARRISON>
 		<Sector>G9</Sector>
-		<Composition>6</Composition>
+		<Composition>16</Composition>
 	</GARRISON>
 	<GARRISON>
 		<Sector>G11</Sector>
-		<Composition>21</Composition>
+		<Composition>50</Composition>
 	</GARRISON>
 	<GARRISON>
 		<Sector>G13</Sector>
@@ -148,15 +149,15 @@ Changes require starting of a new game.
 	</GARRISON>
 	<GARRISON>
 		<Sector>H1</Sector>
-		<Composition>10</Composition>
+		<Composition>7</Composition>
 	</GARRISON>
 	<GARRISON>
 		<Sector>H2</Sector>
-		<Composition>10</Composition>
+		<Composition>7</Composition>
 	</GARRISON>
 	<GARRISON>
 		<Sector>H3</Sector>
-		<Composition>11</Composition>
+		<Composition>9</Composition>
 	</GARRISON>
 	<GARRISON>
 		<Sector>H5</Sector>
@@ -164,11 +165,11 @@ Changes require starting of a new game.
 	</GARRISON>
 	<GARRISON>
 		<Sector>H6</Sector>
-		<Composition>12</Composition>
+		<Composition>43</Composition>
 	</GARRISON>
 	<GARRISON>
 		<Sector>H8</Sector>
-		<Composition>7</Composition>
+		<Composition>17</Composition>
 	</GARRISON>
 	<GARRISON>
 		<Sector>H10</Sector>
@@ -180,11 +181,19 @@ Changes require starting of a new game.
 	</GARRISON>
 	<GARRISON>
 		<Sector>H13</Sector>
-		<Composition>8</Composition>
+		<Composition>14</Composition>
 	</GARRISON>
 	<GARRISON>
 		<Sector>H14</Sector>
-		<Composition>8</Composition>
+		<Composition>14</Composition>
+	</GARRISON>
+	<GARRISON>
+		<Sector>I13</Sector>
+		<Composition>14</Composition>
+	</GARRISON>
+	<GARRISON>
+		<Sector>I14</Sector>
+		<Composition>15</Composition>
 	</GARRISON>
 	<GARRISON>
 		<Sector>I6</Sector>
@@ -195,20 +204,12 @@ Changes require starting of a new game.
 		<Composition>24</Composition>
 	</GARRISON>
 	<GARRISON>
-		<Sector>I13</Sector>
-		<Composition>8</Composition>
-	</GARRISON>
-	<GARRISON>
-		<Sector>I14</Sector>
-		<Composition>9</Composition>
-	</GARRISON>
-	<GARRISON>
 		<Sector>J9</Sector>
 		<Composition>27</Composition>
 	</GARRISON>
 	<GARRISON>
 		<Sector>J12</Sector>
-		<Composition>0</Composition>
+		<Composition>8</Composition>
 	</GARRISON>
 	<GARRISON>
 		<Sector>K4</Sector>
@@ -228,27 +229,27 @@ Changes require starting of a new game.
 	</GARRISON>
 	<GARRISON>
 		<Sector>K15</Sector>
-		<Composition>25</Composition>
+		<Composition>52</Composition>
 	</GARRISON>
 	<GARRISON>
 		<Sector>L1</Sector>
-		<Composition>17</Composition>
+		<Composition>49</Composition>
 	</GARRISON>
 	<GARRISON>
 		<Sector>L2</Sector>
-		<Composition>40</Composition>
+		<Composition>4</Composition>
 	</GARRISON>
 	<GARRISON>
 		<Sector>L3</Sector>
-		<Composition>40</Composition>
+		<Composition>4</Composition>
 	</GARRISON>
 	<GARRISON>
 		<Sector>L4</Sector>
-		<Composition>40</Composition>
+		<Composition>4</Composition>
 	</GARRISON>
 	<GARRISON>
 		<Sector>L5</Sector>
-		<Composition>40</Composition>
+		<Composition>4</Composition>
 	</GARRISON>
 	<GARRISON>
 		<Sector>L6</Sector>
@@ -256,11 +257,11 @@ Changes require starting of a new game.
 	</GARRISON>
 	<GARRISON>
 		<Sector>L7</Sector>
-		<Composition>43</Composition>
+		<Composition>5</Composition>
 	</GARRISON>
 	<GARRISON>
 		<Sector>L8</Sector>
-		<Composition>43</Composition>
+		<Composition>5</Composition>
 	</GARRISON>
 	<GARRISON>
 		<Sector>L10</Sector>
@@ -268,15 +269,15 @@ Changes require starting of a new game.
 	</GARRISON>
 	<GARRISON>
 		<Sector>L11</Sector>
-		<Composition>14</Composition>
+		<Composition>11</Composition>
 	</GARRISON>
 	<GARRISON>
 		<Sector>L12</Sector>
-		<Composition>14</Composition>
+		<Composition>11</Composition>
 	</GARRISON>
 	<GARRISON>
 		<Sector>L13</Sector>
-		<Composition>14</Composition>
+		<Composition>11</Composition>
 	</GARRISON>
 	<GARRISON>
 		<Sector>L15</Sector>
@@ -284,31 +285,31 @@ Changes require starting of a new game.
 	</GARRISON>
 	<GARRISON>
 		<Sector>L16</Sector>
-		<Composition>16</Composition>
+		<Composition>48</Composition>
 	</GARRISON>
 	<GARRISON>
 		<Sector>M2</Sector>
-		<Composition>40</Composition>
+		<Composition>4</Composition>
 	</GARRISON>
 	<GARRISON>
 		<Sector>M3</Sector>
-		<Composition>39</Composition>
+		<Composition>3</Composition>
 	</GARRISON>
 	<GARRISON>
 		<Sector>M4</Sector>
-		<Composition>39</Composition>
+		<Composition>3</Composition>
 	</GARRISON>
 	<GARRISON>
 		<Sector>M5</Sector>
-		<Composition>39</Composition>
+		<Composition>3</Composition>
 	</GARRISON>
 	<GARRISON>
 		<Sector>M6</Sector>
-		<Composition>40</Composition>
+		<Composition>4</Composition>
 	</GARRISON>
 	<GARRISON>
 		<Sector>M7</Sector>
-		<Composition>43</Composition>
+		<Composition>5</Composition>
 	</GARRISON>
 	<GARRISON>
 		<Sector>M8</Sector>
@@ -328,39 +329,39 @@ Changes require starting of a new game.
 	</GARRISON>
 	<GARRISON>
 		<Sector>M15</Sector>
-		<Composition>15</Composition>
+		<Composition>47</Composition>
 	</GARRISON>
 	<GARRISON>
 		<Sector>M16</Sector>
-		<Composition>15</Composition>
+		<Composition>47</Composition>
 	</GARRISON>
 	<GARRISON>
 		<Sector>N3</Sector>
-		<Composition>18</Composition>
+		<Composition>1</Composition>
 	</GARRISON>
 	<GARRISON>
 		<Sector>N4</Sector>
-		<Composition>19</Composition>
+		<Composition>2</Composition>
 	</GARRISON>
 	<GARRISON>
 		<Sector>N5</Sector>
-		<Composition>18</Composition>
+		<Composition>1</Composition>
 	</GARRISON>
 	<GARRISON>
 		<Sector>N6</Sector>
-		<Composition>39</Composition>
+		<Composition>3</Composition>
 	</GARRISON>
 	<GARRISON>
 		<Sector>N7</Sector>
-		<Composition>26</Composition>
+		<Composition>53</Composition>
 	</GARRISON>
 	<GARRISON>
 		<Sector>O3</Sector>
-		<Composition>18</Composition>
+		<Composition>1</Composition>
 	</GARRISON>
 	<GARRISON>
 		<Sector>O4</Sector>
-		<Composition>18</Composition>
+		<Composition>1</Composition>
 	</GARRISON>
 	<GARRISON>
 		<Sector>O11</Sector>
@@ -368,7 +369,7 @@ Changes require starting of a new game.
 	</GARRISON>
 	<GARRISON>
 		<Sector>P3</Sector>
-		<Composition>20</Composition>
+		<Composition>0</Composition>
 	</GARRISON>
 	<GARRISON>
 		<Sector>P10</Sector>
