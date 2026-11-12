@@ -11,7 +11,6 @@ HOW TO INSTALL:
 -open ja2.ini and scroll to the vfs_config section
 -paste the following:
 
-; JA2 1.13 AR
 VFS_CONFIG_INI = vfs_config.AR.ini
 
 -add a ";" before this line:
